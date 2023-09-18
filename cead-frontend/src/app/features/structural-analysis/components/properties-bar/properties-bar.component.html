@@ -1,0 +1,15 @@
+<div id="wrapper" class="wi-100 hi-100">
+	<ul class="flex-col">
+		<li *ngFor="let eq of properties;let i=index" #here
+		    [pTooltip]="eq.name|capitalize"
+		    [showDelay]="500"
+		    (click)="activeProperties(i)"
+		    [appendTo]="here"
+		    [class.active]="activePropertyIndex===i">
+			<i [class]="eq.icon"></i>
+			<span *ngIf="eq && eq?.count > -1"
+			      [class.zero]="eq?.count==0"
+			      class="count">{{eq?.count}}</span>
+		</li>
+	</ul>
+</div>

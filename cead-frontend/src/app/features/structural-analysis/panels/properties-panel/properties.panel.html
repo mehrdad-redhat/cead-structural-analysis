@@ -1,0 +1,36 @@
+<nav id="eq-bar">
+	<c-properties-bar (onActive)="activePanel($event)"></c-properties-bar>
+</nav>
+<div id="panel-wrapper">
+	<div cFixedSize
+	     [ngSwitch]="activatedPanelIndex"
+	     class="flex-col rounded shadow-right wi-100 hi-100"
+	     id="active-panel">
+		<c-structure-info-panel *ngSwitchCase="0"
+		                        [panelSubject]="PROPERTY_NAMES.STRUCTURE_INFO"
+		></c-structure-info-panel>
+		
+		<c-structure-info-panel *ngSwitchCase="1"
+		                        [panelSubject]="PROPERTY_NAMES.STRUCTURE_BASIC"
+		></c-structure-info-panel>
+		
+		<c-structure-equipment-panel *ngSwitchCase="2"
+		                             [panelSubject]="PROPERTY_NAMES.WIRE_RUNS"></c-structure-equipment-panel>
+		
+		<c-structure-equipment-panel *ngSwitchCase="3"
+		                             [panelSubject]="PROPERTY_NAMES.ANCILLARY_WIRES"></c-structure-equipment-panel>
+		
+		<c-structure-equipment-panel *ngSwitchCase="4"
+		                             [panelSubject]="PROPERTY_NAMES.ANCHORS"></c-structure-equipment-panel>
+		
+		<c-structure-equipment-panel *ngSwitchCase="5"
+		                             [panelSubject]="PROPERTY_NAMES.TIES"></c-structure-equipment-panel>
+		
+		<c-structure-equipment-panel *ngSwitchCase="6"
+		                             [panelSubject]="PROPERTY_NAMES.SWITCHES"></c-structure-equipment-panel>
+		
+		<c-structure-equipment-panel *ngSwitchCase="7"
+		                             [panelSubject]="PROPERTY_NAMES.CONSTRUCTION_LOADS"></c-structure-equipment-panel>
+	</div>
+
+</div>

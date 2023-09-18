@@ -1,0 +1,25 @@
+main#sa-wrapper {
+	
+	aside#eq-panel {
+		width: 500px;
+		height: 100%;
+		display: flex;
+		z-index: 4;
+	}
+	
+	section {
+		display: flex;
+		flex-grow: 1;
+		padding: 2rem;
+		
+		#render {
+			z-index: 3;
+			display: flex;
+			overflow: hidden;
+			width: 100%;
+			height: 100%;
+			padding: 0;
+		}
+	}
+	
+}

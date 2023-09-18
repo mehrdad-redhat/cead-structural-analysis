@@ -1,0 +1,100 @@
+@import "src/assets/styles/colors";
+@import "src/assets/styles/fonts";
+
+$input-width: 100%;
+#form-wrapper {
+	> input, & > .grid > .col > * {
+		width: $input-width;
+	}
+	.input-container{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 0.75rem;
+		
+		label{
+			@include f3reg();
+			margin-bottom: 0.35rem;
+		}
+	}
+	::ng-deep {
+		//noinspection DuplicatedCode
+		.p-dropdown {
+			width: $input-width;
+			
+			.p-dropdown-trigger {
+				background: $primary;
+			}
+			
+			.p-dropdown-label {
+				border-bottom-right-radius: 0;
+				border-top-right-radius: 0;
+				
+				&.p-placeholder {
+					color: $white-input-placeholder-color;
+				}
+			}
+		}
+		
+		.p-radiobutton {
+			margin-bottom: 0.75rem;
+		}
+		
+		.p-radiobutton-label {
+			white-space: nowrap;
+			font-size: 0.889rem;
+			margin-bottom: 0.75rem;
+		}
+		
+		.p-inputtext {
+			background-color: #E8F0FE;
+			color: $text-on-colors;
+			font-size: 0.889rem;
+			
+			&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+				color: $white-input-placeholder-color;
+				
+			}
+			
+			&::-moz-placeholder { /* Firefox 19+ */
+				color: $white-input-placeholder-color;
+				
+			}
+			
+			&:-ms-input-placeholder { /* IE 10+ */
+				color: $white-input-placeholder-color;
+				
+			}
+			
+			&:-moz-placeholder { /* Firefox 18- */
+				color: $white-input-placeholder-color;
+				
+			}
+		}
+		
+		$panel-bg: hsl(210deg 12% 27%);
+		
+		.p-fieldset, .p-fieldset-content, .p-fieldset-legend {
+			
+			border-color: $surface-e;
+			background: $panel-bg;
+			
+			input {
+				width: 100%;
+			}
+			
+			button {
+				width: auto;
+			}
+			
+			.p-fieldset-legend {
+				border-bottom-left-radius: 0;
+				transform: translateX(31.5px);
+			}
+			
+			.p-fieldset-content {
+				padding: 2rem;
+			}
+		}
+	}
+}

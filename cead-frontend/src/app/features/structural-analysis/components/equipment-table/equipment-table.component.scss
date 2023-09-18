@@ -1,0 +1,23 @@
+@import "colors";
+@import "fonts";
+@import "variables";
+
+:host {
+	height: 100%;
+}
+
+::ng-deep {
+	
+	.p-datatable-wrapper{
+		max-height:650px;
+		@include nice-scroll();
+	}
+	.p-cell-editing {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+	}
+	
+	input {
+		max-width: 100px;
+	}
+}

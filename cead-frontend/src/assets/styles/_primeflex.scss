@@ -1,0 +1,293 @@
+$sm: 576px !default;
+$md: 768px !default;
+$lg: 992px !default;
+$xl: 1200px !default;
+$gutter: .5rem !default;
+
+$fieldMargin: 1rem !default;
+$fieldLabelMargin: .5rem !default;
+$helperTextMargin: .25rem !default;
+
+$spacer: 1rem !default;
+
+
+@mixin styleclass($metas) {
+	@each $meta in str-split($metas) {
+		$actionSeparatorIndex: str-index(quote($meta), ':');
+		
+		@if $actionSeparatorIndex and $actionSeparatorIndex >= 0 {
+			@extend .#{str-slice($meta, 0, $actionSeparatorIndex - 1) + '\\:' + str-slice($meta, $actionSeparatorIndex + 1, -1)} !optional;
+		} @else {
+			@extend .#{$meta} !optional;
+		}
+	}
+}
+
+@function str-split($string, $separator: ' ') {
+	$split-arr: ();
+	$index: str-index($string, $separator);
+	@while $index != null {
+		$item: str-slice($string, 1, $index - 1);
+		$split-arr: append($split-arr, $item);
+		$string: str-slice($string, $index + 1);
+		$index: str-index($string, $separator);
+	}
+	
+	@return append($split-arr, $string);
+}
+
+$separator: "\\:" !default;
+//$breakpoints: (
+//		'sm': 576px,
+//		'md': 768px,
+//		'lg': 992px,
+//		'xl': 1200px
+//);
+$breakpoints: (
+		'wi-qhd': 1921px,
+		'wi-fhd': 1920px,
+		'wi-1600': 1600px,
+		'wi-1280': 1280px,
+		'wi-1024': 1024px,
+		'wi-768': 768px,
+		'wi-568': 568px,
+);
+
+@mixin style-class($prop, $map, $responsive: false) {
+	@each $key, $val in $map {
+		.#{$key} {
+			#{$prop}: #{$val} !important;
+		}
+	}
+	
+	@if ($responsive) {
+		@each $key, $val in $breakpoints {
+			@if $key == 'wi-qhd' {
+				@media screen and (min-width: #{$val}) {
+					.#{$key + $separator} {
+						@each $key, $val in $map {
+							&#{$key} {
+								#{$prop}: #{$val} !important;
+							}
+						}
+					}
+				}
+			} @else {
+				@media screen and (max-width: #{$val}) {
+					.#{$key + $separator} {
+						@each $key, $val in $map {
+							&#{$key} {
+								#{$prop}: #{$val} !important;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -1 * $gutter;
+	margin-left: -1 * $gutter;
+	margin-top: -1 * $gutter;
+}
+
+.grid > .col,
+.grid > [class*="col"] {
+	box-sizing: border-box;
+}
+
+.grid-nogutter {
+	margin-right: 0;
+	margin-left: 0;
+	margin-top: 0;
+}
+
+.grid-nogutter > .col,
+.grid-nogutter > [class*="col-"] {
+	padding: 0;
+}
+
+.col {
+	flex-grow: 1;
+	flex-basis: 0;
+	padding: $gutter;
+}
+
+.col-fixed {
+	flex: 0 0 auto;
+	padding: $gutter;
+}
+
+$grid-columns: (
+		"col-1": 8.3333%,
+		"col-2": 16.6667%,
+		"col-3": 25%,
+		"col-4": 33.3333%,
+		"col-5": 41.6667%,
+		"col-6": 50%,
+		"col-7": 58.3333%,
+		"col-8": 66.6667%,
+		"col-9": 75%,
+		"col-10": 83.3333%,
+		"col-11": 91.6667%,
+		"col-12": 100%
+);
+
+$grid-column-offsets: (
+		"col-offset-0": 0,
+		"col-offset-1": 8.3333%,
+		"col-offset-2": 16.6667%,
+		"col-offset-3": 25%,
+		"col-offset-4": 33.3333%,
+		"col-offset-5": 41.6667%,
+		"col-offset-6": 50%,
+		"col-offset-7": 58.3333%,
+		"col-offset-8": 66.6667%,
+		"col-offset-9": 75%,
+		"col-offset-10": 83.3333%,
+		"col-offset-11": 91.6667%,
+		"col-offset-12": 100%,
+);
+
+@each $col, $width in $grid-columns {
+	.#{$col} {
+		flex: 0 0 auto;
+		padding: $gutter;
+		width: #{$width};
+	}
+}
+
+@each $key, $val in $breakpoints {
+	@if $key == 'wi-qhd' {
+		@media screen and (min-width: #{$val}) {
+			.#{$key + $separator} {
+				@each $col, $width in $grid-columns {
+					&#{$col} {
+						flex: 0 0 auto;
+						padding: $gutter;
+						width: #{$width};
+					}
+				}
+			}
+		}
+	} @else {
+		@media screen and (max-width: #{$val}) {
+			.#{$key + $separator} {
+				@each $col, $width in $grid-columns {
+					&#{$col} {
+						flex: 0 0 auto;
+						padding: $gutter;
+						width: #{$width};
+					}
+				}
+			}
+		}
+	}
+}
+
+@include style-class('margin-left', $grid-column-offsets, true);
+
+.field {
+	margin-bottom: $fieldMargin;
+}
+
+.field > label {
+	display: inline-block;
+	margin-bottom: $fieldLabelMargin;
+}
+
+.field.grid > label {
+	display: flex;
+	align-items: center;
+}
+
+.field > small {
+	margin-top: $helperTextMargin;
+}
+
+.field.grid,
+.formgrid.grid {
+	margin-top: 0;
+}
+
+.field.grid .col-fixed,
+.formgrid.grid .col-fixed,
+.field.grid .col,
+.formgrid.grid .col,
+.field.grid .col-1,
+.formgrid.grid .col-1,
+.field.grid .col-2,
+.formgrid.grid .col-2,
+.field.grid .col-3,
+.formgrid.grid .col-3,
+.field.grid .col-4,
+.formgrid.grid .col-4,
+.field.grid .col-5,
+.formgrid.grid .col-5,
+.field.grid .col-6,
+.formgrid.grid .col-6,
+.field.grid .col-7,
+.formgrid.grid .col-7,
+.field.grid .col-8,
+.formgrid.grid .col-8,
+.field.grid .col-9,
+.formgrid.grid .col-9,
+.field.grid .col-10,
+.formgrid.grid .col-10,
+.field.grid .col-11,
+.formgrid.grid .col-11,
+.field.grid .col-12,
+.formgrid.grid .col-12 {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.formgroup-inline {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.formgroup-inline .field,
+.formgroup-inline .field-checkbox,
+.formgroup-inline .field-radiobutton {
+	margin-right: $fieldMargin;
+}
+
+.formgroup-inline .field > label,
+.formgroup-inline .field-checkbox > label,
+.formgroup-inline .field-radiobutton > label {
+	margin-right: $fieldLabelMargin;
+	margin-bottom: 0;
+}
+
+.field-checkbox,
+.field-radiobutton {
+	margin-bottom: $fieldMargin;
+	display: flex;
+	align-items: center;
+}
+
+.field-checkbox > label,
+.field-radiobutton > label {
+	margin-left: $fieldLabelMargin;
+	line-height: 1;
+}
+
+$shadows: (
+		"shadow-none": "none",
+		"shadow-1": "0 3px 5px rgba(0, 0, 0, 0.02), 0 0 2px rgba(0, 0, 0, 0.05), 0 1px 4px rgba(0, 0, 0, 0.08)",
+		"shadow-2": "0 4px 10px rgba(0, 0, 0, 0.03), 0 0 2px rgba(0, 0, 0, 0.06), 0 2px 6px rgba(0, 0, 0, 0.12)",
+		"shadow-3": "0 1px 8px rgba(0, 0, 0, 0.08), 0 3px 4px rgba(0, 0, 0, 0.1), 0 1px 4px -1px rgba(0, 0, 0, 0.1)",
+		"shadow-4": "0 1px 10px rgba(0, 0, 0, 0.12), 0 4px 5px rgba(0, 0, 0, 0.14), 0 2px 4px -1px rgba(0, 0, 0, 0.2)",
+		"shadow-5": "0 1px 7px rgba(0, 0, 0, 0.1), 0 4px 5px -2px rgba(0, 0, 0, 0.12), 0 10px 15px -5px rgba(0, 0, 0, 0.2)",
+		"shadow-6": "0 3px 5px rgba(0, 0, 0, 0.06), 0 7px 9px rgba(0, 0, 0, 0.12), 0 20px 25px -8px rgba(0, 0, 0, 0.18)",
+		"shadow-7": "0 7px 30px rgba(0, 0, 0, 0.08), 0 22px 30px 2px rgba(0, 0, 0, 0.15), 0 8px 10px rgba(0, 0, 0, 0.15)",
+		"shadow-8": "0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 11px 15px rgba(0, 0, 0, 0.2)"
+);
+
+@include style-class('box-shadow', $shadows, false);

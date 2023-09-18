@@ -1,0 +1,15 @@
+@import "src/assets/styles/colors";
+@import "src/assets/styles/fonts";
+
+main {
+	flex-grow: 1;
+	
+	
+}
+
+aside {
+	height: 100%;
+	width: 240px;
+	background-color: $surface-a;
+	
+}

@@ -1,0 +1,114 @@
+<div class="actions al-center wi-100 flex-row p-xs ph-l rounded jus-between">
+	<div class="flex-row al-center hi-100" id="action-main">
+		<button class="p-button-text p-button-sm p-button-secondary"
+		        icon="pi pi-box"
+		        label="Structure" pButton
+		        pRipple
+		        type="button"
+		        (click)="structureMenu.toggle($event)"></button>
+		<input #importFileInput
+		       accept="application/vnd.ms-excel, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel.sheet.macroEnabled.12"
+		       style="display:none"
+		       type="file"
+		       (change)="importFile()">
+		<p-menu #structureMenu [appendTo]="'body'" [model]="structureMenuItems" [popup]="true"></p-menu>
+		<!--		<button class="p-button-text p-button-sm p-button-secondary"-->
+		<!--		        icon="pi pi-refresh"-->
+		<!--		        label="Update Model"-->
+		<!--		        pButton-->
+		<!--		        pRipple-->
+		<!--		        type="button"-->
+		<!--		        (click)="updateModel()"></button>-->
+		<button class="p-button-sm p-button-secondary p-button-text"
+		        icon="pi pi-save"
+		        label="Capture Render"
+		        pButton
+		        pRipple
+		        type="button"
+		        (click)="saveScreenshot()"></button>
+		<button class="p-button-sm p-button-secondary p-button-text"
+		        icon="pi pi-cloud-download"
+		        label="Analysis Results"
+		        pButton
+		        pRipple
+		        pTooltip="The structure has not yet been analyzed"
+		        tooltipPosition="bottom"
+		        type="button"
+		        [class.disabled]="analysisResults===undefined"
+		        [tooltipDisabled]="analysisResults!==undefined"
+		        (click)="showResults()"></button>
+		<button class="p-button-sm p-button-secondary p-button-text"
+		        icon="pi pi-cloud"
+		        label="Analyse"
+		        pButton
+		        pRipple
+		        pTooltip="Your api usage limit is exceeded!"
+		        tooltipPosition="bottom"
+		        type="button"
+		        [class.p-button-danger]="limited"
+		        [tooltipDisabled]="!limited"
+		        (click)="solveModel()"
+		></button>
+	</div>
+	<div class="flex-row jus-end al-center hi-100" id="action-end">
+		<!--		<span id="auto-update-label">Auto update</span>-->
+		<!--		<p-inputSwitch [(ngModel)]="autoUpdate"></p-inputSwitch>-->
+		<label class="f3reg" for="alf">Additional Load Factor</label>
+		<div class="p-inputgroup">
+			<p-inputNumber
+				id="alf"
+				inputId="alf"
+				inputStyleClass="input-number" mode="decimal"
+				[locale]="'en-UK'"
+				[maxFractionDigits]="1"
+				[max]="100"
+				[minFractionDigits]="0"
+				[min]="0"
+				[ngModel]="alf"
+				[placeholder]="'e.g. 15%'"
+				[step]="1"
+				[useGrouping]="false"
+				(ngModelChange)="alfChanged($event)"
+			></p-inputNumber>
+			<span class="p-inputgroup-addon">%</span>
+		</div>
+	</div>
+</div>
+
+
+<!--RESULT MODEL-->
+<p-dialog appendTo="body"
+          header="Analysis Results"
+          [(visible)]="resultModalToggle"
+          [closable]="true"
+          [dismissableMask]="true"
+          [draggable]="false"
+          [modal]="true"
+          [resizable]="true"
+          [style]="{width: '70vw'}">
+	<c-analysis-results *ngIf="resultModalToggle" [data]="analysisResults"></c-analysis-results>
+</p-dialog>
+
+<!--LOADING MODAL-->
+
+<p-dialog appendTo="body"
+          header="Solving structure ..."
+          [(visible)]="solving"
+          [closable]="false"
+          [closeOnEscape]="false"
+          [dismissableMask]="false"
+          [draggable]="false"
+          [modal]="true"
+          [resizable]="false"
+          [style]="{width: '50vw'}">
+	<p-progressBar [value]="+solvingProgress.toFixed(0)"></p-progressBar>
+	<ng-template pTemplate="footer">
+		<button class="p-button-outlined p-button-secondary ml-m"
+		        label="Cancel"
+		        pButton
+		        pRipple
+		        type="button"
+		        (click)="cancelSolving()"></button>
+	</ng-template>
+
+</p-dialog>

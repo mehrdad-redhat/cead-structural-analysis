@@ -1,0 +1,13 @@
+<p-progressSpinner *ngIf="!status?.ready"
+                   animationDuration="1.5s"
+                   strokeWidth="5"
+                   styleClass="custom-spinner"></p-progressSpinner>
+<i *ngIf="status?.error || (status?.text.toLowerCase() !== 'ready' && status?.ready)"
+   style="cursor: pointer;" 
+   (click)="clearStatus()"
+   [class.error]="status?.error"
+   class="pi pi-times-circle"></i>
+<span [class.error]="status?.error"
+      class="ml-m f2reg"
+      id="status-msg">
+	{{status?.text|capitalize}} {{status?.ready ? '' : '...'}}</span>

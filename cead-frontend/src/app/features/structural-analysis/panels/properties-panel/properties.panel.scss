@@ -1,0 +1,30 @@
+@import "../../../../../assets/styles/colors";
+@import "../../../../../assets/styles/fonts";
+@import "../../../../../assets/styles/variables";
+
+:host {
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+nav#eq-bar {
+	display: flex;
+	width: 88px;
+	height: 100%;
+}
+
+#panel-wrapper {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	justify-content: center;
+	padding: $spc-xxl 0 $spc-xxl $spc-xxl;
+	
+	#active-panel {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: $surface-a;
+	}
+}

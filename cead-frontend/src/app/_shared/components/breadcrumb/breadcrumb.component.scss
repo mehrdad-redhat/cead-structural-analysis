@@ -1,0 +1,48 @@
+@import "colors";
+@import "variables";
+@import "fonts";
+
+ul {
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	@include f4med;
+	color: $text;
+	
+	li {
+		display: flex;
+		align-items: center;
+		
+		&::before {
+			//content: '\\';
+			//content: '/';
+			content: '>';
+			margin-right: 1rem;
+			margin-left: 1rem;
+		}
+		
+		#hint{
+			@include f2reg;
+			color:$text-secondary;
+		}
+		form{
+			display: flex;
+		}
+		#revision-tag{
+			padding: 3px 10px;
+			border-radius:$border-radius-s;
+			background-color: $help;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			i{
+				font-size: 1rem;
+				color: #646464;
+				margin-left: 0.5rem;
+			}
+		}
+		#revision-tag , #hint {
+			cursor: pointer;
+		}
+	}
+}

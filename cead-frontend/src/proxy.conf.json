@@ -1,0 +1,8 @@
+{
+	"/angular" : {
+		"target" : "https://platform.skyciv.com" ,
+		"secure" : false ,
+		"changeOrigin" : true ,
+		"logLevel" : "info"
+	}
+}

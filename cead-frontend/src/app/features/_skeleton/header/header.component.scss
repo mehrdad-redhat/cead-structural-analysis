@@ -1,0 +1,129 @@
+@import "src/assets/styles/colors";
+@import "src/assets/styles/fonts";
+
+:host {
+	z-index: 6;
+}
+
+header {
+	height: 64px;
+	background-color: $surface-a;
+	
+	#left {
+		#menu-btn {
+			height: 32px;
+			width: 32px;
+			border-radius: 100%;
+			color: $text;
+			background-color: $surface-g;
+			margin-right: 4rem;
+			
+			&:hover {
+				box-shadow: 0 0 3px 0 rgb(0 0 0 / 32%);
+				
+				i {
+					color: $primary;
+				}
+			}
+		}
+	}
+}
+
+#right {
+	form {
+		::ng-deep {
+			.p-inputtext {
+				border-radius: 18px;
+				border: solid 1px $surface-d;
+				background-color: $surface-b;
+				height: 36px;
+				width: 200px;
+				font-size: 14px;
+			}
+		}
+	}
+	
+	&>* {
+		margin-right: 1rem;
+	}
+	
+	button#logout, button#profile-btn {
+		background-color: $text;
+		width: 32px;
+		height: 32px;
+		border-radius: 100%;
+		
+		&:hover {
+			box-shadow: 0 0 3px 0 rgb(0 0 0 / 32%);
+			background-color: $primary;
+			
+			i {
+				color: $text;
+			}
+		}
+		
+		i {
+			font-size: 18px;
+			color: $surface-a;
+		}
+		
+	}
+	#profile-wrapper{
+		position:relative;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		>button:hover{
+			&+#profile-panel {
+				visibility: visible;
+				opacity: 1;
+			}
+		}
+		#dot{
+			display:none;
+			position:absolute;
+			top: -5px;
+			right: -5px;
+			width: 15px;
+			height: 15px;
+			border-radius:100%;
+			background-color: $danger;
+			&.show{
+				display: block;
+			}
+		}
+		#profile-panel:hover{
+			visibility: visible;
+			opacity: 1;
+		}
+		#profile-panel{
+			opacity:0;
+			visibility: hidden;
+			transition: all .4s ease;
+			position:absolute;
+			top: 33px;
+			right: 16px;
+			width: 300px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+			background-color: #26282a;
+			#api-usage{
+				margin-bottom: 1.5rem;
+			}
+			a{
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+}
+#meter-holder {
+	position: relative;
+	
+	> div {
+		position: absolute;
+		top: 60px;
+	}
+}

@@ -1,0 +1,66 @@
+@import "colors";
+@import "fonts";
+@import "variables";
+
+:host {
+	width: 100%;
+	height: 100%;
+	
+}
+
+#panel {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: calc(100%);
+	
+	#eq-form {
+		display: flex;
+		overflow-y: auto;
+		flex: 1;
+		padding-right: 1rem;
+	}
+	
+	#sub-panel {
+		position: absolute;
+		z-index: -1;
+		right: 0;
+		top: 32px;
+		display: flex;
+		flex-direction: column;
+		width: 98%;
+		height: calc(100% - 64px);
+		transition: all .4s ease-in-out;
+		transform: translateX(0);
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+		padding: 0;
+		
+		header {
+			button.close-btn {
+				transition: all .4s ease-in-out;
+				transform: translateX(52px) rotateY(180deg);
+				::ng-deep span{
+					transform: translateX(-5px);
+				}
+			}
+		}
+		
+		
+		&.active {
+			transform: translateX(100%);
+			
+			header {
+				button.close-btn {
+					transform: translateX(0) rotateY(0deg);
+					padding-right: 0;
+					::ng-deep span{
+						transform: translateX(0);
+					}	
+				}
+			}
+		}
+	}
+	
+}

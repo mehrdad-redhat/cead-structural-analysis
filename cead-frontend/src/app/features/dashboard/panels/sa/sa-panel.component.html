@@ -1,0 +1,30 @@
+<div id="saPanel" class="wi-100 hi-100 flex-col p-xxl">
+	<!--	<header id="new-bar" class="wi-100 mb-xxl card">-->
+	<!--		<c-new-bar></c-new-bar>-->
+	<!--	</header>-->
+	<article id="project-list"
+	         class="wi-100 card"
+	         >
+		<c-projects-list *ngIf="projects?.length>0"
+		                 [projects]="projects"></c-projects-list>
+		<div *ngIf="projects?.length<=0" class="card" id="no-project">There isn't any project, Please create one.</div>
+	</article>
+	<button (click)="newStructModalToggle=true;"
+		pButton pRipple type="button" icon="pi pi-plus" class="p-button-rounded"></button>
+
+</div>
+
+<!--Add this properties to <article> if you want to bring back header:
+                                 cFixedSize="vertical"
+                                 [expanded]="true"
+                                 [totalMargin]="96"
+                                 -->
+<p-dialog [(visible)]="newStructModalToggle"
+          [draggable]="false"
+          [modal]="true"
+          [dismissableMask]="true"
+          [resizable]="false"
+          [style]="{width: '25vw'}"
+          header="New Structure">
+	<c-new-edit (submitted)="submit($event)"></c-new-edit>
+</p-dialog>

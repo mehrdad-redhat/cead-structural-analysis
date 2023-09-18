@@ -1,0 +1,136 @@
+@import "primeflex";
+@import "grid";
+@import "fonts";
+@import "colors";
+@import "variables";
+
+* {
+	box-sizing: border-box;
+	
+	margin: 0;
+	padding: 0;
+	
+	:not(.pi,.icon) {
+		font-family: $cead-font;
+	}
+	
+	-webkit-tap-highlight-color: transparent;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	font-size: 16px;
+	color: $text;
+	background: $surface-main;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.container {
+	display: flex;
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+*:focus,
+input:focus,
+button:focus,
+textarea:focus {
+	outline: none;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	margin: 0;
+	-webkit-appearance: none;
+}
+
+input[type='number'] {
+	-moz-appearance: textfield;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.nice-scroll {
+	@include nice-scroll();
+}
+
+
+.shadow-down {
+	@include shadow-down()
+}
+
+.shadow-up {
+	@include shadow-up();
+}
+
+.shadow-right {
+	@include shadow-right();
+}
+
+.card-shadow {
+	@include card-shadow();
+}
+
+.card {
+	padding: $spc-xl;
+	border-radius: $border-radius;
+	@include card-shadow;
+	background-color: $surface-a;
+}
+
+.rounded {
+	border-radius: $border-radius;
+}
+
+.rounded-s {
+	border-radius: $border-radius-s;
+}
+
+.rounded-l {
+	border-radius: $border-radius-l;
+}
+
+i {
+	transition: all .25s ease;
+}
+
+button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	transition: all .25s ease;
+	white-space: nowrap;
+	border: none;
+	background-image: none;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+}
+
+.divider {
+	width: 1px;
+	height: 24px;
+	background-color: $text;
+}
+
+
+
+//TODO: change all primeng colors to CEAD primary color

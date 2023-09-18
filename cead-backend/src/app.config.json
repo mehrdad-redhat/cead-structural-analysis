@@ -1,0 +1,27 @@
+{
+  "token": {
+    "expiration": "30 days"
+  },
+  "cors": {
+    "origins": [
+      "http://localhost:3535",
+      "http://localhost:3030",
+      "http://ec2-18-170-0-191.eu-west-2.compute.amazonaws.com"
+    ]
+  },
+  "database": {
+    "host": "127.0.0.1",
+    "port": 27017
+  },
+  "smtp": {
+    "emailFrom": "info@cead.com",
+    "server": {
+      "host": "smtp.ethereal.email",
+      "port": 587,
+      "auth": {
+        "user": "linnea.maggio10@ethereal.email",
+        "pass": "jbfewgqKND4QxbUNJn"
+      }
+    }
+  }
+}

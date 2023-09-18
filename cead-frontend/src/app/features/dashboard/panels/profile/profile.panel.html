@@ -1,0 +1,74 @@
+<div class="wi-100 hi-100 p-xxl">
+	<div class="card">
+		<h4 class="f5semi mb-xl">User Profile</h4>
+		
+		<div id="form-wrapper" class="flex-col mt-xxl al-center">
+			<div class="grid wi-80">
+				<form (submit)="edit($event)" class="col flex-col ph-xl">
+					<p-fieldset legend="Basic Information">
+						<div class="flex-row">
+							<div class="input-container mb-m mr-s" style="width: calc(50% - 0.5rem)">
+								<label for="firstname">First Name</label>
+								<input #firstfocus autocomplete="given-name" id="firstname"
+								       name="firstname" [(ngModel)]="user.first_name" pInputText placeholder="First Name" type="text">
+							</div>
+							<div class="input-container mb-m ml-s" style="width: calc(50% - 0.5rem)">
+								<label for="lastname">Last Name</label>
+								<input autocomplete="family-name" id="lastname" name="lastname" [(ngModel)]="user.last_name"
+								       pInputText placeholder="Last Name"
+								       type="text">
+							</div>
+						</div>
+						<div class="input-container">
+							<label for="email">Email</label>
+							<input disabled autocomplete="username" id="email" name="email" pInputText placeholder="Email"
+							       type="email" [(ngModel)]="user.email">
+						</div>
+						<div class="input-container">
+							<label for="organization">Organization</label>
+							<input autocomplete="on" id="organization" name="organization" pInputText
+							       placeholder="Organisation"
+							       type="text" [(ngModel)]="user.organization">	
+						</div>
+						<div class="input-container">
+							<label for="workField">Work Field</label>
+							<p-dropdown id="workField" [options]="workFieldOpt" placeholder="Field of Work" name="work_field" [(ngModel)]="user.work_field"></p-dropdown>
+						</div>
+						<div class="input-container">
+							<label for="designExp">Design Experience</label>
+							<p-dropdown id="designExp" [options]="designExpOpt" placeholder="Design Experience" name="design_exp" [(ngModel)]="user.design_exp"></p-dropdown>
+						</div>
+						<div class="flex-col al-center mt-xl">
+							<button label="Submit" pButton type="submit"></button>
+						</div>
+					</p-fieldset>
+				</form>
+				<form (submit)="passChange($event)" class="col flex-col ph-xl">
+					<p-fieldset legend="Password Change">
+						<input autocomplete="username" id="username" name="username" pInputText placeholder="Email"
+						       type="email" [(ngModel)]="user.email" hidden>
+						<div class="input-container">
+							<label for="old-password">Old Password</label>
+							<input [feedback]="false" autocomplete="old-password" id="old-password" name="old-password"
+							       pPassword placeholder="Password" type="password" [(ngModel)]="pass.oldPassword">
+						</div>
+						<div class="input-container">
+							<label for="password">New Password</label>
+							<input [feedback]="false" autocomplete="new-password" id="password" name="password"
+							       pPassword placeholder="Password" type="password" [(ngModel)]="pass.newPassword">
+						</div>
+						<div class="input-container">
+							<label for="password-confirm">New Password Confirm</label>
+							<input [feedback]="false" autocomplete="new-password" id="password-confirm" name="password-confirm"
+							       pPassword placeholder="Confirm Password" type="password" [(ngModel)]="pass.confirmPass">
+						</div>
+						<div class="flex-col al-center mt-l">
+							<button class="p-button-warning" label="Change" pButton type="submit"></button>
+						</div>
+					
+					</p-fieldset>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

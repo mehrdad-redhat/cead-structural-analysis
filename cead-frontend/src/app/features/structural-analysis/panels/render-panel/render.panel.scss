@@ -1,0 +1,31 @@
+
+
+:host {
+	width: 100%;
+	height: 100%;
+}
+
+.skyciv-renderer {
+	position: relative;
+	
+	.skyciv-renderer-logo {
+		display: none !important;
+	}
+}
+
+
+#renderer-container {
+	display: flex;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	.skyciv-renderer-logo {
+		display: none !important;
+	}
+}
+
+
+#render {
+	overflow: hidden;
+	padding: 0;
+}

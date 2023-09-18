@@ -1,0 +1,465 @@
+@use "sass:math";
+
+/*******************            SIZES              ******************/
+
+.hi-100 {
+	height: 100%;
+	min-height: 100%;
+}
+
+.hi-100v {
+	height: 100vh;
+}
+
+$columnNumber: 20;
+$secondaryColumnNumber: 3;
+
+@mixin columnWidthGenerator($ind, $num) {
+	width: 1% * $ind*(math.div(100,$num));
+	min-width: 1% * $ind*(math.div(100,$num));
+}
+
+@for $i from 1 through $columnNumber {
+	.wi-#{$i*floor(math.div(100,$columnNumber))} {
+		@include columnWidthGenerator($i, $columnNumber)
+	}
+}
+
+@for $i from 1 through $secondaryColumnNumber {
+	.wi-#{$i*floor(math.div(100,$secondaryColumnNumber))} {
+		@include columnWidthGenerator($i, $secondaryColumnNumber)
+	}
+}
+
+.wi-v100 {
+	width: 100vw;
+}
+
+$uhd-container: 1440px;
+$qhd-container: 1440px;
+$fhd-container: 1128px;
+$w1600-container: 1128px;
+$w1366-container: 1040px;
+$w1280-container: 1040px;
+$w1024-container: 85%;
+$w768-container: 90%;
+$w667-container: 91%;
+$w568-container: 92%;
+$w480-container: 93%;
+$w375-container: 94%;
+$w320-container: 95%;
+
+//wi-uhd (min2561)
+@mixin UHD {
+	@media screen and (min-width: 2561px) {
+		@content;
+	}
+}
+
+@include UHD {
+	.container {
+		width: $uhd-container;
+	}
+	@for $i from 1 through $columnNumber {
+		.wi-uhd-#{$i*floor( math.div(100,$columnNumber)) } {
+			@include columnWidthGenerator($i, $columnNumber)
+		}
+	}
+	@for $i from 1 through $secondaryColumnNumber {
+		.wi-uhd-#{$i*floor(math.div(100,$secondaryColumnNumber))} {
+			@include columnWidthGenerator($i, $secondaryColumnNumber)
+		}
+	}
+	.wi-v100 {
+		width: 100vw;
+	}
+}
+
+//wi-qhd (max2560)
+@mixin QHD {
+	@media screen and (max-width: 2560px) {
+		@content;
+	}
+}
+
+@include QHD {
+	.container {
+		width: $qhd-container;
+	}
+	@for $i from 1 through $columnNumber {
+		.wi-qhd-#{$i*floor(math.div(100,$columnNumber))} {
+			@include columnWidthGenerator($i, $columnNumber)
+		}
+	}
+	@for $i from 1 through $secondaryColumnNumber {
+		.wi-qhd-#{$i*floor(math.div(100,$secondaryColumnNumber))} {
+			@include columnWidthGenerator($i, $secondaryColumnNumber)
+		}
+	}
+	.wi-v100 {
+		width: 100vw;
+	}
+}
+
+//wi-fhd (max1920)
+@mixin FHD {
+	@media screen and (max-width: 1920px) {
+		@content;
+	}
+}
+
+@include FHD {
+	.container {
+		width: $fhd-container;
+	}
+	@for $i from 1 through $columnNumber {
+		.wi-fhd-#{$i*floor(math.div(100,$columnNumber))} {
+			@include columnWidthGenerator($i, $columnNumber)
+		}
+	}
+	@for $i from 1 through $secondaryColumnNumber {
+		.wi-fhd-#{$i*floor(math.div(100,$secondaryColumnNumber))} {
+			@include columnWidthGenerator($i, $secondaryColumnNumber)
+		}
+	}
+	.wi-v100 {
+		width: 100vw;
+	}
+}
+
+//wi-1600
+@mixin w1600 {
+	@media screen and (max-width: 1600px) {
+		@content;
+	}
+}
+
+@include w1600 {
+	.container {
+		width: $w1600-container;
+	}
+	@for $i from 1 through $columnNumber {
+		.wi-1600-#{$i*floor(math.div(100,$columnNumber))} {
+			@include columnWidthGenerator($i, $columnNumber)
+		}
+	}
+	@for $i from 1 through $secondaryColumnNumber {
+		.wi-1600-#{$i*floor(math.div(100,$secondaryColumnNumber))} {
+			@include columnWidthGenerator($i, $secondaryColumnNumber)
+		}
+	}
+	.wi-v100 {
+		width: 100vw;
+	}
+}
+
+//wi-1366
+@mixin w1366 {
+	@media screen and (max-width: 1366px) {
+		@content;
+	}
+}
+
+@include w1366 {
+	.container {
+		width: $w1366-container;
+	}
+	@for $i from 1 through $columnNumber {
+		.wi-1366-#{$i*floor(math.div(100,$columnNumber))} {
+			@include columnWidthGenerator($i, $columnNumber)
+		}
+	}
+	@for $i from 1 through $secondaryColumnNumber {
+		.wi-1366-#{$i*floor(math.div(100,$secondaryColumnNumber))} {
+			@include columnWidthGenerator($i, $secondaryColumnNumber)
+		}
+	}
+	.wi-v100 {
+		width: 100vw;
+	}
+}
+
+//wi-1280
+@mixin w1280 {
+	@media screen and (max-width: 1280px) {
+		@content;
+	}
+}
+
+@include w1280 {
+	.container {
+		width: $w1280-container;
+	}
+	@for $i from 1 through $columnNumber {
+		.wi-1280-#{$i*floor(math.div(100,$columnNumber))} {
+			@include columnWidthGenerator($i, $columnNumber)
+		}
+	}
+	@for $i from 1 through $secondaryColumnNumber {
+		.wi-1280-#{$i*floor(math.div(100,$secondaryColumnNumber))} {
+			@include columnWidthGenerator($i, $secondaryColumnNumber)
+		}
+	}
+	.wi-v100 {
+		width: 100vw;
+	}
+}
+
+//wi-1024
+@mixin w1024 {
+	@media screen and (max-width: 1024px) {
+		@content;
+	}
+}
+
+@include w1024 {
+	.container {
+		width: $w1024-container;
+	}
+	@for $i from 1 through $columnNumber {
+		.wi-1024-#{$i*floor(math.div(100,$columnNumber))} {
+			@include columnWidthGenerator($i, $columnNumber)
+		}
+	}
+	@for $i from 1 through $secondaryColumnNumber {
+		.wi-1024-#{$i*floor(math.div(100,$secondaryColumnNumber))} {
+			@include columnWidthGenerator($i, $secondaryColumnNumber)
+		}
+	}
+	.wi-v100 {
+		width: 100vw;
+	}
+}
+
+//wi-768
+@mixin w768 {
+	@media screen and (max-width: 768px) {
+		@content;
+	}
+}
+
+@include w768 {
+	.container {
+		width: $w768-container;
+	}
+	@for $i from 1 through $columnNumber {
+		.wi-768-#{$i*floor(math.div(100,$columnNumber))} {
+			@include columnWidthGenerator($i, $columnNumber)
+		}
+	}
+	@for $i from 1 through $secondaryColumnNumber {
+		.wi-768-#{$i*floor(math.div(100,$secondaryColumnNumber))} {
+			@include columnWidthGenerator($i, $secondaryColumnNumber)
+		}
+	}
+	.wi-v100 {
+		width: 100vw;
+	}
+}
+
+//wi-667
+@mixin w667 {
+	@media screen and (max-width: 667px) {
+		@content;
+	}
+}
+
+@include w667 {
+	.container {
+		width: $w667-container;
+	}
+	@for $i from 1 through $columnNumber {
+		.wi-667-#{$i*floor(math.div(100,$columnNumber))} {
+			@include columnWidthGenerator($i, $columnNumber)
+		}
+	}
+	@for $i from 1 through $secondaryColumnNumber {
+		.wi-667-#{$i*floor(math.div(100,$secondaryColumnNumber))} {
+			@include columnWidthGenerator($i, $secondaryColumnNumber)
+		}
+	}
+	.wi-v100 {
+		width: 100vw;
+	}
+}
+
+//wi-568
+@mixin w568 {
+	@media screen and (max-width: 568px) {
+		@content;
+	}
+}
+
+@include w568 {
+	.container {
+		width: $w568-container;
+	}
+	@for $i from 1 through $columnNumber {
+		.wi-568-#{$i*floor(math.div(100,$columnNumber))} {
+			@include columnWidthGenerator($i, $columnNumber)
+		}
+	}
+	@for $i from 1 through $secondaryColumnNumber {
+		.wi-568-#{$i*floor(math.div(100,$secondaryColumnNumber))} {
+			@include columnWidthGenerator($i, $secondaryColumnNumber)
+		}
+	}
+	.wi-v100 {
+		width: 100vw;
+	}
+}
+
+//wi-480
+@mixin w480 {
+	@media screen and (max-width: 480px) {
+		@content;
+	}
+}
+
+@include w480 {
+	.container {
+		width: $w480-container;
+	}
+	@for $i from 1 through $columnNumber {
+		.wi-480-#{$i*floor(math.div(100,$columnNumber))} {
+			@include columnWidthGenerator($i, $columnNumber)
+		}
+	}
+	@for $i from 1 through $secondaryColumnNumber {
+		.wi-480-#{$i*floor(math.div(100,$secondaryColumnNumber))} {
+			@include columnWidthGenerator($i, $secondaryColumnNumber)
+		}
+	}
+	.wi-v100 {
+		width: 100vw;
+	}
+}
+
+//wi-375
+@mixin w375 {
+	@media screen and (max-width: 375px) {
+		@content;
+	}
+}
+
+@include w375 {
+	.container {
+		width: $w375-container;
+	}
+	@for $i from 1 through $columnNumber {
+		.wi-375-#{$i*floor(math.div(100,$columnNumber))} {
+			@include columnWidthGenerator($i, $columnNumber)
+		}
+	}
+	@for $i from 1 through $secondaryColumnNumber {
+		.wi-375-#{$i*floor(math.div(100,$secondaryColumnNumber))} {
+			@include columnWidthGenerator($i, $secondaryColumnNumber)
+		}
+	}
+	.wi-v100 {
+		width: 100vw;
+	}
+}
+
+//wi-320
+@mixin w320 {
+	@media screen and (max-width: 320px) {
+		@content;
+	}
+}
+
+@include w320 {
+	.container {
+		width: $w320-container;
+	}
+	@for $i from 1 through $columnNumber {
+		.wi-320-#{$i*floor(math.div(100,$columnNumber))} {
+			@include columnWidthGenerator($i, $columnNumber)
+		}
+	}
+	@for $i from 1 through $secondaryColumnNumber {
+		.wi-320-#{$i*floor(math.div(100,$secondaryColumnNumber))} {
+			@include columnWidthGenerator($i, $secondaryColumnNumber)
+		}
+	}
+	.wi-v100 {
+		width: 100vw;
+	}
+}
+
+/*******************           END SIZES              ******************/
+
+
+.full-height {
+	height: 100vh;
+}
+
+.flex-row {
+	display: flex;
+	-ms-flex-direction: row;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+}
+
+.flex-col {
+	display: flex;
+	-ms-flex-direction: column;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+
+.flex-row-rev {
+	display: flex;
+	-ms-flex-direction: row-reverse;
+	-webkit-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+}
+
+.flex-col-rev {
+	display: flex;
+	-ms-flex-direction: column-reverse;
+	-webkit-flex-direction: column-reverse;
+	flex-direction: column-reverse;
+}
+
+.jus-start {
+	justify-content: flex-start;
+}
+
+.jus-center {
+	justify-content: center;
+}
+
+.jus-end {
+	justify-content: flex-end;
+}
+
+.jus-between {
+	justify-content: space-between;
+}
+
+.jus-around {
+	justify-content: space-around;
+}
+
+.al-center {
+	align-items: center;
+}
+
+.al-start {
+	align-items: flex-start;
+}
+
+.al-end {
+	align-items: flex-end;
+}
+
+.wrapped {
+	flex-wrap: wrap;
+}
+
+.center-child {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

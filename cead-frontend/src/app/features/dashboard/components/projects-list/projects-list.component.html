@@ -1,0 +1,142 @@
+<div class="wrapper">
+	<h4 class="f5semi mb-xl">Projects</h4>
+	<div id="table-wrapper" class="nice-scroll">
+		<p-table [value]="projects" dataKey="_id" editMode="row">
+			<ng-template pTemplate="header">
+				<tr id="pr-header">
+					<th></th>
+					<th pSortableColumn="_id" class="id">Id
+						<p-sortIcon field="_id"></p-sortIcon>
+					</th>
+					<th pSortableColumn="name" class="name">Name
+						<p-sortIcon field="name"></p-sortIcon>
+					</th>
+					<th pSortableColumn="modifiedDate" class="date">Modified Date
+						<p-sortIcon field="modifiedDate"></p-sortIcon>
+					</th>
+					<th class="actions"></th>
+				</tr>
+			</ng-template>
+			<ng-template let-expanded="expanded" let-project pTemplate="body" let-prEditing="editing" let-prIndex="rowIndex">
+				<tr id="pr-body" [pEditableRow]="project">
+					<td>
+						<button [icon]="expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"
+						        [pRowToggler]="project"
+						        class="p-button-text p-button-rounded p-button-plain"
+						        pButton
+						        pRipple
+						        type="button">
+						</button>
+					</td>
+					<td class="id">{{project['_id']}}</td>
+					<td class="name">
+						<p-cellEditor>
+							<ng-template pTemplate="input">
+								<input pInputText type="text" [(ngModel)]="project['name']">
+							</ng-template>
+							<ng-template pTemplate="output">
+								{{project['name']}}
+							</ng-template>
+						</p-cellEditor>
+					</td>
+					<td class="date">{{project['updatedAt']|dateFormat}}</td>
+					<td class="actions">
+						<button *ngIf="!prEditing" pInitEditableRow pButton class="p-button-info" icon="pi pi-pencil" type="button" (click)="onPrRowEditInit(project)"></button>
+						<button *ngIf="prEditing" pSaveEditableRow pButton class="p-button-success mr-sm" style="margin-right: 1rem" icon="pi pi-check" type="button" (click)="onPrRowEditSave(project,prIndex)"></button>
+						<button *ngIf="prEditing" pCancelEditableRow pButton class="p-button-danger" icon="pi pi-times" type="button" (click)="onPrRowEditCancel(project,prIndex)"></button>
+					</td>
+				</tr>
+			</ng-template>
+			<ng-template let-project pTemplate="rowexpansion">
+				<tr>
+					<td colspan="9" style="display: flex;width: 100%;">
+						<table class="p-p-3">
+							<p-table [value]="project['structures']" dataKey="_id" editMode="row">
+								<ng-template pTemplate="header">
+									<tr id="str-header">
+										<th class="child-table id" pSortableColumn="_id">Id
+											<p-sortIcon field="_id"></p-sortIcon>
+										</th>
+										<th class="name" pSortableColumn="name">Name
+											<p-sortIcon field="name"></p-sortIcon>
+										</th>
+										<th class="prev">Preview</th>
+										<th class="loc" pSortableColumn="location">Location
+											<p-sortIcon field="location"></p-sortIcon>
+										</th>
+										<th class="type" pSortableColumn="type">Type
+											<p-sortIcon field="type"></p-sortIcon>
+										</th>
+										<th class="rev">Revision</th>
+										<th class="date" pSortableColumn="updatedAt">Modified Date
+											<p-sortIcon field="updatedAt"></p-sortIcon>
+										</th>
+										<th class="actions"></th>
+									</tr>
+								</ng-template>
+								<ng-template let-structure pTemplate="body" let-stEditing="editing" let-stIndex="rowIndex">
+									<tr id="str-body" [pEditableRow]="structure">
+										<td class="child-table id">{{structure['_id']}}</td>
+										<td class="name">
+											<p-cellEditor>
+												<ng-template pTemplate="input">
+													<input pInputText type="text" [(ngModel)]="structure['name']">
+												</ng-template>
+												<ng-template pTemplate="output">
+													<a [routerLink]="['/platform','structural-analysis',structure['_id']]">{{structure['name']}}</a>
+												</ng-template>
+											</p-cellEditor>
+										</td>
+										<td class="prev">
+											<span [style.background-image]="'url('+structure['preview_url']+')'"></span>
+										</td>
+										<td class="loc">
+											<p-cellEditor>
+												<ng-template pTemplate="input">
+													<input pInputText type="text" [(ngModel)]="structure['location']">
+												</ng-template>
+												<ng-template pTemplate="output">
+													{{structure['location']}}
+												</ng-template>
+											</p-cellEditor>
+										</td>
+										<td [attr.data-type]="structure['type']" class="type"><span>{{structure['type']}}</span></td>
+										<td class="rev">
+											<p-cellEditor>
+												<ng-template pTemplate="input">
+													<input pInputText type="text" [(ngModel)]="structure['revision']">
+												</ng-template>
+												<ng-template pTemplate="output">
+													<span [class.undef]="structure['revision']==='Undefined'">{{structure['revision']}}</span>
+												</ng-template>
+											</p-cellEditor>
+										</td>
+										<td class="date">{{structure['updatedAt']|dateFormat}}</td>
+										<td class="actions">
+											<button *ngIf="!stEditing" type="button"
+											        class="external-link">
+												<a [routerLink]="['/platform','structural-analysis',structure['_id']]">
+													<i
+														class="pi pi-external-link"></i></a>
+											</button>
+											<button *ngIf="!stEditing" pInitEditableRow pButton class="p-button-info" icon="pi pi-pencil" type="button" (click)="onStRowEditInit(structure,project['_id'])"></button>
+											<button *ngIf="stEditing" pSaveEditableRow pButton class="p-button-success mr-sm" style="margin-right: 1rem" icon="pi pi-check" type="button" (click)="onStRowEditSave(structure,stIndex,project['_id'])"></button>
+											<button *ngIf="stEditing" pCancelEditableRow pButton class="p-button-danger" icon="pi pi-times" type="button" (click)="onStRowEditCancel(structure,stIndex,project['_id'])"></button>
+										</td>
+									</tr>
+								</ng-template>
+								<ng-template pTemplate="emptymessage">
+									<tr>
+										<td style="flex:1">There is no structure for this project.</td>
+									</tr>
+								</ng-template>
+							</p-table>
+						</table>
+					</td>
+				</tr>
+			</ng-template>
+		</p-table>
+	
+	</div>
+
+</div>

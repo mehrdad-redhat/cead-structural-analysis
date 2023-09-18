@@ -1,0 +1,44 @@
+<div class="wi-100 flex-col al-center" id="content">
+	<h2 class="f11bold mb-l">Request access and book a demo</h2>
+	<p>Already have an account? <a class="ml-1" routerLink="/user/login">Login</a></p>
+	<form (submit)="signup($event)" class="flex-col mt-xxl al-center">
+		<div class="grid">
+			<div class="col flex-col ph-xl">
+				<div class="flex-row">
+					<input #firstfocus autocomplete="given-name" class="mb-m mr-s" id="firstname"
+					       name="firstname" [(ngModel)]="newUser.first_name" pInputText placeholder="First Name" style="width: calc(50% - 0.5rem)"
+					       type="text">
+					<input autocomplete="family-name" class="mb-m ml-s" id="lastname" name="lastname" [(ngModel)]="newUser.last_name"
+					       pInputText placeholder="Last Name" style="width: calc(50% - 0.5rem)"
+					       type="text">
+				</div>
+				<input autocomplete="email" class="mb-m" id="email" name="email" pInputText placeholder="Email"
+				       type="email" [(ngModel)]="newUser.email">
+				<input [feedback]="false" autocomplete="new-password" class="mb-m" id="password" name="password"
+				       pPassword
+				       placeholder="Password" type="password" [(ngModel)]="password">
+				<input [feedback]="false" autocomplete="new-password" id="password-confirm" name="password-confirm"
+				       pPassword
+				       placeholder="Confirm Password" type="password" [(ngModel)]="confirmPass">
+			</div>
+			<div class="col flex-col ph-xl">
+				<input autocomplete="on" class="mb-m" id="organization" name="organization" pInputText
+				       placeholder="Organisation"
+				       type="text" [(ngModel)]="newUser.organization">
+				<p-dropdown [options]="workFieldOpt" class="mb-m" placeholder="Field of Work" name="work_field" [(ngModel)]="newUser.work_field"></p-dropdown>
+				<p-dropdown [options]="designExpOpt" class="mb-m" placeholder="Design Experience" name="design_exp" [(ngModel)]="newUser.design_exp"></p-dropdown>
+				<!--					<p class="f4reg mb-s">Level of Design Experience</p>-->
+				<!--					<div class="flex-col">-->
+				<!--						<p-radioButton [(ngModel)]="experience" name="experience" value="<5 years" label="Less than 5 years" inputId="exp1"></p-radioButton>-->
+				<!--						<p-radioButton [(ngModel)]="experience" name="experience" value="<10 years" label="Less than 10 years" inputId="exp2"></p-radioButton>-->
+				<!--						<p-radioButton [(ngModel)]="experience" name="experience" value=">10 years" label="More than 10 years" inputId="exp3"></p-radioButton>-->
+				<!--					</div>-->
+			</div>
+		</div>
+		<div class="flex-col mt-xl" id="submit-area">
+			<p-checkbox [binary]="true" class="mb-l" label="I agree to Inovar's Terms and Privacy Policy."
+			            name="agreeToTerms" [(ngModel)]="terms"></p-checkbox>
+			<button label="Submit" pButton type="submit"></button>
+		</div>
+	</form>
+</div>

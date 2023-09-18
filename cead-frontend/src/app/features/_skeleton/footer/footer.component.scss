@@ -1,0 +1,31 @@
+@import "src/assets/styles/colors";
+@import "src/assets/styles/fonts";
+@import "src/assets/styles/variables";
+
+:host {
+	z-index: 5;
+}
+
+footer {
+	height: 35px;
+	background-color: $surface-a;
+	color: $text-secondary;
+	overflow: hidden;
+	
+	#copy-right {
+		opacity: .6;
+		font-size: 9px;
+		letter-spacing: 0.8px;
+		//text-transform: lowercase;
+	}
+	
+	li {
+		display: flex;
+		align-items: center;
+		transition: all .4s ease;
+		
+		&:hover {
+			color: $primary;
+		}
+	}
+}

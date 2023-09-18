@@ -1,0 +1,17 @@
+<p-tabView *ngIf="!someThingWrong">
+	<p-tabPanel header="Steelwork Utilisation">
+		<c-sw-util [data]="data['steelworkUtilisation']"></c-sw-util>
+	</p-tabPanel>
+	<p-tabPanel header="Wire Run Displacements">
+		<c-wr-disp [data]="data['nodeDisplacements']"></c-wr-disp>
+	</p-tabPanel>
+	<p-tabPanel header="Foundation Loads (Combinations)">
+		<c-fl-comb [data]="data['foundationLoadsCombinations']"></c-fl-comb>
+	</p-tabPanel>
+	<p-tabPanel header="Foundation Loads (Cases)">
+		<c-fl-case [data]="data['foundationLoadsCases']"></c-fl-case>
+	</p-tabPanel>
+</p-tabView>
+<div *ngIf="someThingWrong" class="card">
+	There is a problem in your structure model
+</div>

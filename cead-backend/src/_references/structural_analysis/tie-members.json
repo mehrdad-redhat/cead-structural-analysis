@@ -1,0 +1,126 @@
+{
+	"Cantilever_Mast_UC152X152X23": [
+		{
+			"No.": 1,
+			"node_A": 1,
+			"node_B": 2
+		}
+	],
+	"Cantilever_Mast_UC152X152X30": [
+		{
+			"No.": 1,
+			"node_A": 1,
+			"node_B": 2
+		}
+	],
+	"Cantilever_Mast_UC203X203X46": [
+		{
+			"No.": 1,
+			"node_A": 1,
+			"node_B": 2
+		}
+	],
+	"Cantilever_Mast_UC254X254X73": [
+		{
+			"No.": 1,
+			"node_A": 1,
+			"node_B": 2
+		}
+	],
+	"Cantilever_Mast_UC308X305X97": [
+		{
+			"No.": 1,
+			"node_A": 1,
+			"node_B": 2
+		}
+	],
+	"Cantilever_Mast_UC356X368X129": [
+		{
+			"No.": 1,
+			"node_A": 1,
+			"node_B": 2
+		}
+	],
+	"Cantilever_Mast_UC356X368X177": [
+		{
+			"No.": 1,
+			"node_A": 1,
+			"node_B": 2
+		}
+	],
+	"Cantilever_Mast_UC356X368X202": [
+		{
+			"No.": 1,
+			"node_A": 1,
+			"node_B": 2
+		}
+	],
+	"Cantilever_Mast_DC300X90X41": [
+		{
+			"No.": 1,
+			"node_A": 1,
+			"node_B": 2
+		},
+		{
+			"No.": 2,
+			"node_A": 2,
+			"node_B": 3
+		}
+	],
+	"Portal_Mast_Four Angle": [
+		{
+			"No.": 1,
+			"node_A": 1,
+			"node_B": 2
+		},
+		{
+			"No.": 2,
+			"node_A": 2,
+			"node_B": 3
+		},
+		{
+			"No.": 3,
+			"node_A": 2,
+			"node_B": 4
+		},
+		{
+			"No.": 4,
+			"node_A": 3,
+			"node_B": 5
+		},
+		{
+			"No.": 5,
+			"node_A": 4,
+			"node_B": 6
+		},
+		{
+			"No.": 6,
+			"node_A": 5,
+			"node_B": 6
+		}
+	],
+	"Portal_Mast_DC300X90X41": [
+		{
+			"No.": 1,
+			"node_A": 1,
+			"node_B": 2
+		},
+		{
+			"No.": 2,
+			"node_A": 2,
+			"node_B": 3
+		}
+	],
+	"TTC_Mast_DC380X100X54": [
+		{
+			"No.": 1,
+			"node_A": 1,
+			"node_B": 2
+		},
+		{
+			"No.": 2,
+			"node_A": 2,
+			"node_B": 3
+		}
+	]
+}

@@ -1,0 +1,10 @@
+
+<div class="wi-100 hi-100v flex-col jus-between">
+	<c-header *ngIf="inGuardPage"></c-header>
+	<div id="router-container">
+		<router-outlet></router-outlet>
+	</div>
+	<c-footer *ngIf="inGuardPage"></c-footer>
+</div>
+<p-toast position="bottom-center"></p-toast>
+<p-toast position="bottom-right" key="help"></p-toast>

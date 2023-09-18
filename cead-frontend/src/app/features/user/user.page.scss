@@ -1,0 +1,78 @@
+@import "src/assets/styles/colors";
+
+$input-width: 240px;
+
+#logo{
+	margin-top: 5rem;
+	height: 50px;
+}
+
+form {
+	> input, & > .grid > .col > * {
+		width: $input-width;
+	}
+	
+	::ng-deep {
+		//noinspection DuplicatedCode
+		.p-dropdown {
+			width: $input-width;
+			
+			.p-dropdown-trigger {
+				background: $primary;
+			}
+			
+			.p-dropdown-label {
+				border-bottom-right-radius: 0;
+				border-top-right-radius: 0;
+				
+				&.p-placeholder {
+					color: $white-input-placeholder-color;
+				}
+			}
+		}
+		
+		.p-radiobutton {
+			margin-bottom: 0.75rem;
+		}
+		
+		.p-radiobutton-label {
+			white-space: nowrap;
+			font-size: 0.889rem;
+			margin-bottom: 0.75rem;
+		}
+		
+		.p-inputtext {
+			background-color: #E8F0FE;
+			color: $text-on-colors;
+			font-size: 0.889rem;
+			
+			&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+				color: $white-input-placeholder-color;
+				
+			}
+			
+			&::-moz-placeholder { /* Firefox 19+ */
+				color: $white-input-placeholder-color;
+				
+			}
+			
+			&:-ms-input-placeholder { /* IE 10+ */
+				color: $white-input-placeholder-color;
+				
+			}
+			
+			&:-moz-placeholder { /* Firefox 18- */
+				color: $white-input-placeholder-color;
+				
+			}
+		}
+	}
+}
+
+#content {
+	p {
+		a {
+			text-decoration: underline;
+		}
+	}
+}

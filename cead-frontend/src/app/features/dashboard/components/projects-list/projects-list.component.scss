@@ -1,0 +1,198 @@
+@import "src/assets/styles/colors";
+@import "src/assets/styles/fonts";
+@import "src/assets/styles/variables";
+
+.wrapper {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	
+	#table-wrapper {
+		overflow-y: auto;
+	}
+	
+}
+
+.p-p-3 {
+	display: flex;
+	padding: 1rem !important;
+}
+
+#table-fix {
+
+}
+
+:host {
+	::ng-deep {
+		.p-datatable .p-sortable-column:focus {
+			box-shadow: none;
+		}
+		
+		table {
+			display: flex;
+			flex-direction: column;
+		}
+		
+		thead, tr {
+			display: flex;
+			width: 100%;
+		}
+		
+		#pr-header, #pr-body {
+			td {
+				display: flex;
+				align-items: center;
+			}
+			
+			th, td {
+				&.id {
+					flex: 1;
+				}
+				
+				&.name {
+					flex: 9.8;
+				}
+				
+				&.date {
+					flex: 4.5;
+				}
+				
+				&.actions {
+					flex: 2.4;
+				}
+			}
+		}
+		
+		#str-header, #str-body {
+			td {
+				display: flex;
+				align-items: center;
+				padding: 0.5rem 1rem;
+				
+				button.external-link {
+					display: flex;
+					width: 2.357rem;
+					height: 2.357rem;
+					padding: 0;
+					border-radius: 3px;
+					background-color: $primary;
+					transition: all .2s ease;
+					
+					&:hover {
+						background-color: $primary-dark;
+					}
+					
+					a, i {
+						width: 100%;
+						height: 100%;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+				}
+				
+				&.name {
+					a:hover {
+						cursor: pointer;
+						color: $primary;
+						text-decoration: underline;
+					}
+				}
+			}
+			
+			th, td {
+				&.id {
+					flex: 0.7;
+				}
+				
+				&.name {
+					flex: 3;
+				}
+				
+				&.prev {
+					flex: 1.2;
+				}
+				
+				&.loc {
+					flex: 1.8;
+				}
+				
+				&.type {
+					flex: 1.1;
+					
+					span {
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						color: $text-on-colors;
+						border-radius: $border-radius-s;
+						padding: 7px;
+						@include f3reg;
+					}
+					
+					&[data-type='TTC'] {
+						span {
+							background-color: $ttc;
+						}
+					}
+					
+					&[data-type='Cantilever'] {
+						span {
+							background-color: $cantilever;
+						}
+					}
+					
+					&[data-type='Portal'] {
+						span {
+							background-color: $portal;
+						}
+					}
+				}
+				
+				&.rev {
+					flex: 1;
+				}
+				
+				&.date {
+					flex: 2;
+				}
+				
+				&.actions {
+					flex: 1.7;
+					justify-content: space-around;
+				}
+			}
+		}
+		
+		th, td {
+			.prev span {
+				width: 70px;
+				height: 70px;
+				background-position: center;
+				background-size: cover;
+				background-repeat: no-repeat;
+				border-radius: $border-radius;
+				filter :invert(1) brightness(2.9) hue-rotate(892deg) saturate(1.1)
+			}
+			.undef{
+				font-style: italic;
+				color: $text-secondary;
+			}
+		}
+		
+		th:first-child:not(.child-table), td:first-child:not(.child-table) {
+			flex: none;
+			width: 4rem;
+		}
+		
+		.p-datatable .p-datatable-tbody > tr,
+		.p-datatable .p-datatable-thead > tr > th {
+			background-color: transparent !important;
+		}
+		
+		.p-datatable .p-datatable-tbody > tr > td,
+		.p-datatable .p-datatable-thead > tr > th {
+			border-color: $surface-d !important;
+		}
+	}
+}

@@ -1,0 +1,294 @@
+@use "sass:map";
+@import "../fonts/montserrat/montserrat";
+
+$font-sizes: (
+		f1 : 0.624rem, //9.99px
+		f2 : 0.702rem, //11.24px
+		f3 : 0.79rem, //12.64px
+		f4 : 0.875rem, //14.22px
+		f5 : 1rem, //16.00px
+		f6 : 1.125rem, //18.00px
+		f7 : 1.266rem, //20.25px
+		f8 : 1.424rem, //22.78px
+		f9 : 1.602rem, //25.63px
+		f10 : 1.802rem, //28.83px
+		f11 : 2.027rem, //32.44px
+		f12: 2.281rem, //36.49px
+		f13: 2.566rem //41.05px
+);
+
+$font-weights: (
+		reg:normal,
+		med:500,
+		semi:600,
+		bold:bold
+);
+
+@each $fs-name, $f-size in $font-sizes {
+	@each $fw-name, $f-weight in $font-weights {
+		.#{$fs-name}#{$fw-name} {
+			font-size: $f-size;
+			font-weight: $f-weight;
+		}
+	}
+}
+
+@mixin f1reg() {
+	font-size: map.get($font-sizes, f1);
+	font-weight: normal;
+}
+
+@mixin f1med() {
+	font-size: map.get($font-sizes, f1);
+	font-weight: 500;
+}
+
+@mixin f1semi() {
+	font-size: map.get($font-sizes, f1);
+	font-weight: 600;
+}
+
+@mixin f1bold() {
+	font-size: map.get($font-sizes, f1);
+	font-weight: bold;
+}
+
+@mixin f2reg() {
+	font-size: map.get($font-sizes, f2);
+	font-weight: normal;
+}
+
+@mixin f2med() {
+	font-size: map.get($font-sizes, f2);
+	font-weight: 500;
+}
+
+@mixin f2semi() {
+	font-size: map.get($font-sizes, f2);
+	font-weight: 600;
+}
+
+@mixin f2bold() {
+	font-size: map.get($font-sizes, f2);
+	font-weight: bold;
+}
+
+@mixin f3reg() {
+	font-size: map.get($font-sizes, f3);
+	font-weight: normal;
+}
+
+@mixin f3med() {
+	font-size: map.get($font-sizes, f3);
+	font-weight: 500;
+}
+
+@mixin f3semi() {
+	font-size: map.get($font-sizes, f3);
+	font-weight: 600;
+}
+
+@mixin f3bold() {
+	font-size: map.get($font-sizes, f3);
+	font-weight: bold;
+}
+
+@mixin f4reg() {
+	font-size: map.get($font-sizes, f4);
+	font-weight: normal;
+}
+
+@mixin f4med() {
+	font-size: map.get($font-sizes, f4);
+	font-weight: 500;
+}
+
+@mixin f4semi() {
+	font-size: map.get($font-sizes, f4);
+	font-weight: 600;
+}
+
+@mixin f4bold() {
+	font-size: map.get($font-sizes, f4);
+	font-weight: bold;
+}
+
+@mixin f5reg() {
+	font-size: map.get($font-sizes, f5);
+	font-weight: normal;
+}
+
+@mixin f5med() {
+	font-size: map.get($font-sizes, f5);
+	font-weight: 500;
+}
+
+@mixin f5semi() {
+	font-size: map.get($font-sizes, f5);
+	font-weight: 600;
+}
+
+@mixin f5bold() {
+	font-size: map.get($font-sizes, f5);
+	font-weight: bold;
+}
+
+@mixin f6reg() {
+	font-size: map.get($font-sizes, f6);
+	font-weight: normal;
+}
+
+@mixin f6med() {
+	font-size: map.get($font-sizes, f6);
+	font-weight: 500;
+}
+
+@mixin f6semi() {
+	font-size: map.get($font-sizes, f6);
+	font-weight: 600;
+}
+
+@mixin f6bold() {
+	font-size: map.get($font-sizes, f6);
+	font-weight: bold;
+}
+
+@mixin f7reg() {
+	font-size: map.get($font-sizes, f7);
+	font-weight: normal;
+}
+
+@mixin f7med() {
+	font-size: map.get($font-sizes, f7);
+	font-weight: 500;
+}
+
+@mixin f7semi() {
+	font-size: map.get($font-sizes, f7);
+	font-weight: 600;
+}
+
+@mixin f7bold() {
+	font-size: map.get($font-sizes, f7);
+	font-weight: bold;
+}
+
+@mixin f8reg() {
+	font-size: map.get($font-sizes, f8);
+	font-weight: normal;
+}
+
+@mixin f8med() {
+	font-size: map.get($font-sizes, f8);
+	font-weight: 500;
+}
+
+@mixin f8semi() {
+	font-size: map.get($font-sizes, f8);
+	font-weight: 600;
+}
+
+@mixin f8bold() {
+	font-size: map.get($font-sizes, f8);
+	font-weight: bold;
+}
+
+@mixin f9reg() {
+	font-size: map.get($font-sizes, f9);
+	font-weight: normal;
+}
+
+@mixin f9med() {
+	font-size: map.get($font-sizes, f9);
+	font-weight: 500;
+}
+
+@mixin f9semi() {
+	font-size: map.get($font-sizes, f9);
+	font-weight: 600;
+}
+
+@mixin f9bold() {
+	font-size: map.get($font-sizes, f9);
+	font-weight: bold;
+}
+
+@mixin f10reg() {
+	font-size: map.get($font-sizes, f10);
+	font-weight: normal;
+}
+
+@mixin f10med() {
+	font-size: map.get($font-sizes, f10);
+	font-weight: 500;
+}
+
+@mixin f10semi() {
+	font-size: map.get($font-sizes, f10);
+	font-weight: 600;
+}
+
+@mixin f10bold() {
+	font-size: map.get($font-sizes, f10);
+	font-weight: bold;
+}
+
+@mixin f11reg() {
+	font-size: map.get($font-sizes, f11);
+	font-weight: normal;
+}
+
+@mixin f11med() {
+	font-size: map.get($font-sizes, f11);
+	font-weight: 500;
+}
+
+@mixin f11semi() {
+	font-size: map.get($font-sizes, f11);
+	font-weight: 600;
+}
+
+@mixin f11bold() {
+	font-size: map.get($font-sizes, f11);
+	font-weight: bold;
+}
+
+@mixin f12reg() {
+	font-size: map.get($font-sizes, f12);
+	font-weight: normal;
+}
+
+@mixin f12med() {
+	font-size: map.get($font-sizes, f12);
+	font-weight: 500;
+}
+
+@mixin f12semi() {
+	font-size: map.get($font-sizes, f12);
+	font-weight: 600;
+}
+
+@mixin f12bold() {
+	font-size: map.get($font-sizes, f12);
+	font-weight: bold;
+}
+
+@mixin f13reg() {
+	font-size: map.get($font-sizes, f13);
+	font-weight: normal;
+}
+
+@mixin f13med() {
+	font-size: map.get($font-sizes, f13);
+	font-weight: 500;
+}
+
+@mixin f13semi() {
+	font-size: map.get($font-sizes, f13);
+	font-weight: 600;
+}
+
+@mixin f13bold() {
+	font-size: map.get($font-sizes, f13);
+	font-weight: bold;
+}

@@ -1,0 +1,114 @@
+<div #panel id="panel">
+	<h3 class="f6semi p-xl pb-xxl">{{subject | capitalize}}</h3>
+	
+	<!--ACTION BAR-->
+	<div class="actions wi-100 flex-row al-center jus-start ph-xl mb-xl">
+		<button class="mr-xs"
+		        icon="pi pi-plus"
+		        pButton
+		        pRipple
+		        type="button"
+		        (click)="newEquipmentModalController('on',$event)"></button>
+		<button class="p-button-outlined ml-xs"
+		        icon="pi pi-table"
+		        label="Table View"
+		        pButton
+		        pRipple
+		        type="button"
+		        (click)="tableModalController({action:'on'})"></button>
+	</div>
+	
+	<!--EQUIPMENT LIST BUTTONS-->
+	<div class="flex-col ph-xl pv-l" id="eqs-list">
+		<h4 class="f5med mb-xs">{{subject | capitalize}} list :</h4>
+		<h3 *ngIf="equipmentList.length===0" class="f3reg mb-xs" style="font-style: italic">There is no equipment</h3>
+		<ul class="flex-row wrapped mt-l nice-scroll">
+			<li *ngFor="let eq of equipmentList;let i = index">
+				<button class="p-button-rounded p-button-secondary"
+				        pButton
+				        type="button"
+				        [class.p-button-info]="activatedIndex==i"
+				        [class.p-button-outlined]="activatedIndex!=i"
+				        [label]="eq"
+				        (click)="enableEquipment(i)">
+					<i class="remove-btn pi pi-times-circle" (click)="removeEquipment(i,$event)"></i>
+				</button>
+			</li>
+		</ul>
+	</div>
+	
+	<!--SUB PANEL-->
+	<div class="card shadow-right subpanel"
+	     cCloseWithOutsideClick
+	     id="sub-panel"
+	     [class.active]="subPanelVisible"
+	     [clickTarget]="panel"
+	     (outsideClicked)="true">
+		<header class="flex-row jus-between al-center wi-100 p-xl">
+			<div class="title flex-row al-center">
+				<h3 class="f5med">{{equipmentList[activatedIndex]}}</h3>
+				<button icon="pi pi-trash"
+				        class="p-button-rounded p-button-danger p-button-sm ml-l"
+				        pButton
+				        (click)="removeEquipment(activatedIndex,$event)"></button>	
+			</div>
+			<button icon="pi pi-caret-left"
+			        class="close-btn"
+			        pButton
+			        (click)="subPanelVisible=!subPanelVisible"></button>
+		</header>
+		<div id="eq-form">
+			<c-equipment-form *ngIf="subPanelVisible" [formSubject]="subject" [equipmentIndex]="activatedIndex"></c-equipment-form>
+		</div>
+	</div>
+</div>
+
+<!--NEW EQUIPMENT-->
+<p-dialog header="New {{subject.slice(0,-1)|capitalize}}"
+          [(visible)]="newEquipmentModalVisible"
+          [closable]="true"
+          [dismissableMask]="true"
+          [draggable]="false"
+          [modal]="true"
+          [resizable]="false"
+          [breakpoints]="{'1600px':'30vw','1500px': '50vw', '1200px': '60vw','960px': '80vw'}"
+          [style]="{width: '25vw'}"
+          (onHide)="newEquipmentModalController('off')">
+	
+	<c-equipment-form *ngIf="newEquipmentModalVisible"
+	                  [equipmentIndex]="lastId"
+	                  [formSubject]="subject"></c-equipment-form>
+	<div class="wi-100 flex-row al-center jus-center ph-xl mv-xl">
+		<button class="mr-m"
+		        icon="pi pi-plus"
+		        pButton
+		        pRipple
+		        type="button"
+		        [label]="'Create'"
+		        (click)="newEquipmentModalController('save')"></button>
+		<button class="p-button-outlined p-button-secondary ml-m"
+		        label="Cancel"
+		        pButton
+		        pRipple
+		        type="button"
+		        (click)="newEquipmentModalController('cancel')"></button>
+	</div>
+</p-dialog>
+
+<!--TABLE VIEW-->
+<p-dialog header="{{subject|capitalize}}: Table View"
+          [(visible)]="tableVisible"
+          [closable]="true"
+          [dismissableMask]="true"
+          [draggable]="false"
+          [modal]="true"
+          [resizable]="true"
+          [style]="{width: '70vw'}">
+	<c-equipment-table *ngIf="tableVisible"
+	                   (onAction)="tableModalController($event)"
+	                   [tableSubject]="subject"></c-equipment-table>
+	
+</p-dialog>
+
+<p-confirmPopup styleClass="confirm-dialog"></p-confirmPopup>
+<p-confirmPopup key="remove" styleClass="confirm-dialog"></p-confirmPopup>

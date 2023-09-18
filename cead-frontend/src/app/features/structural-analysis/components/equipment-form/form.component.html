@@ -1,0 +1,110 @@
+<div *ngIf="model" class="data-form nice-scroll" tabindex="1">
+	<ng-container *ngFor="let group of schema; index as i">
+		<div *ngIf="group.activeStatus!==ACTIVE_STATUS.INACTIVE"
+		     [ngClass]="{'property-group-container':group.displayType===DISPLAY_TYPE.GROUP}">
+			<h4 *ngIf="group.displayType!==DISPLAY_TYPE.ROOT" class="f4reg mb-l">{{ group.label }}</h4>
+			<div [ngClass]="{'property-group':group.displayType===DISPLAY_TYPE.GROUP}">
+				<ng-container *ngFor="let child of group!.children; let j = index">
+					<div *ngIf="['info','basics'].includes(child.sectionName) ?
+					(child.activeStatus!==ACTIVE_STATUS.INACTIVE) :
+					(!child.activeStatus || (child.activeStatus && child.activeStatus[index]!==ACTIVE_STATUS.INACTIVE))"
+					     [ngClass]="{'input-wrapper':true,'half-width':group.displayType===DISPLAY_TYPE.GROUP,
+					     'full-width':group.displayType===DISPLAY_TYPE.ROOT}">
+						<div class="label-container">
+							<label [for]="child.name">{{ child.label }}</label>
+							<i *ngIf="child.hintText"
+							   class="pi pi-info-circle"
+							   [pTooltip]="child.hintText + '.' | capitalize"
+							></i>
+						</div>
+						<ng-container *ngIf="group.displayType===DISPLAY_TYPE.ROOT">
+							<div *ngIf="child.inputType == INPUT_TYPE.NUMBER" class="p-inputgroup">
+								<p-inputNumber
+									inputStyleClass="input-number"
+									mode="decimal"
+									[NgModelChangeKey]="changeKeyTimeStamp"
+									[format]="true"
+									[inputId]="child.name"
+									[locale]="'en-UK'"
+									[maxFractionDigits]="3"
+									[max]="child.max != null ? child.max : null"
+									[minFractionDigits]="0"
+									[min]="child.min != null ? child.min : null"
+									[ngModel]="model[child.name]"
+									[placeholder]="'e.g. ' + child.default"
+									[step]="child.unit == '%' ? 1 : 0.1"
+									[useGrouping]="false"
+									(NgModelDebounced)="formChanged([child.name],$event,child.sectionName+'|'+child.groupName+'|'+child.name)"
+								></p-inputNumber>
+								<span *ngIf="child.unit" class="p-inputgroup-addon">{{child.unit}}</span>
+							</div>
+							
+							<input *ngIf="child.inputType == INPUT_TYPE.TEXT"
+							       pInputText
+							       type="text"
+							       [NgModelChangeKey]="changeKeyTimeStamp"
+							       [id]="child.name"
+							       [ngModel]="model[child.name]"
+							       [placeholder]="'e.g. ' + child.default"
+							       (NgModelDebounced)="formChanged([child.name],$event,child.sectionName+'|'+child.groupName+'|'+child.name)">
+							
+							<p-dropdown *ngIf="child.inputType == INPUT_TYPE.DROPDOWN"
+							            [NgModelChangeKey]="changeKeyTimeStamp"
+							            [id]="child.name"
+							            [ngModel]="model[child.name]"
+							            [options]="child.possibleValues"
+							            (NgModelDebounced)="formChanged([child.name],$event,child.sectionName+'|'+child.groupName+'|'+child.name)"
+							></p-dropdown>
+						</ng-container>
+						<ng-container *ngIf="group.displayType!==DISPLAY_TYPE.ROOT">
+							<div *ngIf="child.inputType == INPUT_TYPE.NUMBER" class="p-inputgroup">
+								<p-inputNumber
+									inputStyleClass="input-number"
+									mode="decimal"
+									[NgModelChangeKey]="changeKeyTimeStamp"
+									[format]="true"
+									[inputId]="child.name"
+									[locale]="'en-UK'"
+									[maxFractionDigits]="3"
+									[max]="child.max != null ? child.max : null"
+									[minFractionDigits]="0"
+									[min]="child.min != null ? child.min : null"
+									[ngModel]="model[group.name][child.name]"
+									[placeholder]="'e.g. ' + child.default"
+									[step]="child.unit == '%' ? 1 : 0.1"
+									[useGrouping]="false"
+									(NgModelDebounced)="formChanged([group.name,child.name],$event,child.sectionName+'|'+child.groupName+'|'+child.name)"
+								></p-inputNumber>
+								<span *ngIf="child.unit" class="p-inputgroup-addon">{{child.unit}}</span>
+							</div>
+							
+							<input *ngIf="child.inputType == INPUT_TYPE.TEXT"
+							       pInputText
+							       type="text"
+							       [NgModelChangeKey]="changeKeyTimeStamp"
+							       [id]="child.name"
+							       [ngModel]="model[group.name][child.name]"
+							       [placeholder]="'e.g. ' + child.default"
+							       (NgModelDebounced)="formChanged([group.name,child.name],$event,child.sectionName+'|'+child.groupName+'|'+child.name)">
+							
+							<p-dropdown *ngIf="child.inputType == INPUT_TYPE.DROPDOWN"
+							            [NgModelChangeKey]="changeKeyTimeStamp"
+							            [id]="child.name"
+							            [ngModel]="model[group.name][child.name]"
+							            [options]="child.possibleValues"
+							            (NgModelDebounced)="formChanged([group.name,child.name],$event,child.sectionName+'|'+child.groupName+'|'+child.name)"
+							></p-dropdown>
+						</ng-container>
+					</div>
+				</ng-container>
+			</div>
+		</div>
+	</ng-container>
+</div>
+<p-confirmDialog acceptButtonStyleClass="p-button-danger p-button-outlined"
+                 icon="pi pi-exclamation-triangle"
+                 key="formConfirmDialog"
+                 rejectButtonStyleClass="p-button-text"
+                 [breakpoints]="{'1280px': '50vw', '1024px': '70vw', '960px': '80vw'}" [style]="{width: '30vw'}">
+
+</p-confirmDialog>

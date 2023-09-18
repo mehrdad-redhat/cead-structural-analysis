@@ -1,0 +1,20 @@
+{
+  "1": {
+    "name": "Structural Steel",
+    "density": 7850,
+    "elasticity_modulus": 200000,
+    "poissons_ratio": 0.3,
+    "yield_strength": 275,
+    "ultimate_strength": 410,
+    "class": "steel"
+  },
+  "2": {
+    "name": "Light Steel",
+    "density": 1,
+    "elasticity_modulus": 200000000,
+    "poissons_ratio": 0.3,
+    "yield_strength": 275000,
+    "ultimate_strength": 410000,
+    "class": "steel"
+  }
+}

@@ -1,0 +1,227 @@
+[
+  {
+    "Id": "1",
+    "country": "British",
+    "library": "Steel",
+    "class": "Universal columns",
+    "name": "152x152 UC 23",
+    "load_custom": null,
+    "material_id": "1"
+  },
+  {
+    "Id": "2",
+    "country": "British",
+    "library": "Steel",
+    "class": "Universal columns",
+    "name": "152x152 UC 30",
+    "load_custom": null,
+    "material_id": "1"
+  },
+  {
+    "Id": "3",
+    "country": "British",
+    "library": "Steel",
+    "class": "Universal columns",
+    "name": "203x203 UC 46",
+    "load_custom": null,
+    "material_id": "1"
+  },
+  {
+    "Id": "4",
+    "country": "British",
+    "library": "Steel",
+    "class": "Universal columns",
+    "name": "254x254 UC 73",
+    "load_custom": null,
+    "material_id": "1"
+  },
+  {
+    "Id": "5",
+    "country": "British",
+    "library": "Steel",
+    "class": "Universal columns",
+    "name": "305x305 UC 97",
+    "load_custom": null,
+    "material_id": "1"
+  },
+  {
+    "Id": "6",
+    "country": "British",
+    "library": "Steel",
+    "class": "Universal columns",
+    "name": "356x368 UC 129",
+    "load_custom": null,
+    "material_id": "1"
+  },
+  {
+    "Id": "7",
+    "country": "British",
+    "library": "Steel",
+    "class": "Universal columns",
+    "name": "356x368 UC 177",
+    "load_custom": null,
+    "material_id": "1"
+  },
+  {
+    "Id": "8",
+    "country": "British",
+    "library": "Steel",
+    "class": "Universal columns",
+    "name": "356x368 UC 202",
+    "load_custom": null,
+    "material_id": "1"
+  },
+  {
+    "Id": "9",
+    "country": "British",
+    "library": "Steel",
+    "class": "Channels",
+    "name": "300x90x41 CH",
+    "load_custom": null,
+    "material_id": "1"
+  },
+  {
+    "Id": "10",
+    "country": "British",
+    "library": "Steel",
+    "class": "Channels",
+    "name": "380x100x54 CH",
+    "load_custom": null,
+    "material_id": "1"
+  },
+  {
+    "Id": "12",
+    "country": "-",
+    "library": null,
+    "class": null,
+    "name": null,
+    "load_custom": "25mm_Tie",
+    "material_id": "1"
+  },
+  {
+    "Id": "13",
+    "country": "British",
+    "library": "Steel",
+    "class": "Channels",
+    "name": "260x75x28 CH",
+    "load_custom": null,
+    "material_id": "1"
+  },
+  {
+    "Id": "14",
+    "country": "British",
+    "library": "Steel",
+    "class": "Equal angles",
+    "name": "50x8+ EA",
+    "load_custom": null,
+    "material_id": "1"
+  },
+  {
+    "Id": "15",
+    "country": "British",
+    "library": "Steel",
+    "class": "Equal angles",
+    "name": "90x8 EA",
+    "load_custom": null,
+    "material_id": "1"
+  },
+  {
+    "Id": "16",
+    "country": "-",
+    "library": null,
+    "class": null,
+    "name": null,
+    "load_custom": "160x10_Batten",
+    "material_id": "1"
+  },
+  {
+    "Id": "17",
+    "country": "-",
+    "library": null,
+    "class": null,
+    "name": null,
+    "load_custom": "220x10_Batten",
+    "material_id": "1"
+  },
+  {
+    "Id": "18",
+    "country": "-",
+    "library": null,
+    "class": null,
+    "name": null,
+    "load_custom": "150x32_Batten",
+    "material_id": "1"
+  },
+  {
+    "Id": "19",
+    "country": "British",
+    "library": "Steel",
+    "class": "Equal angles",
+    "name": "70x8+ EA",
+    "load_custom": null,
+    "material_id": "1"
+  },
+  {
+    "Id": "20",
+    "country": "-",
+    "library": null,
+    "class": null,
+    "name": null,
+    "load_custom": "50x8_Flat",
+    "material_id": "1"
+  },
+  {
+    "Id": "21",
+    "country": "-",
+    "library": null,
+    "class": null,
+    "name": null,
+    "load_custom": "90x70x8_ Angle",
+    "material_id": "1"
+  },
+  {
+    "Id": "22",
+    "country": "-",
+    "library": null,
+    "class": null,
+    "name": null,
+    "load_custom": "70x8_Flat",
+    "material_id": "1"
+  },
+  {
+    "Id": "23",
+    "country": "-",
+    "library": null,
+    "class": null,
+    "name": null,
+    "load_custom": "32x150_ClampingBar",
+    "material_id": "1"
+  },
+  {
+    "Id": "24",
+    "country": "-",
+    "library": null,
+    "class": null,
+    "name": null,
+    "load_custom": "Double_220x10_Batten",
+    "material_id": "1"
+  },
+  {
+    "Id": "25",
+    "country": "European",
+    "library": "Steel",
+    "class": "Equal angles",
+    "name": "L 80x80x10",
+    "load_custom": null,
+    "material_id": "1"
+  },
+  {
+    "Id": "26",
+    "country": "-",
+    "library": null,
+    "class": null,
+    "name": null,
+    "load_custom": "Double_50x8_Angle_ 345",
+    "material_id": "1"
+  }
+]

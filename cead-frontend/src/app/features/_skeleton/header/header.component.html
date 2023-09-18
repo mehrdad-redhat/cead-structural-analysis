@@ -1,0 +1,54 @@
+<header class="wi-100 p-l shadow-down flex-row al-center jus-between">
+	<div class="hi-100 al-center flex-row" id="left">
+		<!--		<button id="menu-btn">-->
+		<!--			<i class="pi pi-bars"></i>-->
+		<!--		</button>-->
+		<a routerLink="/dashboard"><img alt="logo"
+		                                height="20"
+		                                id="logo"
+		                                src="../../../../assets/images/light-logo.svg"></a>
+		<c-breadcrumb></c-breadcrumb>
+	</div>
+	<div class="hi-100 al-center flex-row" id="right">
+<!--		<form class="p-input-icon-left p-input-filled">-->
+<!--			<i class="pi pi-search"></i>-->
+<!--			<input pInputText placeholder="Search" type="search" name="search" autocomplete="on">-->
+<!--		</form>-->
+		<span>{{user?.first_name+" "+user?.last_name}}</span>
+<!--		<button id="tools"><i class="pi pi-th-large"></i></button>-->
+		<div id="profile-wrapper">
+			<button id="profile-btn"><i class="pi pi-user"></i></button>
+			<div id="profile-panel" class="card">
+				<div id="api-usage" class="flex-col al-center">
+					<h4 class="f5semi">API Calls</h4>
+					<div id="meter-holder" class="wi-100 flex-col al-center mt-xl">
+						<p-knob valueTemplate=""
+						        [strokeWidth]="11"
+						        [(ngModel)]="usedApiCalls"
+						        [min]="0"
+						        [max]="usedApiCalls>totalApiCalls ? usedApiCalls : totalApiCalls"
+						        [valueColor]="knobColor"
+						        [size]="160"
+						        [readonly]="true"></p-knob>
+						<div class="wi-100 flex-col center-child jus-center">
+							<span id="value" class="f4bold pb-s">{{(usedApiCalls * 100 / totalApiCalls).toFixed(0)}}%</span>
+							<span id="desc" class="f3reg">{{usedApiCalls}}/{{totalApiCalls}} Used</span>
+						</div>
+					</div>
+				</div>
+				<button class="p-button-outlined ml-m"
+				        label="Edit Profile"
+				        pButton
+				        pRipple
+				        type="button"
+				        [routerLink]="['dashboard','profile']"
+				        >
+					</button>
+			</div>
+			<span [class.show]="limited" id="dot"></span>
+		</div>
+		<button pTooltip="Logout" tooltipPosition="bottom" id="logout" (click)="logout()"><i class="pi pi-sign-out"></i></button>
+	</div>
+</header>
+
+<!--TODO: implement Search -->

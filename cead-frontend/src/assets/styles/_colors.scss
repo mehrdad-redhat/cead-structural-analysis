@@ -1,0 +1,40 @@
+:root {
+	--surface-a: #434B54!important;
+	--surface-b: #2F363E!important;
+	--surface-c: rgba(78, 86, 95, 0.7)!important;
+	--surface-d: #5B646D!important;
+	--surface-e: #676E77!important;
+	--surface-f: #4A515B!important;
+	--text-color: #E6E8EB!important;
+	--text-color-secondary: #D0D3D7!important;
+	--primary-color: #81C784!important;
+	--primary-color-text: #F8FAFC!important;
+	--primary-dark-color: #486E4A !important;
+}
+
+$primary: var(--primary-color);
+$primary-dark: var(--primary-dark-color);
+$secondary: #78909C;
+$surface-a: var(--surface-a);
+$surface-b: var(--surface-b);
+$surface-c: var(--surface-c);
+$surface-d: var(--surface-d);
+$surface-e: var(--surface-e);
+$surface-f: var(--surface-f);
+$surface-g: rgba(202, 207, 219, 0.2);
+$surface-main: linear-gradient(99deg, #394149 0%, #2F363E 100%);
+//$surface-main: #353d44;
+$text: var(--text-color);
+$text-secondary: var(--text-color-secondary);
+$text-on-primary: var(--primary-color-text);
+$text-on-colors: #121212;
+$white-input-placeholder-color: #7C7C7C;
+$success: #C5E1A5;
+$info: #81D4FA;
+$warning: #FFE082;
+$help: #CE93D8;
+$danger: #F48FB1;
+
+$cantilever: $info;
+$ttc: $warning;
+$portal: $help;

@@ -1,0 +1,8293 @@
+{
+	"1": {
+		"version": 6,
+		"name": "152x152 UC 23",
+		"area": 2920,
+		"Iz": 12500000,
+		"Iy": 4000000,
+		"material_id": 1,
+		"aux": {
+			"composite": false,
+			"Qz": 91145.07354891,
+			"Qy": 40091.01892164,
+			"centroid_point": [
+				76.1,
+				76.2
+			],
+			"centroid_length": [
+				76.10000000000062,
+				76.20000000000071
+			],
+			"depth": 152.4,
+			"width": 152.2,
+			"alpha": 0,
+			"Zy": 80200,
+			"Zz": 182000,
+			"beta_yp": -0.0007897365195067709,
+			"beta_zp": 0.000013856024559399325,
+			"polygons": [
+				{
+					"name": "152x152 UC 23",
+					"group_id": 0,
+					"points_calc": [
+						[
+							0,
+							0,
+							"regular"
+						],
+						[
+							152.2,
+							0,
+							"regular"
+						],
+						[
+							152.2,
+							6.8,
+							"regular"
+						],
+						[
+							86.6,
+							6.799999999999999,
+							"filletStartEnd"
+						],
+						[
+							83.6916059140253,
+							7.378515552914221,
+							"dontShow"
+						],
+						[
+							81.22598846298223,
+							9.025988462982237,
+							"dontShow"
+						],
+						[
+							79.57851555291421,
+							11.491605914025318,
+							"dontShow"
+						],
+						[
+							79,
+							14.4,
+							"filletStartEnd"
+						],
+						[
+							79,
+							138,
+							"filletStartEnd"
+						],
+						[
+							79.57851555291421,
+							140.9083940859747,
+							"dontShow"
+						],
+						[
+							81.22598846298223,
+							143.37401153701776,
+							"dontShow"
+						],
+						[
+							83.69160591402532,
+							145.02148444708578,
+							"dontShow"
+						],
+						[
+							86.6,
+							145.6,
+							"filletStartEnd"
+						],
+						[
+							152.2,
+							145.6,
+							"regular"
+						],
+						[
+							152.2,
+							152.4,
+							"regular"
+						],
+						[
+							0,
+							152.4,
+							"regular"
+						],
+						[
+							0,
+							145.6,
+							"regular"
+						],
+						[
+							65.6,
+							145.6,
+							"filletStartEnd"
+						],
+						[
+							68.50839408597467,
+							145.02148444708578,
+							"dontShow"
+						],
+						[
+							70.97401153701776,
+							143.37401153701776,
+							"dontShow"
+						],
+						[
+							72.62148444708578,
+							140.9083940859747,
+							"dontShow"
+						],
+						[
+							73.19999999999999,
+							138,
+							"filletStartEnd"
+						],
+						[
+							73.19999999999999,
+							14.400000000000013,
+							"filletStartEnd"
+						],
+						[
+							72.62148444708578,
+							11.49160591402533,
+							"dontShow"
+						],
+						[
+							70.97401153701776,
+							9.025988462982252,
+							"dontShow"
+						],
+						[
+							68.50839408597467,
+							7.378515552914234,
+							"dontShow"
+						],
+						[
+							65.6,
+							6.800000000000013,
+							"filletStartEnd"
+						],
+						[
+							0,
+							6.800000000000011,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "ibeam",
+					"dimensions_show": true,
+					"dimensions": {
+						"TFw": {
+							"value": 152.2,
+							"locat": [
+								[
+									0,
+									167.64000000000001
+								],
+								[
+									152.2,
+									167.64000000000001
+								],
+								{
+									"placeholder": "Top Width",
+									"dimension_id": "TFw",
+									"dimension": 152.2
+								}
+							]
+						},
+						"TFt": {
+							"value": 6.8,
+							"locat": [
+								[
+									-15.240000000000002,
+									152.4
+								],
+								[
+									-15.240000000000002,
+									145.6
+								],
+								{
+									"placeholder": "Top Thickness",
+									"dimension_id": "TFt",
+									"dimension": 6.8
+								}
+							]
+						},
+						"BFw": {
+							"value": 152.2,
+							"locat": [
+								[
+									0,
+									-30.480000000000004
+								],
+								[
+									152.2,
+									-30.480000000000004
+								],
+								{
+									"placeholder": "Bottom Width",
+									"dimension_id": "BFw",
+									"dimension": 152.2
+								}
+							]
+						},
+						"BFt": {
+							"value": 6.8,
+							"locat": [
+								[
+									-15.240000000000002,
+									6.800000000000011
+								],
+								[
+									-15.240000000000002,
+									0
+								],
+								{
+									"placeholder": "Bottom Thickness",
+									"dimension_id": "BFt",
+									"dimension": 6.8
+								}
+							]
+						},
+						"h": {
+							"value": 152.4,
+							"locat": [
+								[
+									167.44,
+									0
+								],
+								[
+									167.44,
+									152.4
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 152.4
+								}
+							]
+						},
+						"Wt": {
+							"value": 5.8,
+							"locat": [
+								[
+									73.19999999999999,
+									-15.239999999999991
+								],
+								[
+									79,
+									-15.240000000000002
+								],
+								{
+									"placeholder": "Web Thickness",
+									"dimension_id": "Wt",
+									"dimension": 5.8
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							0,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false,
+						"fillet_radius": 7.6
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "library",
+					"library_selections": [
+						"British",
+						"Steel",
+						"Universal columns",
+						"152x152 UC 23"
+					],
+					"results": {
+						"A": 2920,
+						"J": 46300,
+						"Iyp": 4000000,
+						"Izp": 12500000,
+						"Iy": 0,
+						"Iz": 0,
+						"Alpha": 0,
+						"Cy": 0,
+						"Cz": 0,
+						"ry": 0,
+						"rz": 0,
+						"ryp": 0,
+						"rzp": 0,
+						"Iw": 20999999488,
+						"Syp": 80200,
+						"Szp": 182000,
+						"basis": {
+							"shape": "ibeam",
+							"dimensions": {
+								"h": 152.4,
+								"TFw": 152.2,
+								"TFt": 6.8,
+								"BFw": 152.2,
+								"BFt": 6.8,
+								"Wt": 5.8,
+								"r": 7.6
+							},
+							"operations": {
+								"rotation": 0,
+								"mirror_z": false,
+								"mirror_y": false,
+								"translation": [
+									0,
+									0
+								]
+							}
+						}
+					},
+					"default_design_data": {
+						"designable": true,
+						"default_code": "BS 5950-1:2000",
+						"manufacture_process": "hot_rolled",
+						"shape": "I-Beam"
+					},
+					"database_properties": {
+						"A": "2920",
+						"J": "46300",
+						"Iyp": "4000000",
+						"Izp": "12500000",
+						"Alpha": "0",
+						"Cy": "0",
+						"Cz": "0",
+						"Iw": "20999999488",
+						"Syp": "80200",
+						"Szp": "182000"
+					},
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							-76.10000000000062,
+							-76.20000000000071,
+							"regular"
+						],
+						[
+							76.09999999999937,
+							-76.20000000000071,
+							"regular"
+						],
+						[
+							76.09999999999937,
+							-69.40000000000072,
+							"regular"
+						],
+						[
+							10.499999999999375,
+							-69.40000000000072,
+							"filletStartEnd"
+						],
+						[
+							2.8999999999993804,
+							-61.800000000000715,
+							"filletStartEnd"
+						],
+						[
+							2.8999999999993804,
+							61.79999999999929,
+							"filletStartEnd"
+						],
+						[
+							10.499999999999375,
+							69.39999999999928,
+							"filletStartEnd"
+						],
+						[
+							76.09999999999937,
+							69.39999999999928,
+							"regular"
+						],
+						[
+							76.09999999999937,
+							76.19999999999929,
+							"regular"
+						],
+						[
+							-76.10000000000062,
+							76.19999999999929,
+							"regular"
+						],
+						[
+							-76.10000000000062,
+							69.39999999999928,
+							"regular"
+						],
+						[
+							-10.500000000000625,
+							69.39999999999928,
+							"filletStartEnd"
+						],
+						[
+							-2.900000000000631,
+							61.79999999999929,
+							"filletStartEnd"
+						],
+						[
+							-2.900000000000631,
+							-61.8000000000007,
+							"filletStartEnd"
+						],
+						[
+							-10.500000000000625,
+							-69.4000000000007,
+							"filletStartEnd"
+						],
+						[
+							-76.10000000000062,
+							-69.4000000000007,
+							"regular"
+						]
+					]
+				}
+			],
+			"warping_constant": 20999999488,
+			"shear_area_z": 1818.0277808810933,
+			"shear_area_y": 806.5006401519845,
+			"torsion_radius": 10.6742,
+			"shear_center": [
+				-0.0000824366,
+				0.00000936972
+			],
+			"non_prismatic": null
+		},
+		"J": 46300
+	},
+	"2": {
+		"version": 6,
+		"name": "152x152 UC 30",
+		"area": 3830,
+		"Iz": 17480000,
+		"Iy": 5600000,
+		"material_id": 1,
+		"aux": {
+			"composite": false,
+			"Qz": 123986.67754891,
+			"Qy": 55808.92460857,
+			"centroid_point": [
+				76.45,
+				78.8
+			],
+			"centroid_length": [
+				76.44999999999933,
+				78.7999999999993
+			],
+			"depth": 157.6,
+			"width": 152.9,
+			"alpha": 0,
+			"Zy": 112000,
+			"Zz": 248000,
+			"beta_yp": 0.000023283772249815602,
+			"beta_zp": -0.00034282213802478415,
+			"polygons": [
+				{
+					"name": "152x152 UC 30",
+					"group_id": 0,
+					"points_calc": [
+						[
+							0,
+							0,
+							"regular"
+						],
+						[
+							152.9,
+							0,
+							"regular"
+						],
+						[
+							152.9,
+							9.4,
+							"regular"
+						],
+						[
+							87.3,
+							9.4,
+							"filletStartEnd"
+						],
+						[
+							84.3916059140253,
+							9.978515552914223,
+							"dontShow"
+						],
+						[
+							81.92598846298223,
+							11.625988462982239,
+							"dontShow"
+						],
+						[
+							80.27851555291421,
+							14.091605914025319,
+							"dontShow"
+						],
+						[
+							79.7,
+							17,
+							"filletStartEnd"
+						],
+						[
+							79.7,
+							140.6,
+							"filletStartEnd"
+						],
+						[
+							80.27851555291421,
+							143.5083940859747,
+							"dontShow"
+						],
+						[
+							81.92598846298223,
+							145.97401153701776,
+							"dontShow"
+						],
+						[
+							84.39160591402532,
+							147.62148444708578,
+							"dontShow"
+						],
+						[
+							87.3,
+							148.2,
+							"filletStartEnd"
+						],
+						[
+							152.9,
+							148.2,
+							"regular"
+						],
+						[
+							152.9,
+							157.6,
+							"regular"
+						],
+						[
+							0,
+							157.6,
+							"regular"
+						],
+						[
+							0,
+							148.2,
+							"regular"
+						],
+						[
+							65.60000000000001,
+							148.2,
+							"filletStartEnd"
+						],
+						[
+							68.50839408597469,
+							147.62148444708578,
+							"dontShow"
+						],
+						[
+							70.97401153701777,
+							145.97401153701776,
+							"dontShow"
+						],
+						[
+							72.62148444708579,
+							143.5083940859747,
+							"dontShow"
+						],
+						[
+							73.2,
+							140.6,
+							"filletStartEnd"
+						],
+						[
+							73.2,
+							17.000000000000007,
+							"filletStartEnd"
+						],
+						[
+							72.62148444708579,
+							14.091605914025324,
+							"dontShow"
+						],
+						[
+							70.97401153701777,
+							11.625988462982246,
+							"dontShow"
+						],
+						[
+							68.50839408597469,
+							9.978515552914228,
+							"dontShow"
+						],
+						[
+							65.60000000000001,
+							9.400000000000007,
+							"filletStartEnd"
+						],
+						[
+							0,
+							9.400000000000006,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "ibeam",
+					"dimensions_show": true,
+					"dimensions": {
+						"TFw": {
+							"value": 152.9,
+							"locat": [
+								[
+									0,
+									173.35999999999999
+								],
+								[
+									152.9,
+									173.35999999999999
+								],
+								{
+									"placeholder": "Top Width",
+									"dimension_id": "TFw",
+									"dimension": 152.9
+								}
+							]
+						},
+						"TFt": {
+							"value": 9.4,
+							"locat": [
+								[
+									-15.76,
+									157.6
+								],
+								[
+									-15.76,
+									148.2
+								],
+								{
+									"placeholder": "Top Thickness",
+									"dimension_id": "TFt",
+									"dimension": 9.4
+								}
+							]
+						},
+						"BFw": {
+							"value": 152.9,
+							"locat": [
+								[
+									0,
+									-31.52
+								],
+								[
+									152.9,
+									-31.52
+								],
+								{
+									"placeholder": "Bottom Width",
+									"dimension_id": "BFw",
+									"dimension": 152.9
+								}
+							]
+						},
+						"BFt": {
+							"value": 9.4,
+							"locat": [
+								[
+									-15.76,
+									9.400000000000006
+								],
+								[
+									-15.76,
+									0
+								],
+								{
+									"placeholder": "Bottom Thickness",
+									"dimension_id": "BFt",
+									"dimension": 9.4
+								}
+							]
+						},
+						"h": {
+							"value": 157.6,
+							"locat": [
+								[
+									168.66,
+									0
+								],
+								[
+									168.66,
+									157.6
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 157.6
+								}
+							]
+						},
+						"Wt": {
+							"value": 6.5,
+							"locat": [
+								[
+									73.2,
+									-15.759999999999994
+								],
+								[
+									79.7,
+									-15.76
+								],
+								{
+									"placeholder": "Web Thickness",
+									"dimension_id": "Wt",
+									"dimension": 6.5
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							0,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false,
+						"fillet_radius": 7.6
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "library",
+					"library_selections": [
+						"British",
+						"Steel",
+						"Universal columns",
+						"152x152 UC 30"
+					],
+					"results": {
+						"A": 3830,
+						"J": 105000,
+						"Iyp": 5600000,
+						"Izp": 17480000,
+						"Iy": 0,
+						"Iz": 0,
+						"Alpha": 0,
+						"Cy": 0,
+						"Cz": 0,
+						"ry": 0,
+						"rz": 0,
+						"ryp": 0,
+						"rzp": 0,
+						"Iw": 31000000512,
+						"Syp": 112000,
+						"Szp": 248000,
+						"basis": {
+							"shape": "ibeam",
+							"dimensions": {
+								"h": 157.6,
+								"TFw": 152.9,
+								"TFt": 9.4,
+								"BFw": 152.9,
+								"BFt": 9.4,
+								"Wt": 6.5,
+								"r": 7.6
+							},
+							"operations": {
+								"rotation": 0,
+								"mirror_z": false,
+								"mirror_y": false,
+								"translation": [
+									0,
+									0
+								]
+							}
+						}
+					},
+					"default_design_data": {
+						"designable": true,
+						"default_code": "BS 5950-1:2000",
+						"manufacture_process": "hot_rolled",
+						"shape": "I-Beam"
+					},
+					"database_properties": {
+						"A": "3830",
+						"J": "105000",
+						"Iyp": "5600000",
+						"Izp": "17480000",
+						"Alpha": "0",
+						"Cy": "0",
+						"Cz": "0",
+						"Iw": "31000000512",
+						"Syp": "112000",
+						"Szp": "248000"
+					},
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							-76.44999999999933,
+							-78.7999999999993,
+							"regular"
+						],
+						[
+							76.45000000000067,
+							-78.7999999999993,
+							"regular"
+						],
+						[
+							76.45000000000067,
+							-69.3999999999993,
+							"regular"
+						],
+						[
+							10.850000000000662,
+							-69.3999999999993,
+							"filletStartEnd"
+						],
+						[
+							3.250000000000668,
+							-61.7999999999993,
+							"filletStartEnd"
+						],
+						[
+							3.250000000000668,
+							61.80000000000069,
+							"filletStartEnd"
+						],
+						[
+							10.850000000000662,
+							69.40000000000069,
+							"filletStartEnd"
+						],
+						[
+							76.45000000000067,
+							69.40000000000069,
+							"regular"
+						],
+						[
+							76.45000000000067,
+							78.8000000000007,
+							"regular"
+						],
+						[
+							-76.44999999999933,
+							78.8000000000007,
+							"regular"
+						],
+						[
+							-76.44999999999933,
+							69.40000000000069,
+							"regular"
+						],
+						[
+							-10.849999999999326,
+							69.40000000000069,
+							"filletStartEnd"
+						],
+						[
+							-3.249999999999332,
+							61.80000000000069,
+							"filletStartEnd"
+						],
+						[
+							-3.249999999999332,
+							-61.799999999999294,
+							"filletStartEnd"
+						],
+						[
+							-10.849999999999326,
+							-69.3999999999993,
+							"filletStartEnd"
+						],
+						[
+							-76.44999999999933,
+							-69.3999999999993,
+							"regular"
+						]
+					]
+				}
+			],
+			"warping_constant": 31000000512,
+			"shear_area_z": 2500.6233722152233,
+			"shear_area_y": 944.2602666456332,
+			"torsion_radius": 13.7353,
+			"shear_center": [
+				-0.000024962,
+				-0.0000091348
+			],
+			"non_prismatic": null
+		},
+		"J": 105000
+	},
+	"3": {
+		"version": 6,
+		"name": "203x203 UC 46",
+		"area": 5870,
+		"Iz": 45680000,
+		"Iy": 15480000,
+		"material_id": 1,
+		"aux": {
+			"composite": false,
+			"Qz": 249081.64455776,
+			"Qy": 115462.90343677,
+			"centroid_point": [
+				101.8,
+				101.6
+			],
+			"centroid_length": [
+				101.80000000000027,
+				101.60000000000026
+			],
+			"depth": 203.2,
+			"width": 203.6,
+			"alpha": 0,
+			"Zy": 231000,
+			"Zz": 497000,
+			"beta_yp": 0.00016389870425655118,
+			"beta_zp": -0.0004566623633373342,
+			"polygons": [
+				{
+					"name": "203x203 UC 46",
+					"group_id": 0,
+					"points_calc": [
+						[
+							0,
+							0,
+							"regular"
+						],
+						[
+							203.6,
+							0,
+							"regular"
+						],
+						[
+							203.6,
+							11,
+							"regular"
+						],
+						[
+							115.6,
+							11,
+							"filletStartEnd"
+						],
+						[
+							111.69662898987607,
+							11.776428768384877,
+							"dontShow"
+						],
+						[
+							108.3875108318972,
+							13.987510831897215,
+							"dontShow"
+						],
+						[
+							106.17642876838487,
+							17.296628989876083,
+							"dontShow"
+						],
+						[
+							105.39999999999999,
+							21.2,
+							"filletStartEnd"
+						],
+						[
+							105.39999999999999,
+							182,
+							"filletStartEnd"
+						],
+						[
+							106.17642876838487,
+							185.90337101012392,
+							"dontShow"
+						],
+						[
+							108.38751083189722,
+							189.2124891681028,
+							"dontShow"
+						],
+						[
+							111.69662898987607,
+							191.4235712316151,
+							"dontShow"
+						],
+						[
+							115.6,
+							192.2,
+							"filletStartEnd"
+						],
+						[
+							203.6,
+							192.2,
+							"regular"
+						],
+						[
+							203.6,
+							203.2,
+							"regular"
+						],
+						[
+							0,
+							203.2,
+							"regular"
+						],
+						[
+							0,
+							192.2,
+							"regular"
+						],
+						[
+							88,
+							192.2,
+							"filletStartEnd"
+						],
+						[
+							91.90337101012392,
+							191.4235712316151,
+							"dontShow"
+						],
+						[
+							95.21248916810279,
+							189.2124891681028,
+							"dontShow"
+						],
+						[
+							97.42357123161513,
+							185.90337101012392,
+							"dontShow"
+						],
+						[
+							98.2,
+							182,
+							"filletStartEnd"
+						],
+						[
+							98.2,
+							21.200000000000003,
+							"filletStartEnd"
+						],
+						[
+							97.42357123161513,
+							17.296628989876087,
+							"dontShow"
+						],
+						[
+							95.21248916810279,
+							13.987510831897218,
+							"dontShow"
+						],
+						[
+							91.90337101012392,
+							11.776428768384879,
+							"dontShow"
+						],
+						[
+							88,
+							11.000000000000004,
+							"filletStartEnd"
+						],
+						[
+							0,
+							11,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "ibeam",
+					"dimensions_show": true,
+					"dimensions": {
+						"TFw": {
+							"value": 203.6,
+							"locat": [
+								[
+									0,
+									223.56
+								],
+								[
+									203.6,
+									223.56
+								],
+								{
+									"placeholder": "Top Width",
+									"dimension_id": "TFw",
+									"dimension": 203.6
+								}
+							]
+						},
+						"TFt": {
+							"value": 11,
+							"locat": [
+								[
+									-20.36,
+									203.2
+								],
+								[
+									-20.36,
+									192.2
+								],
+								{
+									"placeholder": "Top Thickness",
+									"dimension_id": "TFt",
+									"dimension": 11
+								}
+							]
+						},
+						"BFw": {
+							"value": 203.6,
+							"locat": [
+								[
+									0,
+									-40.72
+								],
+								[
+									203.6,
+									-40.72
+								],
+								{
+									"placeholder": "Bottom Width",
+									"dimension_id": "BFw",
+									"dimension": 203.6
+								}
+							]
+						},
+						"BFt": {
+							"value": 11,
+							"locat": [
+								[
+									-20.36,
+									11
+								],
+								[
+									-20.36,
+									0
+								],
+								{
+									"placeholder": "Bottom Thickness",
+									"dimension_id": "BFt",
+									"dimension": 11
+								}
+							]
+						},
+						"h": {
+							"value": 203.2,
+							"locat": [
+								[
+									223.95999999999998,
+									0
+								],
+								[
+									223.95999999999998,
+									203.2
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 203.2
+								}
+							]
+						},
+						"Wt": {
+							"value": 7.2,
+							"locat": [
+								[
+									98.2,
+									-20.36
+								],
+								[
+									105.39999999999999,
+									-20.36
+								],
+								{
+									"placeholder": "Web Thickness",
+									"dimension_id": "Wt",
+									"dimension": 7.2
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							0,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false,
+						"fillet_radius": 10.2
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "library",
+					"library_selections": [
+						"British",
+						"Steel",
+						"Universal columns",
+						"203x203 UC 46"
+					],
+					"results": {
+						"A": 5870,
+						"J": 222000,
+						"Iyp": 15480000,
+						"Izp": 45680000,
+						"Iy": 0,
+						"Iz": 0,
+						"Alpha": 0,
+						"Cy": 0,
+						"Cz": 0,
+						"ry": 0,
+						"rz": 0,
+						"ryp": 0,
+						"rzp": 0,
+						"Iw": 142999994368,
+						"Syp": 231000,
+						"Szp": 497000,
+						"basis": {
+							"shape": "ibeam",
+							"dimensions": {
+								"h": 203.2,
+								"TFw": 203.6,
+								"TFt": 11,
+								"BFw": 203.6,
+								"BFt": 11,
+								"Wt": 7.2,
+								"r": 10.2
+							},
+							"operations": {
+								"rotation": 0,
+								"mirror_z": false,
+								"mirror_y": false,
+								"translation": [
+									0,
+									0
+								]
+							}
+						}
+					},
+					"default_design_data": {
+						"designable": true,
+						"default_code": "BS 5950-1:2000",
+						"manufacture_process": "hot_rolled",
+						"shape": "I-Beam"
+					},
+					"database_properties": {
+						"A": "5870",
+						"J": "222000",
+						"Iyp": "15480000",
+						"Izp": "45680000",
+						"Alpha": "0",
+						"Cy": "0",
+						"Cz": "0",
+						"Iw": "142999994368",
+						"Syp": "231000",
+						"Szp": "497000"
+					},
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							-101.80000000000027,
+							-101.60000000000026,
+							"regular"
+						],
+						[
+							101.79999999999973,
+							-101.60000000000026,
+							"regular"
+						],
+						[
+							101.79999999999973,
+							-90.60000000000026,
+							"regular"
+						],
+						[
+							13.799999999999727,
+							-90.60000000000026,
+							"filletStartEnd"
+						],
+						[
+							3.5999999999997243,
+							-80.40000000000026,
+							"filletStartEnd"
+						],
+						[
+							3.5999999999997243,
+							80.39999999999974,
+							"filletStartEnd"
+						],
+						[
+							13.799999999999727,
+							90.59999999999972,
+							"filletStartEnd"
+						],
+						[
+							101.79999999999973,
+							90.59999999999972,
+							"regular"
+						],
+						[
+							101.79999999999973,
+							101.59999999999972,
+							"regular"
+						],
+						[
+							-101.80000000000027,
+							101.59999999999972,
+							"regular"
+						],
+						[
+							-101.80000000000027,
+							90.59999999999972,
+							"regular"
+						],
+						[
+							-13.800000000000267,
+							90.59999999999972,
+							"filletStartEnd"
+						],
+						[
+							-3.6000000000002643,
+							80.39999999999974,
+							"filletStartEnd"
+						],
+						[
+							-3.6000000000002643,
+							-80.40000000000026,
+							"filletStartEnd"
+						],
+						[
+							-13.800000000000267,
+							-90.60000000000026,
+							"filletStartEnd"
+						],
+						[
+							-101.80000000000027,
+							-90.60000000000026,
+							"regular"
+						]
+					]
+				}
+			],
+			"warping_constant": 142999994368,
+			"shear_area_z": 3895.200439755485,
+			"shear_area_y": 1359.5214209433814,
+			"torsion_radius": 15.8228,
+			"shear_center": [
+				-0.0000353328,
+				0.0000590858
+			],
+			"non_prismatic": null
+		},
+		"J": 222000
+	},
+	"4": {
+		"version": 6,
+		"name": "254x254 UC 73",
+		"area": 9310,
+		"Iz": 114100000,
+		"Iy": 39080000,
+		"material_id": 1,
+		"aux": {
+			"composite": false,
+			"Qz": 496733.57857823,
+			"Qy": 232753.640808,
+			"centroid_point": [
+				127.3,
+				127.05
+			],
+			"centroid_length": [
+				127.30000000000001,
+				127.05000000000005
+			],
+			"depth": 254.1,
+			"width": 254.6,
+			"alpha": 0,
+			"Zy": 465000,
+			"Zz": 992000,
+			"beta_yp": -0.003607932756846338,
+			"beta_zp": 0.0007560070667334216,
+			"polygons": [
+				{
+					"name": "254x254 UC 73",
+					"group_id": 0,
+					"points_calc": [
+						[
+							0,
+							0,
+							"regular"
+						],
+						[
+							254.6,
+							0,
+							"regular"
+						],
+						[
+							254.6,
+							14.2,
+							"regular"
+						],
+						[
+							144.29999999999998,
+							14.2,
+							"filletStartEnd"
+						],
+						[
+							139.43992040896333,
+							15.16672993710666,
+							"dontShow"
+						],
+						[
+							135.31974387893084,
+							17.919743878930845,
+							"dontShow"
+						],
+						[
+							132.56672993710663,
+							22.03992040896336,
+							"dontShow"
+						],
+						[
+							131.6,
+							26.9,
+							"filletStartEnd"
+						],
+						[
+							131.6,
+							227.20000000000002,
+							"filletStartEnd"
+						],
+						[
+							132.56672993710663,
+							232.06007959103667,
+							"dontShow"
+						],
+						[
+							135.31974387893084,
+							236.18025612106916,
+							"dontShow"
+						],
+						[
+							139.43992040896333,
+							238.93327006289337,
+							"dontShow"
+						],
+						[
+							144.29999999999998,
+							239.9,
+							"filletStartEnd"
+						],
+						[
+							254.6,
+							239.9,
+							"regular"
+						],
+						[
+							254.6,
+							254.1,
+							"regular"
+						],
+						[
+							0,
+							254.1,
+							"regular"
+						],
+						[
+							0,
+							239.9,
+							"regular"
+						],
+						[
+							110.3,
+							239.9,
+							"filletStartEnd"
+						],
+						[
+							115.16007959103663,
+							238.93327006289337,
+							"dontShow"
+						],
+						[
+							119.28025612106916,
+							236.18025612106916,
+							"dontShow"
+						],
+						[
+							122.03327006289334,
+							232.06007959103667,
+							"dontShow"
+						],
+						[
+							123,
+							227.20000000000002,
+							"filletStartEnd"
+						],
+						[
+							123,
+							26.89999999999999,
+							"filletStartEnd"
+						],
+						[
+							122.03327006289334,
+							22.03992040896335,
+							"dontShow"
+						],
+						[
+							119.28025612106916,
+							17.919743878930838,
+							"dontShow"
+						],
+						[
+							115.16007959103663,
+							15.16672993710665,
+							"dontShow"
+						],
+						[
+							110.3,
+							14.199999999999992,
+							"filletStartEnd"
+						],
+						[
+							0,
+							14.199999999999989,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "ibeam",
+					"dimensions_show": true,
+					"dimensions": {
+						"TFw": {
+							"value": 254.6,
+							"locat": [
+								[
+									0,
+									279.56
+								],
+								[
+									254.6,
+									279.56
+								],
+								{
+									"placeholder": "Top Width",
+									"dimension_id": "TFw",
+									"dimension": 254.6
+								}
+							]
+						},
+						"TFt": {
+							"value": 14.2,
+							"locat": [
+								[
+									-25.46,
+									254.1
+								],
+								[
+									-25.46,
+									239.9
+								],
+								{
+									"placeholder": "Top Thickness",
+									"dimension_id": "TFt",
+									"dimension": 14.2
+								}
+							]
+						},
+						"BFw": {
+							"value": 254.6,
+							"locat": [
+								[
+									0,
+									-50.92
+								],
+								[
+									254.6,
+									-50.92
+								],
+								{
+									"placeholder": "Bottom Width",
+									"dimension_id": "BFw",
+									"dimension": 254.6
+								}
+							]
+						},
+						"BFt": {
+							"value": 14.2,
+							"locat": [
+								[
+									-25.46,
+									14.199999999999989
+								],
+								[
+									-25.46,
+									0
+								],
+								{
+									"placeholder": "Bottom Thickness",
+									"dimension_id": "BFt",
+									"dimension": 14.2
+								}
+							]
+						},
+						"h": {
+							"value": 254.1,
+							"locat": [
+								[
+									280.06,
+									0
+								],
+								[
+									280.06,
+									254.1
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 254.1
+								}
+							]
+						},
+						"Wt": {
+							"value": 8.6,
+							"locat": [
+								[
+									123,
+									-25.46000000000001
+								],
+								[
+									131.6,
+									-25.46
+								],
+								{
+									"placeholder": "Web Thickness",
+									"dimension_id": "Wt",
+									"dimension": 8.6
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							0,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false,
+						"fillet_radius": 12.7
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "library",
+					"library_selections": [
+						"British",
+						"Steel",
+						"Universal columns",
+						"254x254 UC 73"
+					],
+					"results": {
+						"A": 9310,
+						"J": 576000,
+						"Iyp": 39080000,
+						"Izp": 114100000,
+						"Iy": 0,
+						"Iz": 0,
+						"Alpha": 0,
+						"Cy": 0,
+						"Cz": 0,
+						"ry": 0,
+						"rz": 0,
+						"ryp": 0,
+						"rzp": 0,
+						"Iw": 561999970304,
+						"Syp": 465000,
+						"Szp": 992000,
+						"basis": {
+							"shape": "ibeam",
+							"dimensions": {
+								"h": 254.1,
+								"TFw": 254.6,
+								"TFt": 14.2,
+								"BFw": 254.6,
+								"BFt": 14.2,
+								"Wt": 8.6,
+								"r": 12.7
+							},
+							"operations": {
+								"rotation": 0,
+								"mirror_z": false,
+								"mirror_y": false,
+								"translation": [
+									0,
+									0
+								]
+							}
+						}
+					},
+					"default_design_data": {
+						"designable": true,
+						"default_code": "BS 5950-1:2000",
+						"manufacture_process": "hot_rolled",
+						"shape": "I-Beam"
+					},
+					"database_properties": {
+						"A": "9310",
+						"J": "576000",
+						"Iyp": "39080000",
+						"Izp": "114100000",
+						"Alpha": "0",
+						"Cy": "0",
+						"Cz": "0",
+						"Iw": "561999970304",
+						"Syp": "465000",
+						"Szp": "992000"
+					},
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							-127.30000000000001,
+							-127.05000000000005,
+							"regular"
+						],
+						[
+							127.29999999999998,
+							-127.05000000000005,
+							"regular"
+						],
+						[
+							127.29999999999998,
+							-112.85000000000005,
+							"regular"
+						],
+						[
+							16.99999999999997,
+							-112.85000000000005,
+							"filletStartEnd"
+						],
+						[
+							4.299999999999983,
+							-100.15000000000006,
+							"filletStartEnd"
+						],
+						[
+							4.299999999999983,
+							100.14999999999996,
+							"filletStartEnd"
+						],
+						[
+							16.99999999999997,
+							112.84999999999995,
+							"filletStartEnd"
+						],
+						[
+							127.29999999999998,
+							112.84999999999995,
+							"regular"
+						],
+						[
+							127.29999999999998,
+							127.04999999999994,
+							"regular"
+						],
+						[
+							-127.30000000000001,
+							127.04999999999994,
+							"regular"
+						],
+						[
+							-127.30000000000001,
+							112.84999999999995,
+							"regular"
+						],
+						[
+							-17.000000000000014,
+							112.84999999999995,
+							"filletStartEnd"
+						],
+						[
+							-4.300000000000011,
+							100.14999999999996,
+							"filletStartEnd"
+						],
+						[
+							-4.300000000000011,
+							-100.15000000000006,
+							"filletStartEnd"
+						],
+						[
+							-17.000000000000014,
+							-112.85000000000007,
+							"filletStartEnd"
+						],
+						[
+							-127.30000000000001,
+							-112.85000000000007,
+							"regular"
+						]
+					]
+				}
+			],
+			"warping_constant": 561999970304,
+			"shear_area_z": 6271.426553387282,
+			"shear_area_y": 2042.5330543658056,
+			"torsion_radius": 20.7523,
+			"shear_center": [
+				-0.0000684858,
+				0.0000519453
+			],
+			"non_prismatic": null
+		},
+		"J": 576000
+	},
+	"5": {
+		"version": 6,
+		"name": "305x305 UC 97",
+		"area": 12300,
+		"Iz": 222500000,
+		"Iy": 73080000,
+		"material_id": 1,
+		"aux": {
+			"composite": false,
+			"Qz": 797265.85994649,
+			"Qy": 363170.90686089,
+			"centroid_point": [
+				152.65,
+				153.95
+			],
+			"centroid_length": [
+				152.64999999999932,
+				153.9499999999994
+			],
+			"depth": 307.9,
+			"width": 305.3,
+			"alpha": 0,
+			"Zy": 726000,
+			"Zz": 1592000,
+			"beta_yp": 0.0016781662889126863,
+			"beta_zp": 0.0002990787283468614,
+			"polygons": [
+				{
+					"name": "305x305 UC 97",
+					"group_id": 0,
+					"points_calc": [
+						[
+							0,
+							0,
+							"regular"
+						],
+						[
+							305.3,
+							0,
+							"regular"
+						],
+						[
+							305.3,
+							15.4,
+							"regular"
+						],
+						[
+							172.79999999999998,
+							15.400000000000002,
+							"filletStartEnd"
+						],
+						[
+							166.9832118280506,
+							16.557031105828447,
+							"dontShow"
+						],
+						[
+							162.05197692596445,
+							19.85197692596448,
+							"dontShow"
+						],
+						[
+							158.75703110582842,
+							24.78321182805064,
+							"dontShow"
+						],
+						[
+							157.6,
+							30.600000000000005,
+							"filletStartEnd"
+						],
+						[
+							157.6,
+							277.3,
+							"filletStartEnd"
+						],
+						[
+							158.75703110582842,
+							283.1167881719494,
+							"dontShow"
+						],
+						[
+							162.05197692596445,
+							288.04802307403554,
+							"dontShow"
+						],
+						[
+							166.98321182805063,
+							291.3429688941716,
+							"dontShow"
+						],
+						[
+							172.79999999999998,
+							292.5,
+							"filletStartEnd"
+						],
+						[
+							305.3,
+							292.5,
+							"regular"
+						],
+						[
+							305.3,
+							307.9,
+							"regular"
+						],
+						[
+							0,
+							307.9,
+							"regular"
+						],
+						[
+							0,
+							292.5,
+							"regular"
+						],
+						[
+							132.50000000000003,
+							292.5,
+							"filletStartEnd"
+						],
+						[
+							138.31678817194938,
+							291.3429688941716,
+							"dontShow"
+						],
+						[
+							143.24802307403556,
+							288.04802307403554,
+							"dontShow"
+						],
+						[
+							146.5429688941716,
+							283.1167881719494,
+							"dontShow"
+						],
+						[
+							147.70000000000002,
+							277.3,
+							"filletStartEnd"
+						],
+						[
+							147.70000000000002,
+							30.59999999999998,
+							"filletStartEnd"
+						],
+						[
+							146.5429688941716,
+							24.783211828050614,
+							"dontShow"
+						],
+						[
+							143.24802307403556,
+							19.851976925964458,
+							"dontShow"
+						],
+						[
+							138.31678817194938,
+							16.557031105828422,
+							"dontShow"
+						],
+						[
+							132.50000000000003,
+							15.39999999999998,
+							"filletStartEnd"
+						],
+						[
+							0,
+							15.399999999999977,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "ibeam",
+					"dimensions_show": true,
+					"dimensions": {
+						"TFw": {
+							"value": 305.3,
+							"locat": [
+								[
+									0,
+									338.69
+								],
+								[
+									305.3,
+									338.69
+								],
+								{
+									"placeholder": "Top Width",
+									"dimension_id": "TFw",
+									"dimension": 305.3
+								}
+							]
+						},
+						"TFt": {
+							"value": 15.4,
+							"locat": [
+								[
+									-30.79,
+									307.9
+								],
+								[
+									-30.79,
+									292.5
+								],
+								{
+									"placeholder": "Top Thickness",
+									"dimension_id": "TFt",
+									"dimension": 15.4
+								}
+							]
+						},
+						"BFw": {
+							"value": 305.3,
+							"locat": [
+								[
+									0,
+									-61.58
+								],
+								[
+									305.3,
+									-61.58
+								],
+								{
+									"placeholder": "Bottom Width",
+									"dimension_id": "BFw",
+									"dimension": 305.3
+								}
+							]
+						},
+						"BFt": {
+							"value": 15.4,
+							"locat": [
+								[
+									-30.79,
+									15.399999999999977
+								],
+								[
+									-30.79,
+									0
+								],
+								{
+									"placeholder": "Bottom Thickness",
+									"dimension_id": "BFt",
+									"dimension": 15.4
+								}
+							]
+						},
+						"h": {
+							"value": 307.9,
+							"locat": [
+								[
+									336.09000000000003,
+									0
+								],
+								[
+									336.09000000000003,
+									307.9
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 307.9
+								}
+							]
+						},
+						"Wt": {
+							"value": 9.9,
+							"locat": [
+								[
+									147.70000000000002,
+									-30.79000000000002
+								],
+								[
+									157.6,
+									-30.79
+								],
+								{
+									"placeholder": "Web Thickness",
+									"dimension_id": "Wt",
+									"dimension": 9.9
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							0,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false,
+						"fillet_radius": 15.2
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "library",
+					"library_selections": [
+						"British",
+						"Steel",
+						"Universal columns",
+						"305x305 UC 97"
+					],
+					"results": {
+						"A": 12300,
+						"J": 912000,
+						"Iyp": 73080000,
+						"Izp": 222500000,
+						"Iy": 0,
+						"Iz": 0,
+						"Alpha": 0,
+						"Cy": 0,
+						"Cz": 0,
+						"ry": 0,
+						"rz": 0,
+						"ryp": 0,
+						"rzp": 0,
+						"Iw": 1559999938560,
+						"Syp": 726000,
+						"Szp": 1592000,
+						"basis": {
+							"shape": "ibeam",
+							"dimensions": {
+								"h": 307.9,
+								"TFw": 305.3,
+								"TFt": 15.4,
+								"BFw": 305.3,
+								"BFt": 15.4,
+								"Wt": 9.9,
+								"r": 15.2
+							},
+							"operations": {
+								"rotation": 0,
+								"mirror_z": false,
+								"mirror_y": false,
+								"translation": [
+									0,
+									0
+								]
+							}
+						}
+					},
+					"default_design_data": {
+						"designable": true,
+						"default_code": "BS 5950-1:2000",
+						"manufacture_process": "hot_rolled",
+						"shape": "I-Beam"
+					},
+					"database_properties": {
+						"A": "12300",
+						"J": "912000",
+						"Iyp": "73080000",
+						"Izp": "222500000",
+						"Alpha": "0",
+						"Cy": "0",
+						"Cz": "0",
+						"Iw": "1559999938560",
+						"Syp": "726000",
+						"Szp": "1592000"
+					},
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							-152.64999999999932,
+							-153.9499999999994,
+							"regular"
+						],
+						[
+							152.6500000000007,
+							-153.9499999999994,
+							"regular"
+						],
+						[
+							152.6500000000007,
+							-138.5499999999994,
+							"regular"
+						],
+						[
+							20.15000000000066,
+							-138.5499999999994,
+							"filletStartEnd"
+						],
+						[
+							4.950000000000671,
+							-123.34999999999938,
+							"filletStartEnd"
+						],
+						[
+							4.950000000000671,
+							123.35000000000062,
+							"filletStartEnd"
+						],
+						[
+							20.15000000000066,
+							138.5500000000006,
+							"filletStartEnd"
+						],
+						[
+							152.6500000000007,
+							138.5500000000006,
+							"regular"
+						],
+						[
+							152.6500000000007,
+							153.95000000000059,
+							"regular"
+						],
+						[
+							-152.64999999999932,
+							153.95000000000059,
+							"regular"
+						],
+						[
+							-152.64999999999932,
+							138.5500000000006,
+							"regular"
+						],
+						[
+							-20.149999999999295,
+							138.5500000000006,
+							"filletStartEnd"
+						],
+						[
+							-4.9499999999993065,
+							123.35000000000062,
+							"filletStartEnd"
+						],
+						[
+							-4.9499999999993065,
+							-123.34999999999941,
+							"filletStartEnd"
+						],
+						[
+							-20.149999999999295,
+							-138.54999999999941,
+							"filletStartEnd"
+						],
+						[
+							-152.64999999999932,
+							-138.54999999999941,
+							"regular"
+						]
+					]
+				}
+			],
+			"warping_constant": 1559999938560,
+			"shear_area_z": 8176.31109053634,
+			"shear_area_y": 2845.529765124227,
+			"torsion_radius": 22.2237,
+			"shear_center": [
+				-0.00014785,
+				0.0000562244
+			],
+			"non_prismatic": null
+		},
+		"J": 912000
+	},
+	"6": {
+		"version": 6,
+		"name": "356x368 UC 129",
+		"area": 16400,
+		"Iz": 402500000,
+		"Iy": 146100000,
+		"material_id": 1,
+		"aux": {
+			"composite": false,
+			"Qz": 1241068.03989291,
+			"Qy": 599700.13080568,
+			"centroid_point": [
+				184.3,
+				177.8
+			],
+			"centroid_length": [
+				184.29999999999893,
+				177.799999999999
+			],
+			"depth": 355.6,
+			"width": 368.6,
+			"alpha": 0,
+			"Zy": 1199000,
+			"Zz": 2479000,
+			"beta_yp": 0.000905611367377019,
+			"beta_zp": 0.0007904568875336368,
+			"polygons": [
+				{
+					"name": "356x368 UC 129",
+					"group_id": 0,
+					"points_calc": [
+						[
+							0,
+							0,
+							"regular"
+						],
+						[
+							368.6,
+							0,
+							"regular"
+						],
+						[
+							368.6,
+							17.5,
+							"regular"
+						],
+						[
+							204.7,
+							17.500000000000004,
+							"filletStartEnd"
+						],
+						[
+							198.8832118280506,
+							18.657031105828448,
+							"dontShow"
+						],
+						[
+							193.95197692596446,
+							21.95197692596448,
+							"dontShow"
+						],
+						[
+							190.65703110582842,
+							26.88321182805064,
+							"dontShow"
+						],
+						[
+							189.5,
+							32.7,
+							"filletStartEnd"
+						],
+						[
+							189.5,
+							322.90000000000003,
+							"filletStartEnd"
+						],
+						[
+							190.65703110582842,
+							328.7167881719494,
+							"dontShow"
+						],
+						[
+							193.95197692596446,
+							333.64802307403556,
+							"dontShow"
+						],
+						[
+							198.88321182805063,
+							336.9429688941716,
+							"dontShow"
+						],
+						[
+							204.7,
+							338.1,
+							"filletStartEnd"
+						],
+						[
+							368.6,
+							338.1,
+							"regular"
+						],
+						[
+							368.6,
+							355.6,
+							"regular"
+						],
+						[
+							0,
+							355.6,
+							"regular"
+						],
+						[
+							0,
+							338.1,
+							"regular"
+						],
+						[
+							163.90000000000003,
+							338.1,
+							"filletStartEnd"
+						],
+						[
+							169.7167881719494,
+							336.9429688941716,
+							"dontShow"
+						],
+						[
+							174.64802307403556,
+							333.64802307403556,
+							"dontShow"
+						],
+						[
+							177.9429688941716,
+							328.7167881719494,
+							"dontShow"
+						],
+						[
+							179.10000000000002,
+							322.90000000000003,
+							"filletStartEnd"
+						],
+						[
+							179.10000000000002,
+							32.7,
+							"filletStartEnd"
+						],
+						[
+							177.9429688941716,
+							26.883211828050637,
+							"dontShow"
+						],
+						[
+							174.64802307403556,
+							21.95197692596448,
+							"dontShow"
+						],
+						[
+							169.7167881719494,
+							18.657031105828445,
+							"dontShow"
+						],
+						[
+							163.90000000000003,
+							17.500000000000004,
+							"filletStartEnd"
+						],
+						[
+							0,
+							17.5,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "ibeam",
+					"dimensions_show": true,
+					"dimensions": {
+						"TFw": {
+							"value": 368.6,
+							"locat": [
+								[
+									0,
+									392.46000000000004
+								],
+								[
+									368.6,
+									392.46000000000004
+								],
+								{
+									"placeholder": "Top Width",
+									"dimension_id": "TFw",
+									"dimension": 368.6
+								}
+							]
+						},
+						"TFt": {
+							"value": 17.5,
+							"locat": [
+								[
+									-36.86000000000001,
+									355.6
+								],
+								[
+									-36.86000000000001,
+									338.1
+								],
+								{
+									"placeholder": "Top Thickness",
+									"dimension_id": "TFt",
+									"dimension": 17.5
+								}
+							]
+						},
+						"BFw": {
+							"value": 368.6,
+							"locat": [
+								[
+									0,
+									-73.72000000000001
+								],
+								[
+									368.6,
+									-73.72000000000001
+								],
+								{
+									"placeholder": "Bottom Width",
+									"dimension_id": "BFw",
+									"dimension": 368.6
+								}
+							]
+						},
+						"BFt": {
+							"value": 17.5,
+							"locat": [
+								[
+									-36.86000000000001,
+									17.5
+								],
+								[
+									-36.86000000000001,
+									0
+								],
+								{
+									"placeholder": "Bottom Thickness",
+									"dimension_id": "BFt",
+									"dimension": 17.5
+								}
+							]
+						},
+						"h": {
+							"value": 355.6,
+							"locat": [
+								[
+									405.46000000000004,
+									0
+								],
+								[
+									405.46000000000004,
+									355.6
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 355.6
+								}
+							]
+						},
+						"Wt": {
+							"value": 10.4,
+							"locat": [
+								[
+									179.10000000000002,
+									-36.86000000000001
+								],
+								[
+									189.5,
+									-36.86000000000001
+								],
+								{
+									"placeholder": "Web Thickness",
+									"dimension_id": "Wt",
+									"dimension": 10.4
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							0,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false,
+						"fillet_radius": 15.2
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "library",
+					"library_selections": [
+						"British",
+						"Steel",
+						"Universal columns",
+						"356x368 UC 129"
+					],
+					"results": {
+						"A": 16400,
+						"J": 1530000,
+						"Iyp": 146100000,
+						"Izp": 402500000,
+						"Iy": 0,
+						"Iz": 0,
+						"Alpha": 0,
+						"Cy": 0,
+						"Cz": 0,
+						"ry": 0,
+						"rz": 0,
+						"ryp": 0,
+						"rzp": 0,
+						"Iw": 4180000112640,
+						"Syp": 1199000,
+						"Szp": 2479000,
+						"basis": {
+							"shape": "ibeam",
+							"dimensions": {
+								"h": 355.6,
+								"TFw": 368.6,
+								"TFt": 17.5,
+								"BFw": 368.6,
+								"BFt": 17.5,
+								"Wt": 10.4,
+								"r": 15.2
+							},
+							"operations": {
+								"rotation": 0,
+								"mirror_z": false,
+								"mirror_y": false,
+								"translation": [
+									0,
+									0
+								]
+							}
+						}
+					},
+					"default_design_data": {
+						"designable": true,
+						"default_code": "BS 5950-1:2000",
+						"manufacture_process": "hot_rolled",
+						"shape": "I-Beam"
+					},
+					"database_properties": {
+						"A": "16400",
+						"J": "1530000",
+						"Iyp": "146100000",
+						"Izp": "402500000",
+						"Alpha": "0",
+						"Cy": "0",
+						"Cz": "0",
+						"Iw": "4180000112640",
+						"Syp": "1199000",
+						"Szp": "2479000"
+					},
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							-184.29999999999893,
+							-177.799999999999,
+							"regular"
+						],
+						[
+							184.3000000000011,
+							-177.799999999999,
+							"regular"
+						],
+						[
+							184.3000000000011,
+							-160.299999999999,
+							"regular"
+						],
+						[
+							20.400000000001057,
+							-160.299999999999,
+							"filletStartEnd"
+						],
+						[
+							5.200000000001069,
+							-145.099999999999,
+							"filletStartEnd"
+						],
+						[
+							5.200000000001069,
+							145.10000000000105,
+							"filletStartEnd"
+						],
+						[
+							20.400000000001057,
+							160.30000000000103,
+							"filletStartEnd"
+						],
+						[
+							184.3000000000011,
+							160.30000000000103,
+							"regular"
+						],
+						[
+							184.3000000000011,
+							177.80000000000103,
+							"regular"
+						],
+						[
+							-184.29999999999893,
+							177.80000000000103,
+							"regular"
+						],
+						[
+							-184.29999999999893,
+							160.30000000000103,
+							"regular"
+						],
+						[
+							-20.399999999998897,
+							160.30000000000103,
+							"filletStartEnd"
+						],
+						[
+							-5.199999999998909,
+							145.10000000000105,
+							"filletStartEnd"
+						],
+						[
+							-5.199999999998909,
+							-145.099999999999,
+							"filletStartEnd"
+						],
+						[
+							-20.399999999998897,
+							-160.299999999999,
+							"filletStartEnd"
+						],
+						[
+							-184.29999999999893,
+							-160.299999999999,
+							"regular"
+						]
+					]
+				}
+			],
+			"warping_constant": 4180000112640,
+			"shear_area_z": 11105.178605178606,
+			"shear_area_y": 3438.9841137123744,
+			"torsion_radius": 24.0842,
+			"shear_center": [
+				-0.0000845192,
+				0.000203628
+			],
+			"non_prismatic": null
+		},
+		"J": 1530000
+	},
+	"7": {
+		"version": 6,
+		"name": "356x368 UC 177",
+		"area": 22600,
+		"Iz": 571200000,
+		"Iy": 205300000,
+		"material_id": 1,
+		"aux": {
+			"composite": false,
+			"Qz": 1729052.13089291,
+			"Qy": 835521.85636397,
+			"centroid_point": [
+				186.3,
+				184.1
+			],
+			"centroid_length": [
+				186.29999999999967,
+				184.09999999999962
+			],
+			"depth": 368.2,
+			"width": 372.6,
+			"alpha": 0,
+			"Zy": 1671000,
+			"Zz": 3455000,
+			"beta_yp": -0.0025057915413225257,
+			"beta_zp": 0.0015018011170766187,
+			"polygons": [
+				{
+					"name": "356x368 UC 177",
+					"group_id": 0,
+					"points_calc": [
+						[
+							0,
+							0,
+							"regular"
+						],
+						[
+							372.6,
+							0,
+							"regular"
+						],
+						[
+							372.6,
+							23.8,
+							"regular"
+						],
+						[
+							208.7,
+							23.8,
+							"filletStartEnd"
+						],
+						[
+							202.8832118280506,
+							24.957031105828445,
+							"dontShow"
+						],
+						[
+							197.95197692596446,
+							28.251976925964478,
+							"dontShow"
+						],
+						[
+							194.65703110582842,
+							33.18321182805064,
+							"dontShow"
+						],
+						[
+							193.5,
+							39,
+							"filletStartEnd"
+						],
+						[
+							193.5,
+							329.2,
+							"filletStartEnd"
+						],
+						[
+							194.65703110582842,
+							335.0167881719494,
+							"dontShow"
+						],
+						[
+							197.95197692596446,
+							339.9480230740355,
+							"dontShow"
+						],
+						[
+							202.88321182805063,
+							343.24296889417155,
+							"dontShow"
+						],
+						[
+							208.7,
+							344.4,
+							"filletStartEnd"
+						],
+						[
+							372.6,
+							344.4,
+							"regular"
+						],
+						[
+							372.6,
+							368.2,
+							"regular"
+						],
+						[
+							0,
+							368.2,
+							"regular"
+						],
+						[
+							0,
+							344.4,
+							"regular"
+						],
+						[
+							163.90000000000003,
+							344.4,
+							"filletStartEnd"
+						],
+						[
+							169.7167881719494,
+							343.24296889417155,
+							"dontShow"
+						],
+						[
+							174.64802307403556,
+							339.9480230740355,
+							"dontShow"
+						],
+						[
+							177.9429688941716,
+							335.0167881719494,
+							"dontShow"
+						],
+						[
+							179.10000000000002,
+							329.2,
+							"filletStartEnd"
+						],
+						[
+							179.10000000000002,
+							39.000000000000014,
+							"filletStartEnd"
+						],
+						[
+							177.9429688941716,
+							33.18321182805065,
+							"dontShow"
+						],
+						[
+							174.64802307403556,
+							28.25197692596449,
+							"dontShow"
+						],
+						[
+							169.7167881719494,
+							24.957031105828456,
+							"dontShow"
+						],
+						[
+							163.90000000000003,
+							23.800000000000015,
+							"filletStartEnd"
+						],
+						[
+							0,
+							23.80000000000001,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "ibeam",
+					"dimensions_show": true,
+					"dimensions": {
+						"TFw": {
+							"value": 372.6,
+							"locat": [
+								[
+									0,
+									405.46
+								],
+								[
+									372.6,
+									405.46
+								],
+								{
+									"placeholder": "Top Width",
+									"dimension_id": "TFw",
+									"dimension": 372.6
+								}
+							]
+						},
+						"TFt": {
+							"value": 23.8,
+							"locat": [
+								[
+									-37.260000000000005,
+									368.2
+								],
+								[
+									-37.260000000000005,
+									344.4
+								],
+								{
+									"placeholder": "Top Thickness",
+									"dimension_id": "TFt",
+									"dimension": 23.8
+								}
+							]
+						},
+						"BFw": {
+							"value": 372.6,
+							"locat": [
+								[
+									0,
+									-74.52000000000001
+								],
+								[
+									372.6,
+									-74.52000000000001
+								],
+								{
+									"placeholder": "Bottom Width",
+									"dimension_id": "BFw",
+									"dimension": 372.6
+								}
+							]
+						},
+						"BFt": {
+							"value": 23.8,
+							"locat": [
+								[
+									-37.260000000000005,
+									23.80000000000001
+								],
+								[
+									-37.260000000000005,
+									0
+								],
+								{
+									"placeholder": "Bottom Thickness",
+									"dimension_id": "BFt",
+									"dimension": 23.8
+								}
+							]
+						},
+						"h": {
+							"value": 368.2,
+							"locat": [
+								[
+									409.86,
+									0
+								],
+								[
+									409.86,
+									368.2
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 368.2
+								}
+							]
+						},
+						"Wt": {
+							"value": 14.4,
+							"locat": [
+								[
+									179.10000000000002,
+									-37.25999999999999
+								],
+								[
+									193.5,
+									-37.260000000000005
+								],
+								{
+									"placeholder": "Web Thickness",
+									"dimension_id": "Wt",
+									"dimension": 14.4
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							0,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false,
+						"fillet_radius": 15.2
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "library",
+					"library_selections": [
+						"British",
+						"Steel",
+						"Universal columns",
+						"356x368 UC 177"
+					],
+					"results": {
+						"A": 22600,
+						"J": 3810000,
+						"Iyp": 205300000,
+						"Izp": 571200000,
+						"Iy": 0,
+						"Iz": 0,
+						"Alpha": 0,
+						"Cy": 0,
+						"Cz": 0,
+						"ry": 0,
+						"rz": 0,
+						"ryp": 0,
+						"rzp": 0,
+						"Iw": 6089999908864,
+						"Syp": 1671000,
+						"Szp": 3455000,
+						"basis": {
+							"shape": "ibeam",
+							"dimensions": {
+								"h": 368.2,
+								"TFw": 372.6,
+								"TFt": 23.8,
+								"BFw": 372.6,
+								"BFt": 23.8,
+								"Wt": 14.4,
+								"r": 15.2
+							},
+							"operations": {
+								"rotation": 0,
+								"mirror_z": false,
+								"mirror_y": false,
+								"translation": [
+									0,
+									0
+								]
+							}
+						}
+					},
+					"default_design_data": {
+						"designable": true,
+						"default_code": "BS 5950-1:2000",
+						"manufacture_process": "hot_rolled",
+						"shape": "I-Beam"
+					},
+					"database_properties": {
+						"A": "22600",
+						"J": "3810000",
+						"Iyp": "205300000",
+						"Izp": "571200000",
+						"Alpha": "0",
+						"Cy": "0",
+						"Cz": "0",
+						"Iw": "6089999908864",
+						"Syp": "1671000",
+						"Szp": "3455000"
+					},
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							-186.29999999999967,
+							-184.09999999999962,
+							"regular"
+						],
+						[
+							186.30000000000035,
+							-184.09999999999962,
+							"regular"
+						],
+						[
+							186.30000000000035,
+							-160.2999999999996,
+							"regular"
+						],
+						[
+							22.40000000000032,
+							-160.2999999999996,
+							"filletStartEnd"
+						],
+						[
+							7.20000000000033,
+							-145.09999999999962,
+							"filletStartEnd"
+						],
+						[
+							7.20000000000033,
+							145.10000000000036,
+							"filletStartEnd"
+						],
+						[
+							22.40000000000032,
+							160.30000000000035,
+							"filletStartEnd"
+						],
+						[
+							186.30000000000035,
+							160.30000000000035,
+							"regular"
+						],
+						[
+							186.30000000000035,
+							184.10000000000036,
+							"regular"
+						],
+						[
+							-186.29999999999967,
+							184.10000000000036,
+							"regular"
+						],
+						[
+							-186.29999999999967,
+							160.30000000000035,
+							"regular"
+						],
+						[
+							-22.399999999999636,
+							160.30000000000035,
+							"filletStartEnd"
+						],
+						[
+							-7.199999999999648,
+							145.10000000000036,
+							"filletStartEnd"
+						],
+						[
+							-7.199999999999648,
+							-145.09999999999962,
+							"filletStartEnd"
+						],
+						[
+							-22.399999999999636,
+							-160.2999999999996,
+							"filletStartEnd"
+						],
+						[
+							-186.29999999999967,
+							-160.2999999999996,
+							"regular"
+						]
+					]
+				}
+			],
+			"warping_constant": 6089999908864,
+			"shear_area_z": 15241.118036750158,
+			"shear_area_y": 4878.1078236210815,
+			"torsion_radius": 33.5361,
+			"shear_center": [
+				0.0000780937,
+				0.000486751
+			],
+			"non_prismatic": null
+		},
+		"J": 3810000
+	},
+	"8": {
+		"version": 6,
+		"name": "356x368 UC 202",
+		"area": 25700,
+		"Iz": 662600000,
+		"Iy": 236900000,
+		"material_id": 1,
+		"aux": {
+			"composite": false,
+			"Qz": 1987301.30939291,
+			"Qy": 959893.74885707,
+			"centroid_point": [
+				187.35,
+				187.3
+			],
+			"centroid_length": [
+				187.34999999999934,
+				187.29999999999936
+			],
+			"depth": 374.6,
+			"width": 374.7,
+			"alpha": 0,
+			"Zy": 1920000,
+			"Zz": 3972000,
+			"beta_yp": -0.013194419257987982,
+			"beta_zp": 0.0019994676502966898,
+			"polygons": [
+				{
+					"name": "356x368 UC 202",
+					"group_id": 0,
+					"points_calc": [
+						[
+							0,
+							0,
+							"regular"
+						],
+						[
+							374.7,
+							0,
+							"regular"
+						],
+						[
+							374.7,
+							27,
+							"regular"
+						],
+						[
+							210.79999999999998,
+							27.000000000000004,
+							"filletStartEnd"
+						],
+						[
+							204.9832118280506,
+							28.157031105828448,
+							"dontShow"
+						],
+						[
+							200.05197692596445,
+							31.45197692596448,
+							"dontShow"
+						],
+						[
+							196.75703110582842,
+							36.38321182805064,
+							"dontShow"
+						],
+						[
+							195.6,
+							42.2,
+							"filletStartEnd"
+						],
+						[
+							195.6,
+							332.40000000000003,
+							"filletStartEnd"
+						],
+						[
+							196.75703110582842,
+							338.2167881719494,
+							"dontShow"
+						],
+						[
+							200.05197692596445,
+							343.14802307403556,
+							"dontShow"
+						],
+						[
+							204.98321182805063,
+							346.4429688941716,
+							"dontShow"
+						],
+						[
+							210.79999999999998,
+							347.6,
+							"filletStartEnd"
+						],
+						[
+							374.7,
+							347.6,
+							"regular"
+						],
+						[
+							374.7,
+							374.6,
+							"regular"
+						],
+						[
+							0,
+							374.6,
+							"regular"
+						],
+						[
+							0,
+							347.6,
+							"regular"
+						],
+						[
+							163.9,
+							347.6,
+							"filletStartEnd"
+						],
+						[
+							169.71678817194936,
+							346.4429688941716,
+							"dontShow"
+						],
+						[
+							174.64802307403554,
+							343.14802307403556,
+							"dontShow"
+						],
+						[
+							177.94296889417157,
+							338.2167881719494,
+							"dontShow"
+						],
+						[
+							179.1,
+							332.40000000000003,
+							"filletStartEnd"
+						],
+						[
+							179.1,
+							42.2,
+							"filletStartEnd"
+						],
+						[
+							177.94296889417157,
+							36.38321182805064,
+							"dontShow"
+						],
+						[
+							174.64802307403554,
+							31.45197692596448,
+							"dontShow"
+						],
+						[
+							169.71678817194936,
+							28.157031105828445,
+							"dontShow"
+						],
+						[
+							163.9,
+							27.000000000000004,
+							"filletStartEnd"
+						],
+						[
+							0,
+							27,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "ibeam",
+					"dimensions_show": true,
+					"dimensions": {
+						"TFw": {
+							"value": 374.7,
+							"locat": [
+								[
+									0,
+									412.07000000000005
+								],
+								[
+									374.7,
+									412.07000000000005
+								],
+								{
+									"placeholder": "Top Width",
+									"dimension_id": "TFw",
+									"dimension": 374.7
+								}
+							]
+						},
+						"TFt": {
+							"value": 27,
+							"locat": [
+								[
+									-37.47,
+									374.6
+								],
+								[
+									-37.47,
+									347.6
+								],
+								{
+									"placeholder": "Top Thickness",
+									"dimension_id": "TFt",
+									"dimension": 27
+								}
+							]
+						},
+						"BFw": {
+							"value": 374.7,
+							"locat": [
+								[
+									0,
+									-74.94
+								],
+								[
+									374.7,
+									-74.94
+								],
+								{
+									"placeholder": "Bottom Width",
+									"dimension_id": "BFw",
+									"dimension": 374.7
+								}
+							]
+						},
+						"BFt": {
+							"value": 27,
+							"locat": [
+								[
+									-37.47,
+									27
+								],
+								[
+									-37.47,
+									0
+								],
+								{
+									"placeholder": "Bottom Thickness",
+									"dimension_id": "BFt",
+									"dimension": 27
+								}
+							]
+						},
+						"h": {
+							"value": 374.6,
+							"locat": [
+								[
+									412.16999999999996,
+									0
+								],
+								[
+									412.16999999999996,
+									374.6
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 374.6
+								}
+							]
+						},
+						"Wt": {
+							"value": 16.5,
+							"locat": [
+								[
+									179.1,
+									-37.47
+								],
+								[
+									195.6,
+									-37.47
+								],
+								{
+									"placeholder": "Web Thickness",
+									"dimension_id": "Wt",
+									"dimension": 16.5
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							0,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false,
+						"fillet_radius": 15.2
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "library",
+					"library_selections": [
+						"British",
+						"Steel",
+						"Universal columns",
+						"356x368 UC 202"
+					],
+					"results": {
+						"A": 25700,
+						"J": 5580000,
+						"Iyp": 236900000,
+						"Izp": 662600000,
+						"Iy": 0,
+						"Iz": 0,
+						"Alpha": 0,
+						"Cy": 0,
+						"Cz": 0,
+						"ry": 0,
+						"rz": 0,
+						"ryp": 0,
+						"rzp": 0,
+						"Iw": 7159999889408,
+						"Syp": 1920000,
+						"Szp": 3972000,
+						"basis": {
+							"shape": "ibeam",
+							"dimensions": {
+								"h": 374.6,
+								"TFw": 374.7,
+								"TFt": 27,
+								"BFw": 374.7,
+								"BFt": 27,
+								"Wt": 16.5,
+								"r": 15.2
+							},
+							"operations": {
+								"rotation": 0,
+								"mirror_z": false,
+								"mirror_y": false,
+								"translation": [
+									0,
+									0
+								]
+							}
+						}
+					},
+					"default_design_data": {
+						"designable": true,
+						"default_code": "BS 5950-1:2000",
+						"manufacture_process": "hot_rolled",
+						"shape": "I-Beam"
+					},
+					"database_properties": {
+						"A": "25700",
+						"J": "5580000",
+						"Iyp": "236900000",
+						"Izp": "662600000",
+						"Alpha": "0",
+						"Cy": "0",
+						"Cz": "0",
+						"Iw": "7159999889408",
+						"Syp": "1920000",
+						"Szp": "3972000"
+					},
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							-187.34999999999934,
+							-187.29999999999936,
+							"regular"
+						],
+						[
+							187.35000000000065,
+							-187.29999999999936,
+							"regular"
+						],
+						[
+							187.35000000000065,
+							-160.29999999999936,
+							"regular"
+						],
+						[
+							23.450000000000642,
+							-160.29999999999936,
+							"filletStartEnd"
+						],
+						[
+							8.250000000000654,
+							-145.09999999999934,
+							"filletStartEnd"
+						],
+						[
+							8.250000000000654,
+							145.10000000000068,
+							"filletStartEnd"
+						],
+						[
+							23.450000000000642,
+							160.30000000000067,
+							"filletStartEnd"
+						],
+						[
+							187.35000000000065,
+							160.30000000000067,
+							"regular"
+						],
+						[
+							187.35000000000065,
+							187.30000000000067,
+							"regular"
+						],
+						[
+							-187.34999999999934,
+							187.30000000000067,
+							"regular"
+						],
+						[
+							-187.34999999999934,
+							160.30000000000067,
+							"regular"
+						],
+						[
+							-23.449999999999335,
+							160.30000000000067,
+							"filletStartEnd"
+						],
+						[
+							-8.249999999999346,
+							145.10000000000068,
+							"filletStartEnd"
+						],
+						[
+							-8.249999999999346,
+							-145.09999999999934,
+							"filletStartEnd"
+						],
+						[
+							-23.449999999999335,
+							-160.29999999999936,
+							"filletStartEnd"
+						],
+						[
+							-187.34999999999934,
+							-160.29999999999936,
+							"regular"
+						]
+					]
+				}
+			],
+			"warping_constant": 7159999889408,
+			"shear_area_z": 17386.238525913366,
+			"shear_area_y": 5660.362836723474,
+			"torsion_radius": 38.561,
+			"shear_center": [
+				-0.000223504,
+				-0.000537897
+			],
+			"non_prismatic": null
+		},
+		"J": 5580000
+	},
+	"9": {
+		"version": 6,
+		"name": "300x90x41 CH",
+		"area": 5270,
+		"Iz": 72180000,
+		"Iy": 4040000,
+		"material_id": 1,
+		"aux": {
+			"composite": false,
+			"Qz": 279844.875,
+			"Qy": 63123.59177092,
+			"centroid_point": [
+				26,
+				150
+			],
+			"centroid_length": [
+				26,
+				150
+			],
+			"depth": 300,
+			"width": 90,
+			"alpha": 0,
+			"Zy": 114000,
+			"Zz": 568000,
+			"beta_yp": -317.3776759889106,
+			"beta_zp": 7.475698450653085e-7,
+			"polygons": [
+				{
+					"name": "300x90x41 CH",
+					"group_id": 0,
+					"points_calc": [
+						[
+							0,
+							0,
+							"regular"
+						],
+						[
+							90,
+							0,
+							"regular"
+						],
+						[
+							90,
+							15.5,
+							"regular"
+						],
+						[
+							9,
+							15.5,
+							"regular"
+						],
+						[
+							9,
+							284.5,
+							"regular"
+						],
+						[
+							90,
+							284.5,
+							"regular"
+						],
+						[
+							90,
+							300,
+							"regular"
+						],
+						[
+							0,
+							300,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "channel",
+					"dimensions_show": true,
+					"dimensions": {
+						"h": {
+							"value": 300,
+							"locat": [
+								[
+									-30,
+									300
+								],
+								[
+									-30,
+									0
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 300
+								}
+							]
+						},
+						"TFw": {
+							"value": 90,
+							"locat": [
+								[
+									0,
+									330
+								],
+								[
+									90,
+									330
+								],
+								{
+									"placeholder": "Top Width",
+									"dimension_id": "TFw",
+									"dimension": 90
+								}
+							]
+						},
+						"TFt": {
+							"value": 15.5,
+							"locat": [
+								[
+									120,
+									300
+								],
+								[
+									120,
+									284.5
+								],
+								{
+									"placeholder": "Top Thickness",
+									"dimension_id": "TFt",
+									"dimension": 15.5
+								}
+							]
+						},
+						"BFw": {
+							"value": 90,
+							"locat": [
+								[
+									0,
+									-60
+								],
+								[
+									90,
+									-60
+								],
+								{
+									"placeholder": "Bottom Width",
+									"dimension_id": "BFw",
+									"dimension": 90
+								}
+							]
+						},
+						"BFt": {
+							"value": 15.5,
+							"locat": [
+								[
+									120,
+									0
+								],
+								[
+									120,
+									15.5
+								],
+								{
+									"placeholder": "Bottom Thickness",
+									"dimension_id": "BFt",
+									"dimension": 15.5
+								}
+							]
+						},
+						"Wt": {
+							"value": 9,
+							"locat": [
+								[
+									0,
+									-30
+								],
+								[
+									9,
+									-30
+								],
+								{
+									"placeholder": "Web Thickness",
+									"dimension_id": "Wt",
+									"dimension": 9
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							0,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false,
+						"fillet_radius": 0
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "library",
+					"library_selections": [
+						"British",
+						"Steel",
+						"Channels",
+						"300x90x41 CH"
+					],
+					"results": {
+						"A": 5270,
+						"J": 288000,
+						"Iyp": 4040000,
+						"Izp": 72180000,
+						"Iy": 0,
+						"Iz": 0,
+						"Alpha": 0,
+						"Cy": 0,
+						"Cz": 26,
+						"ry": 0,
+						"rz": 0,
+						"ryp": 0,
+						"rzp": 0,
+						"Iw": 57999998976,
+						"Syp": 114000,
+						"Szp": 568000,
+						"basis": {
+							"shape": "channel",
+							"dimensions": {
+								"h": 300,
+								"TFw": 90,
+								"TFt": 15.5,
+								"BFw": 90,
+								"BFt": 15.5,
+								"Wt": 9,
+								"r": 0
+							},
+							"operations": {
+								"rotation": 0,
+								"mirror_z": false,
+								"mirror_y": false,
+								"translation": [
+									0,
+									0
+								]
+							}
+						}
+					},
+					"default_design_data": {
+						"designable": true,
+						"default_code": "BS 5950-1:2000",
+						"manufacture_process": "hot_rolled",
+						"shape": "Channel"
+					},
+					"database_properties": {
+						"A": "5270",
+						"J": "288000",
+						"Iyp": "4040000",
+						"Izp": "72180000",
+						"Alpha": "0",
+						"Cy": "0",
+						"Cz": "26",
+						"Iw": "57999998976",
+						"Syp": "114000",
+						"Szp": "568000"
+					},
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							-26,
+							-150,
+							"regular"
+						],
+						[
+							64,
+							-150,
+							"regular"
+						],
+						[
+							64,
+							-134.5,
+							"regular"
+						],
+						[
+							-17,
+							-134.5,
+							"regular"
+						],
+						[
+							-17,
+							134.5,
+							"regular"
+						],
+						[
+							64,
+							134.5,
+							"regular"
+						],
+						[
+							64,
+							150,
+							"regular"
+						],
+						[
+							-26,
+							150,
+							"regular"
+						]
+					]
+				}
+			],
+			"warping_constant": 57999998976,
+			"shear_area_z": 1142.1169601409729,
+			"shear_area_y": 2430.583088067241,
+			"torsion_radius": 15.4977,
+			"shear_center": [
+				53.57,
+				-2.07966e-9
+			],
+			"non_prismatic": null
+		},
+		"J": 288000
+	},
+	"10": {
+		"version": 6,
+		"name": "380x100x54 CH",
+		"area": 6870,
+		"Iz": 150300000,
+		"Iy": 6430000,
+		"material_id": 1,
+		"aux": {
+			"composite": false,
+			"Qz": 458529.6875,
+			"Qy": 90423.48502982,
+			"centroid_point": [
+				27.89999962,
+				190
+			],
+			"centroid_length": [
+				27.899999618530273,
+				190
+			],
+			"depth": 380,
+			"width": 100,
+			"alpha": 0,
+			"Zy": 161000,
+			"Zz": 933000,
+			"beta_yp": -420.0216668491522,
+			"beta_zp": 0.000003696434775618133,
+			"polygons": [
+				{
+					"name": "380x100x54 CH",
+					"group_id": 0,
+					"points_calc": [
+						[
+							0,
+							0,
+							"regular"
+						],
+						[
+							100,
+							0,
+							"regular"
+						],
+						[
+							100,
+							17.5,
+							"regular"
+						],
+						[
+							9.5,
+							17.5,
+							"regular"
+						],
+						[
+							9.5,
+							362.5,
+							"regular"
+						],
+						[
+							100,
+							362.5,
+							"regular"
+						],
+						[
+							100,
+							380,
+							"regular"
+						],
+						[
+							0,
+							380,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "channel",
+					"dimensions_show": true,
+					"dimensions": {
+						"h": {
+							"value": 380,
+							"locat": [
+								[
+									-38,
+									380
+								],
+								[
+									-38,
+									0
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 380
+								}
+							]
+						},
+						"TFw": {
+							"value": 100,
+							"locat": [
+								[
+									0,
+									418
+								],
+								[
+									100,
+									418
+								],
+								{
+									"placeholder": "Top Width",
+									"dimension_id": "TFw",
+									"dimension": 100
+								}
+							]
+						},
+						"TFt": {
+							"value": 17.5,
+							"locat": [
+								[
+									138,
+									380
+								],
+								[
+									138,
+									362.5
+								],
+								{
+									"placeholder": "Top Thickness",
+									"dimension_id": "TFt",
+									"dimension": 17.5
+								}
+							]
+						},
+						"BFw": {
+							"value": 100,
+							"locat": [
+								[
+									0,
+									-76
+								],
+								[
+									100,
+									-76
+								],
+								{
+									"placeholder": "Bottom Width",
+									"dimension_id": "BFw",
+									"dimension": 100
+								}
+							]
+						},
+						"BFt": {
+							"value": 17.5,
+							"locat": [
+								[
+									138,
+									0
+								],
+								[
+									138,
+									17.5
+								],
+								{
+									"placeholder": "Bottom Thickness",
+									"dimension_id": "BFt",
+									"dimension": 17.5
+								}
+							]
+						},
+						"Wt": {
+							"value": 9.5,
+							"locat": [
+								[
+									0,
+									-38
+								],
+								[
+									9.5,
+									-38
+								],
+								{
+									"placeholder": "Web Thickness",
+									"dimension_id": "Wt",
+									"dimension": 9.5
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							0,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false,
+						"fillet_radius": 0
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "library",
+					"library_selections": [
+						"British",
+						"Steel",
+						"Channels",
+						"380x100x54 CH"
+					],
+					"results": {
+						"A": 6870,
+						"J": 457000,
+						"Iyp": 6430000,
+						"Izp": 150300000,
+						"Iy": 0,
+						"Iz": 0,
+						"Alpha": 0,
+						"Cy": 0,
+						"Cz": 27.899999618530273,
+						"ry": 0,
+						"rz": 0,
+						"ryp": 0,
+						"rzp": 0,
+						"Iw": 149999992832,
+						"Syp": 161000,
+						"Szp": 933000,
+						"basis": {
+							"shape": "channel",
+							"dimensions": {
+								"h": 380,
+								"TFw": 100,
+								"TFt": 17.5,
+								"BFw": 100,
+								"BFt": 17.5,
+								"Wt": 9.5,
+								"r": 0
+							},
+							"operations": {
+								"rotation": 0,
+								"mirror_z": false,
+								"mirror_y": false,
+								"translation": [
+									0,
+									0
+								]
+							}
+						}
+					},
+					"default_design_data": {
+						"designable": true,
+						"default_code": "BS 5950-1:2000",
+						"manufacture_process": "hot_rolled",
+						"shape": "Channel"
+					},
+					"database_properties": {
+						"A": "6870",
+						"J": "457000",
+						"Iyp": "6430000",
+						"Izp": "150300000",
+						"Alpha": "0",
+						"Cy": "0",
+						"Cz": "27.899999618530273",
+						"Iw": "149999992832",
+						"Syp": "161000",
+						"Szp": "933000"
+					},
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							-27.899999618530273,
+							-190,
+							"regular"
+						],
+						[
+							72.10000038146973,
+							-190,
+							"regular"
+						],
+						[
+							72.10000038146973,
+							-172.5,
+							"regular"
+						],
+						[
+							-18.399999618530273,
+							-172.5,
+							"regular"
+						],
+						[
+							-18.399999618530273,
+							172.5,
+							"regular"
+						],
+						[
+							72.10000038146973,
+							172.5,
+							"regular"
+						],
+						[
+							72.10000038146973,
+							190,
+							"regular"
+						],
+						[
+							-27.899999618530273,
+							190,
+							"regular"
+						]
+					]
+				}
+			],
+			"warping_constant": 149999992832,
+			"shear_area_z": 1256.5445996855624,
+			"shear_area_y": 3296.1929032760095,
+			"torsion_radius": 17.4957,
+			"shear_center": [
+				58.3623,
+				2.03766e-8
+			],
+			"non_prismatic": null
+		},
+		"J": 457000
+	},
+	"11": {
+		"version": 6,
+		"name": "Wiring_Section",
+		"area": 10000,
+		"Iz": 236900000,
+		"Iy": 236900000,
+		"material_id": 2,
+		"aux": {
+			"composite": false,
+			"Qz": 125000,
+			"Qy": 125000,
+			"centroid_point": [
+				50,
+				50
+			],
+			"centroid_length": [
+				50,
+				50
+			],
+			"depth": 100,
+			"width": 100,
+			"alpha": 0,
+			"Zy": 250000,
+			"Zz": 250000,
+			"beta_yp": -0.00183595179582006,
+			"beta_zp": -0.0016076664122765458,
+			"polygons": [
+				{
+					"name": "Rectangular",
+					"group_id": 0,
+					"points_calc": [
+						[
+							0,
+							0,
+							"regular"
+						],
+						[
+							100,
+							0,
+							"regular"
+						],
+						[
+							100,
+							100,
+							"regular"
+						],
+						[
+							0,
+							100,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "rectangle",
+					"dimensions_show": true,
+					"dimensions": {
+						"h": {
+							"value": 100,
+							"locat": [
+								[
+									110,
+									0
+								],
+								[
+									110,
+									100
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 100
+								}
+							]
+						},
+						"b": {
+							"value": 100,
+							"locat": [
+								[
+									0,
+									-10
+								],
+								[
+									100,
+									-10
+								],
+								{
+									"placeholder": "Width",
+									"dimension_id": "b",
+									"dimension": 100
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							0,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false
+					},
+					"cutout": false,
+					"material": {
+						"name": "Light Steel",
+						"density": 1,
+						"elasticity_modulus": 200000000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275000,
+						"ultimate_strength": 410000,
+						"class": "steel",
+						"id": 2
+					},
+					"type": "standard",
+					"manufacture_process": "hot_rolled",
+					"saved_name": "Wiring_Section",
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							-50,
+							-50,
+							"regular"
+						],
+						[
+							50,
+							-50,
+							"regular"
+						],
+						[
+							50,
+							50,
+							"regular"
+						],
+						[
+							-50,
+							50,
+							"regular"
+						]
+					]
+				}
+			],
+			"warping_constant": 134422000,
+			"shear_area_z": 8333.333333333334,
+			"shear_area_y": 8333.333333333334,
+			"torsion_radius": 67.5739,
+			"shear_center": [
+				2.89695e-7,
+				1.03391e-7
+			],
+			"non_prismatic": null
+		},
+		"J": 14057700
+	},
+	"12": {
+		"version": 6,
+		"name": "25mm_Tie",
+		"area": 490.87385212,
+		"Iz": 19174.75984857,
+		"Iy": 19174.75984857,
+		"material_id": 1,
+		"aux": {
+			"composite": false,
+			"Qz": 1288.76499716,
+			"Qy": 1288.766071,
+			"centroid_point": [
+				12.5,
+				12.5
+			],
+			"centroid_length": [
+				12.435866542398651,
+				12.483956339638127
+			],
+			"depth": 24.967912679276324,
+			"width": 24.935866542398692,
+			"alpha": 0,
+			"Zy": 2604.1666666666665,
+			"Zz": 2604.1666666666665,
+			"beta_yp": null,
+			"beta_zp": null,
+			"polygons": [
+				{
+					"name": "Circular",
+					"group_id": 0,
+					"points_calc": [
+						[
+							25,
+							12.5,
+							"dontShow"
+						],
+						[
+							24.744124265656183,
+							15.016231501108251,
+							"dontShow"
+						],
+						[
+							23.986972645252884,
+							17.42944818891648,
+							"dontShow"
+						],
+						[
+							22.759543015090955,
+							19.6408526886849,
+							"dontShow"
+						],
+						[
+							21.11208648844608,
+							21.559909840364,
+							"dontShow"
+						],
+						[
+							19.11205012908703,
+							23.108053218684386,
+							"dontShow"
+						],
+						[
+							16.841315660560255,
+							24.221901651838508,
+							"dontShow"
+						],
+						[
+							14.392847218807209,
+							24.855854054101393,
+							"dontShow"
+						],
+						[
+							11.866885389516092,
+							24.983956339638162,
+							"dontShow"
+						],
+						[
+							9.366843346765995,
+							24.600963985827555,
+							"dontShow"
+						],
+						[
+							6.9950731055295705,
+							23.722556744634268,
+							"dontShow"
+						],
+						[
+							4.848675218154214,
+							22.384696711721233,
+							"dontShow"
+						],
+						[
+							3.015523466340115,
+							20.642156034027778,
+							"dontShow"
+						],
+						[
+							1.570667298192724,
+							18.566274531638513,
+							"dontShow"
+						],
+						[
+							0.5732592949993904,
+							16.242039037166975,
+							"dontShow"
+						],
+						[
+							0.06413345760130973,
+							13.764604024842903,
+							"dontShow"
+						],
+						[
+							0.06413345760130973,
+							11.2353959751571,
+							"dontShow"
+						],
+						[
+							0.5732592949993887,
+							8.757960962833028,
+							"dontShow"
+						],
+						[
+							1.5706672981927223,
+							6.43372546836149,
+							"dontShow"
+						],
+						[
+							3.0155234663401114,
+							4.357843965972224,
+							"dontShow"
+						],
+						[
+							4.8486752181542165,
+							2.615303288278767,
+							"dontShow"
+						],
+						[
+							6.995073105529572,
+							1.2774432553657284,
+							"dontShow"
+						],
+						[
+							9.366843346765993,
+							0.39903601417244694,
+							"dontShow"
+						],
+						[
+							11.866885389516092,
+							0.016043660361839684,
+							"dontShow"
+						],
+						[
+							14.392847218807209,
+							0.1441459458986074,
+							"dontShow"
+						],
+						[
+							16.841315660560255,
+							0.7780983481614943,
+							"dontShow"
+						],
+						[
+							19.11205012908703,
+							1.8919467813156121,
+							"dontShow"
+						],
+						[
+							21.11208648844608,
+							3.440090159636,
+							"dontShow"
+						],
+						[
+							22.759543015090955,
+							5.359147311315095,
+							"dontShow"
+						],
+						[
+							23.986972645252884,
+							7.570551811083516,
+							"dontShow"
+						],
+						[
+							24.744124265656183,
+							9.983768498891747,
+							"dontShow"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "circle",
+					"dimensions_show": true,
+					"dimensions": {
+						"D": {
+							"value": 25,
+							"locat": [
+								[
+									25,
+									27.5
+								],
+								[
+									0,
+									27.5
+								],
+								{
+									"placeholder": "Diameter",
+									"dimension_id": "D",
+									"dimension": 25
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							0,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false,
+						"fillet_radius": 0
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "standard",
+					"saved_name": "25mm_Tie",
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							12.500000000000039,
+							3.375077994860476e-14,
+							"dontShow"
+						],
+						[
+							12.244124265656222,
+							2.516231501108285,
+							"dontShow"
+						],
+						[
+							11.486972645252923,
+							4.929448188916515,
+							"dontShow"
+						],
+						[
+							10.259543015090994,
+							7.1408526886849355,
+							"dontShow"
+						],
+						[
+							8.61208648844612,
+							9.059909840364034,
+							"dontShow"
+						],
+						[
+							6.61205012908707,
+							10.60805321868442,
+							"dontShow"
+						],
+						[
+							4.341315660560294,
+							11.721901651838541,
+							"dontShow"
+						],
+						[
+							1.8928472188072476,
+							12.355854054101426,
+							"dontShow"
+						],
+						[
+							-0.6331146104838687,
+							12.483956339638196,
+							"dontShow"
+						],
+						[
+							-3.133156653233966,
+							12.100963985827589,
+							"dontShow"
+						],
+						[
+							-5.50492689447039,
+							11.222556744634302,
+							"dontShow"
+						],
+						[
+							-7.651324781845747,
+							9.884696711721267,
+							"dontShow"
+						],
+						[
+							-9.484476533659846,
+							8.142156034027812,
+							"dontShow"
+						],
+						[
+							-10.929332701807237,
+							6.0662745316385465,
+							"dontShow"
+						],
+						[
+							-11.92674070500057,
+							3.742039037167009,
+							"dontShow"
+						],
+						[
+							-12.435866542398651,
+							1.2646040248429369,
+							"dontShow"
+						],
+						[
+							-12.435866542398651,
+							-1.2646040248428658,
+							"dontShow"
+						],
+						[
+							-11.926740705000572,
+							-3.742039037166938,
+							"dontShow"
+						],
+						[
+							-10.929332701807239,
+							-6.066274531638476,
+							"dontShow"
+						],
+						[
+							-9.48447653365985,
+							-8.142156034027742,
+							"dontShow"
+						],
+						[
+							-7.651324781845744,
+							-9.8846967117212,
+							"dontShow"
+						],
+						[
+							-5.504926894470389,
+							-11.222556744634238,
+							"dontShow"
+						],
+						[
+							-3.133156653233968,
+							-12.10096398582752,
+							"dontShow"
+						],
+						[
+							-0.6331146104838687,
+							-12.483956339638127,
+							"dontShow"
+						],
+						[
+							1.8928472188072476,
+							-12.355854054101359,
+							"dontShow"
+						],
+						[
+							4.341315660560294,
+							-11.721901651838472,
+							"dontShow"
+						],
+						[
+							6.61205012908707,
+							-10.608053218684354,
+							"dontShow"
+						],
+						[
+							8.61208648844612,
+							-9.059909840363966,
+							"dontShow"
+						],
+						[
+							10.259543015090994,
+							-7.1408526886848716,
+							"dontShow"
+						],
+						[
+							11.486972645252923,
+							-4.92944818891645,
+							"dontShow"
+						],
+						[
+							12.244124265656222,
+							-2.5162315011082192,
+							"dontShow"
+						]
+					]
+				}
+			],
+			"warping_constant": 0,
+			"shear_area_z": 441.7864669110647,
+			"shear_area_y": 441.7864669110647,
+			"torsion_radius": 12.5,
+			"shear_center": [
+				0,
+				0
+			],
+			"non_prismatic": null
+		},
+		"J": 38349.519697141026
+	},
+	"13": {
+		"version": 6,
+		"name": "260x75x28 CH",
+		"area": 3510,
+		"Iz": 36190000,
+		"Iy": 1850000,
+		"material_id": 1,
+		"aux": {
+			"composite": false,
+			"Qz": 160334,
+			"Qy": 34696.0352042,
+			"centroid_point": [
+				21,
+				130
+			],
+			"centroid_length": [
+				21,
+				130
+			],
+			"depth": 260,
+			"width": 75,
+			"alpha": 0,
+			"Zy": 62000,
+			"Zz": 328000,
+			"beta_yp": -280.1705065727243,
+			"beta_zp": 7.052894273464391e-7,
+			"polygons": [
+				{
+					"name": "260x75x28 CH",
+					"group_id": 0,
+					"points_calc": [
+						[
+							0,
+							0,
+							"regular"
+						],
+						[
+							75,
+							0,
+							"regular"
+						],
+						[
+							75,
+							12,
+							"regular"
+						],
+						[
+							7,
+							12,
+							"regular"
+						],
+						[
+							7,
+							248,
+							"regular"
+						],
+						[
+							75,
+							248,
+							"regular"
+						],
+						[
+							75,
+							260,
+							"regular"
+						],
+						[
+							0,
+							260,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "channel",
+					"dimensions_show": true,
+					"dimensions": {
+						"h": {
+							"value": 260,
+							"locat": [
+								[
+									-26,
+									260
+								],
+								[
+									-26,
+									0
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 260
+								}
+							]
+						},
+						"TFw": {
+							"value": 75,
+							"locat": [
+								[
+									0,
+									286
+								],
+								[
+									75,
+									286
+								],
+								{
+									"placeholder": "Top Width",
+									"dimension_id": "TFw",
+									"dimension": 75
+								}
+							]
+						},
+						"TFt": {
+							"value": 12,
+							"locat": [
+								[
+									101,
+									260
+								],
+								[
+									101,
+									248
+								],
+								{
+									"placeholder": "Top Thickness",
+									"dimension_id": "TFt",
+									"dimension": 12
+								}
+							]
+						},
+						"BFw": {
+							"value": 75,
+							"locat": [
+								[
+									0,
+									-52
+								],
+								[
+									75,
+									-52
+								],
+								{
+									"placeholder": "Bottom Width",
+									"dimension_id": "BFw",
+									"dimension": 75
+								}
+							]
+						},
+						"BFt": {
+							"value": 12,
+							"locat": [
+								[
+									101,
+									0
+								],
+								[
+									101,
+									12
+								],
+								{
+									"placeholder": "Bottom Thickness",
+									"dimension_id": "BFt",
+									"dimension": 12
+								}
+							]
+						},
+						"Wt": {
+							"value": 7,
+							"locat": [
+								[
+									0,
+									-26
+								],
+								[
+									7,
+									-26
+								],
+								{
+									"placeholder": "Web Thickness",
+									"dimension_id": "Wt",
+									"dimension": 7
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							0,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false,
+						"fillet_radius": 0
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "library",
+					"library_selections": [
+						"British",
+						"Steel",
+						"Channels",
+						"260x75x28 CH"
+					],
+					"results": {
+						"A": 3510,
+						"J": 117000,
+						"Iyp": 1850000,
+						"Izp": 36190000,
+						"Iy": 0,
+						"Iz": 0,
+						"Alpha": 0,
+						"Cy": 0,
+						"Cz": 21,
+						"ry": 0,
+						"rz": 0,
+						"ryp": 0,
+						"rzp": 0,
+						"Iw": 20000000000,
+						"Syp": 62000,
+						"Szp": 328000,
+						"basis": {
+							"shape": "channel",
+							"dimensions": {
+								"h": 260,
+								"TFw": 75,
+								"TFt": 12,
+								"BFw": 75,
+								"BFt": 12,
+								"Wt": 7,
+								"r": 0
+							},
+							"operations": {
+								"rotation": 0,
+								"mirror_z": false,
+								"mirror_y": false,
+								"translation": [
+									0,
+									0
+								]
+							}
+						}
+					},
+					"default_design_data": {
+						"designable": true,
+						"default_code": "BS 5950-1:2000",
+						"manufacture_process": "hot_rolled",
+						"shape": "Channel"
+					},
+					"database_properties": {
+						"A": "3510",
+						"J": "117000",
+						"Iyp": "1850000",
+						"Izp": "36190000",
+						"Alpha": "0",
+						"Cy": "0",
+						"Cz": "21",
+						"Iw": "20000000000",
+						"Syp": "62000",
+						"Szp": "328000"
+					},
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							-21,
+							-130,
+							"regular"
+						],
+						[
+							54,
+							-130,
+							"regular"
+						],
+						[
+							54,
+							-118,
+							"regular"
+						],
+						[
+							-14,
+							-118,
+							"regular"
+						],
+						[
+							-14,
+							118,
+							"regular"
+						],
+						[
+							54,
+							118,
+							"regular"
+						],
+						[
+							54,
+							130,
+							"regular"
+						],
+						[
+							-21,
+							130,
+							"regular"
+						]
+					]
+				}
+			],
+			"warping_constant": 20000000000,
+			"shear_area_z": 711.8112834048169,
+			"shear_area_y": 1647.2845097038037,
+			"torsion_radius": 11.9991,
+			"shear_center": [
+				44.1549,
+				-3.98573e-7
+			],
+			"non_prismatic": null
+		},
+		"J": 117000
+	},
+	"14": {
+		"version": 6,
+		"name": "50x8+ EA",
+		"area": 752,
+		"Iz": 253000,
+		"Iy": 67800,
+		"material_id": 1,
+		"aux": {
+			"composite": false,
+			"Qz": 4785.03024575,
+			"Qy": 4785.03024575,
+			"centroid_point": [
+				15.10000038,
+				15.10000038
+			],
+			"centroid_length": [
+				15.100000381469727,
+				15.100000381469727
+			],
+			"depth": 50,
+			"width": 50,
+			"alpha": -45,
+			"Zy": 6135.8012,
+			"Zz": 12000.0735,
+			"beta_yp": -60.2836691216648,
+			"beta_zp": -0.001513830187024791,
+			"polygons": [
+				{
+					"name": "50x8+ EA",
+					"group_id": 0,
+					"points_calc": [
+						[
+							0,
+							0,
+							"regular"
+						],
+						[
+							50,
+							0,
+							"regular"
+						],
+						[
+							50,
+							8,
+							"regular"
+						],
+						[
+							8,
+							8,
+							"regular"
+						],
+						[
+							8,
+							50,
+							"regular"
+						],
+						[
+							0,
+							50,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "lbeam",
+					"dimensions_show": true,
+					"dimensions": {
+						"BFw": {
+							"value": 50,
+							"locat": [
+								[
+									0,
+									-5
+								],
+								[
+									50,
+									-5
+								],
+								{
+									"placeholder": "Bottom Width",
+									"dimension_id": "BFw",
+									"dimension": 50
+								}
+							]
+						},
+						"BFt": {
+							"value": 8,
+							"locat": [
+								[
+									55,
+									8
+								],
+								[
+									55,
+									0
+								],
+								{
+									"placeholder": "Bottom Thickness",
+									"dimension_id": "BFt",
+									"dimension": 8
+								}
+							]
+						},
+						"h": {
+							"value": 50,
+							"locat": [
+								[
+									-5,
+									50
+								],
+								[
+									-5,
+									0
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 50
+								}
+							]
+						},
+						"LFt": {
+							"value": 8,
+							"locat": [
+								[
+									0,
+									55
+								],
+								[
+									8,
+									55
+								],
+								{
+									"placeholder": "Left Thickness",
+									"dimension_id": "LFt",
+									"dimension": 8
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							0,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false,
+						"fillet_radius": 0
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "library",
+					"library_selections": [
+						"British",
+						"Steel",
+						"Equal angles",
+						"50x8+ EA"
+					],
+					"results": {
+						"A": 752,
+						"J": 14951,
+						"Iyp": 67800,
+						"Izp": 253000,
+						"Iy": 0,
+						"Iz": 0,
+						"Alpha": -45,
+						"Cy": 15.100000381469727,
+						"Cz": 15.100000381469727,
+						"ry": 0,
+						"rz": 0,
+						"ryp": 0,
+						"rzp": 0,
+						"Iw": 0,
+						"Syp": 6135.80126953125,
+						"Szp": 12000.0732421875,
+						"basis": {
+							"shape": "lbeam",
+							"dimensions": {
+								"h": 50,
+								"LFt": 8,
+								"BFt": 8,
+								"BFw": 50,
+								"r": 0
+							},
+							"operations": {
+								"rotation": 0,
+								"mirror_z": false,
+								"mirror_y": false,
+								"translation": [
+									0,
+									0
+								]
+							}
+						}
+					},
+					"default_design_data": {
+						"designable": true,
+						"default_code": "BS 5950-1:2000",
+						"manufacture_process": "hot_rolled",
+						"shape": "Angle"
+					},
+					"database_properties": {
+						"A": "752",
+						"J": "14951",
+						"Iyp": "67800",
+						"Izp": "253000",
+						"Alpha": "45",
+						"Cy": "15.100000381469727",
+						"Cz": "15.100000381469727",
+						"Iw": "0",
+						"Syp": "6135.80126953125",
+						"Szp": "12000.0732421875"
+					},
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							-15.100000381469727,
+							-15.100000381469727,
+							"regular"
+						],
+						[
+							34.89999961853027,
+							-15.100000381469727,
+							"regular"
+						],
+						[
+							34.89999961853027,
+							-7.100000381469727,
+							"regular"
+						],
+						[
+							-7.100000381469727,
+							-7.100000381469727,
+							"regular"
+						],
+						[
+							-7.100000381469727,
+							34.89999961853027,
+							"regular"
+						],
+						[
+							-15.100000381469727,
+							34.89999961853027,
+							"regular"
+						]
+					]
+				}
+			],
+			"warping_constant": 2625990,
+			"shear_area_z": 339.09393731369414,
+			"shear_area_y": 335.53987271367873,
+			"torsion_radius": 10.8337,
+			"shear_center": [
+				11.018969441256765,
+				11.019003343915651
+			],
+			"non_prismatic": null
+		},
+		"J": 14951
+	},
+	"15": {
+		"version": 6,
+		"name": "90x8 EA",
+		"area": 1390,
+		"Iz": 1670000,
+		"Iy": 434000,
+		"material_id": 1,
+		"aux": {
+			"composite": false,
+			"Qz": 16665.00865333,
+			"Qy": 16665.00865333,
+			"centroid_point": [
+				25,
+				25
+			],
+			"centroid_length": [
+				25,
+				25
+			],
+			"depth": 90,
+			"width": 90,
+			"alpha": -45,
+			"Zy": 21069.8965,
+			"Zz": 41868.2639,
+			"beta_yp": -118.97105768874906,
+			"beta_zp": 0.0007585906162833316,
+			"polygons": [
+				{
+					"name": "90x8 EA",
+					"group_id": 0,
+					"points_calc": [
+						[
+							0,
+							0,
+							"regular"
+						],
+						[
+							90,
+							0,
+							"regular"
+						],
+						[
+							90,
+							8,
+							"regular"
+						],
+						[
+							8,
+							8,
+							"regular"
+						],
+						[
+							8,
+							90,
+							"regular"
+						],
+						[
+							0,
+							90,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "lbeam",
+					"dimensions_show": true,
+					"dimensions": {
+						"BFw": {
+							"value": 90,
+							"locat": [
+								[
+									0,
+									-9
+								],
+								[
+									90,
+									-9
+								],
+								{
+									"placeholder": "Bottom Width",
+									"dimension_id": "BFw",
+									"dimension": 90
+								}
+							]
+						},
+						"BFt": {
+							"value": 8,
+							"locat": [
+								[
+									99,
+									8
+								],
+								[
+									99,
+									0
+								],
+								{
+									"placeholder": "Bottom Thickness",
+									"dimension_id": "BFt",
+									"dimension": 8
+								}
+							]
+						},
+						"h": {
+							"value": 90,
+							"locat": [
+								[
+									-9,
+									90
+								],
+								[
+									-9,
+									0
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 90
+								}
+							]
+						},
+						"LFt": {
+							"value": 8,
+							"locat": [
+								[
+									0,
+									99
+								],
+								[
+									8,
+									99
+								],
+								{
+									"placeholder": "Left Thickness",
+									"dimension_id": "LFt",
+									"dimension": 8
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							0,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false,
+						"fillet_radius": 0
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "library",
+					"library_selections": [
+						"British",
+						"Steel",
+						"Equal angles",
+						"90x8 EA"
+					],
+					"results": {
+						"A": 1390,
+						"J": 28605,
+						"Iyp": 434000,
+						"Izp": 1670000,
+						"Iy": 0,
+						"Iz": 0,
+						"Alpha": -45,
+						"Cy": 25,
+						"Cz": 25,
+						"ry": 0,
+						"rz": 0,
+						"ryp": 0,
+						"rzp": 0,
+						"Iw": 0,
+						"Syp": 21069.896484375,
+						"Szp": 41868.265625,
+						"basis": {
+							"shape": "lbeam",
+							"dimensions": {
+								"h": 90,
+								"LFt": 8,
+								"BFt": 8,
+								"BFw": 90,
+								"r": 0
+							},
+							"operations": {
+								"rotation": 0,
+								"mirror_z": false,
+								"mirror_y": false,
+								"translation": [
+									0,
+									0
+								]
+							}
+						}
+					},
+					"default_design_data": {
+						"designable": true,
+						"default_code": "BS 5950-1:2000",
+						"manufacture_process": "hot_rolled",
+						"shape": "Angle"
+					},
+					"database_properties": {
+						"A": "1390",
+						"J": "28605",
+						"Iyp": "434000",
+						"Izp": "1670000",
+						"Alpha": "45",
+						"Cy": "25",
+						"Cz": "25",
+						"Iw": "0",
+						"Syp": "21069.896484375",
+						"Szp": "41868.265625"
+					},
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							-25,
+							-25,
+							"regular"
+						],
+						[
+							65,
+							-25,
+							"regular"
+						],
+						[
+							65,
+							-17,
+							"regular"
+						],
+						[
+							-17,
+							-17,
+							"regular"
+						],
+						[
+							-17,
+							65,
+							"regular"
+						],
+						[
+							-25,
+							65,
+							"regular"
+						]
+					]
+				}
+			],
+			"warping_constant": 17819500,
+			"shear_area_z": 591.37520521923,
+			"shear_area_y": 599.867471140097,
+			"torsion_radius": 9.21974,
+			"shear_center": [
+				21.235568542424367,
+				21.235527477339478
+			],
+			"non_prismatic": null
+		},
+		"J": 28605
+	},
+	"16": {
+		"version": 6,
+		"name": "160x10_Batten",
+		"area": 1500,
+		"Iz": 2812500,
+		"Iy": 12500,
+		"material_id": 1,
+		"aux": {
+			"composite": false,
+			"Qz": 28125,
+			"Qy": 1875,
+			"centroid_point": [
+				5,
+				75
+			],
+			"centroid_length": [
+				5,
+				75
+			],
+			"depth": 150,
+			"width": 10,
+			"alpha": 0,
+			"Zy": 3750,
+			"Zz": 56250,
+			"beta_yp": -0.00600488124641775,
+			"beta_zp": 0.003048451899447054,
+			"polygons": [
+				{
+					"name": "Rectangular",
+					"group_id": 0,
+					"points_calc": [
+						[
+							0,
+							0,
+							"regular"
+						],
+						[
+							10,
+							0,
+							"regular"
+						],
+						[
+							10,
+							150,
+							"regular"
+						],
+						[
+							0,
+							150,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "rectangle",
+					"dimensions_show": true,
+					"dimensions": {
+						"h": {
+							"value": 150,
+							"locat": [
+								[
+									25,
+									0
+								],
+								[
+									25,
+									150
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 150
+								}
+							]
+						},
+						"b": {
+							"value": 10,
+							"locat": [
+								[
+									0,
+									-15
+								],
+								[
+									10,
+									-15
+								],
+								{
+									"placeholder": "Width",
+									"dimension_id": "b",
+									"dimension": 10
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							0,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "standard",
+					"saved_name": "160x10_Batten",
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							-5,
+							-75,
+							"regular"
+						],
+						[
+							5,
+							-75,
+							"regular"
+						],
+						[
+							5,
+							75,
+							"regular"
+						],
+						[
+							-5,
+							75,
+							"regular"
+						]
+					]
+				}
+			],
+			"warping_constant": 22973000,
+			"shear_area_z": 1261.6916761994482,
+			"shear_area_y": 1250,
+			"torsion_radius": 10,
+			"shear_center": [
+				2.49126e-9,
+				-0.000166828
+			],
+			"non_prismatic": null
+		},
+		"J": 47879.6
+	},
+	"17": {
+		"version": 6,
+		"name": "220x10_Batten",
+		"area": 2200,
+		"Iz": 8873333.33333334,
+		"Iy": 18333.33333333,
+		"material_id": 1,
+		"aux": {
+			"composite": false,
+			"Qz": 60500,
+			"Qy": 2750,
+			"centroid_point": [
+				5,
+				110
+			],
+			"centroid_length": [
+				5,
+				110
+			],
+			"depth": 220,
+			"width": 10,
+			"alpha": 0,
+			"Zy": 5500,
+			"Zz": 121000,
+			"beta_yp": 0.021567011532498556,
+			"beta_zp": 0.0008284124428329255,
+			"polygons": [
+				{
+					"name": "Rectangular",
+					"group_id": 0,
+					"points_calc": [
+						[
+							0,
+							0,
+							"regular"
+						],
+						[
+							10,
+							0,
+							"regular"
+						],
+						[
+							10,
+							220,
+							"regular"
+						],
+						[
+							0,
+							220,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "rectangle",
+					"dimensions_show": true,
+					"dimensions": {
+						"h": {
+							"value": 220,
+							"locat": [
+								[
+									32,
+									0
+								],
+								[
+									32,
+									220
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 220
+								}
+							]
+						},
+						"b": {
+							"value": 10,
+							"locat": [
+								[
+									0,
+									-22
+								],
+								[
+									10,
+									-22
+								],
+								{
+									"placeholder": "Width",
+									"dimension_id": "b",
+									"dimension": 10
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							0,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "standard",
+					"saved_name": "220x10_Batten",
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							-5,
+							-110,
+							"regular"
+						],
+						[
+							5,
+							-110,
+							"regular"
+						],
+						[
+							5,
+							110,
+							"regular"
+						],
+						[
+							-5,
+							110,
+							"regular"
+						]
+					]
+				}
+			],
+			"warping_constant": 73258800,
+			"shear_area_z": 1852.1948508983144,
+			"shear_area_y": 1833.3333333333335,
+			"torsion_radius": 10,
+			"shear_center": [
+				-1.97321e-8,
+				0.000131042
+			],
+			"non_prismatic": null
+		},
+		"J": 71165.4
+	},
+	"18": {
+		"version": 6,
+		"name": "150x32_Batten",
+		"area": 4800,
+		"Iz": 9000000,
+		"Iy": 409600,
+		"material_id": 1,
+		"aux": {
+			"composite": false,
+			"Qz": 90000,
+			"Qy": 19200,
+			"centroid_point": [
+				16,
+				75
+			],
+			"centroid_length": [
+				16,
+				75
+			],
+			"depth": 150,
+			"width": 32,
+			"alpha": 0,
+			"Zy": 38400,
+			"Zz": 180000,
+			"beta_yp": 0.0045128342139787525,
+			"beta_zp": -0.0009843595868292813,
+			"polygons": [
+				{
+					"name": "Rectangular",
+					"group_id": 0,
+					"points_calc": [
+						[
+							0,
+							0,
+							"regular"
+						],
+						[
+							32,
+							0,
+							"regular"
+						],
+						[
+							32,
+							150,
+							"regular"
+						],
+						[
+							0,
+							150,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "rectangle",
+					"dimensions_show": true,
+					"dimensions": {
+						"h": {
+							"value": 150,
+							"locat": [
+								[
+									47,
+									0
+								],
+								[
+									47,
+									150
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 150
+								}
+							]
+						},
+						"b": {
+							"value": 32,
+							"locat": [
+								[
+									0,
+									-15
+								],
+								[
+									32,
+									-15
+								],
+								{
+									"placeholder": "Width",
+									"dimension_id": "b",
+									"dimension": 32
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							0,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "standard",
+					"saved_name": "150x32_Batten",
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							-16,
+							-75,
+							"regular"
+						],
+						[
+							16,
+							-75,
+							"regular"
+						],
+						[
+							16,
+							75,
+							"regular"
+						],
+						[
+							-16,
+							75,
+							"regular"
+						]
+					]
+				}
+			],
+			"warping_constant": 634388000,
+			"shear_area_z": 4000.133337777926,
+			"shear_area_y": 4000,
+			"torsion_radius": 31.9667,
+			"shear_center": [
+				3.79807e-7,
+				-0.00000131263
+			],
+			"non_prismatic": null
+		},
+		"J": 1418060
+	},
+	"19": {
+		"version": 6,
+		"name": "70x8+ EA",
+		"area": 1070,
+		"Iz": 750000,
+		"Iy": 197000,
+		"material_id": 1,
+		"aux": {
+			"composite": false,
+			"Qz": 9825.01469238,
+			"Qy": 9825.01469238,
+			"centroid_point": [
+				20,
+				20
+			],
+			"centroid_length": [
+				20,
+				20
+			],
+			"depth": 70,
+			"width": 70,
+			"alpha": -45,
+			"Zy": 12471.478,
+			"Zz": 24671.427,
+			"beta_yp": -89.90833594412527,
+			"beta_zp": -0.0001790270543985388,
+			"polygons": [
+				{
+					"name": "70x8+ EA",
+					"group_id": 0,
+					"points_calc": [
+						[
+							0,
+							0,
+							"regular"
+						],
+						[
+							70,
+							0,
+							"regular"
+						],
+						[
+							70,
+							8,
+							"regular"
+						],
+						[
+							8,
+							8,
+							"regular"
+						],
+						[
+							8,
+							70,
+							"regular"
+						],
+						[
+							0,
+							70,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "lbeam",
+					"dimensions_show": true,
+					"dimensions": {
+						"BFw": {
+							"value": 70,
+							"locat": [
+								[
+									0,
+									-7
+								],
+								[
+									70,
+									-7
+								],
+								{
+									"placeholder": "Bottom Width",
+									"dimension_id": "BFw",
+									"dimension": 70
+								}
+							]
+						},
+						"BFt": {
+							"value": 8,
+							"locat": [
+								[
+									77,
+									8
+								],
+								[
+									77,
+									0
+								],
+								{
+									"placeholder": "Bottom Thickness",
+									"dimension_id": "BFt",
+									"dimension": 8
+								}
+							]
+						},
+						"h": {
+							"value": 70,
+							"locat": [
+								[
+									-7,
+									70
+								],
+								[
+									-7,
+									0
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 70
+								}
+							]
+						},
+						"LFt": {
+							"value": 8,
+							"locat": [
+								[
+									0,
+									77
+								],
+								[
+									8,
+									77
+								],
+								{
+									"placeholder": "Left Thickness",
+									"dimension_id": "LFt",
+									"dimension": 8
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							0,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false,
+						"fillet_radius": 0
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "library",
+					"library_selections": [
+						"British",
+						"Steel",
+						"Equal angles",
+						"70x8+ EA"
+					],
+					"results": {
+						"A": 1070,
+						"J": 21778,
+						"Iyp": 197000,
+						"Izp": 750000,
+						"Iy": 0,
+						"Iz": 0,
+						"Alpha": -45,
+						"Cy": 20,
+						"Cz": 20,
+						"ry": 0,
+						"rz": 0,
+						"ryp": 0,
+						"rzp": 0,
+						"Iw": 0,
+						"Syp": 12471.4775390625,
+						"Szp": 24671.427734375,
+						"basis": {
+							"shape": "lbeam",
+							"dimensions": {
+								"h": 70,
+								"LFt": 8,
+								"BFt": 8,
+								"BFw": 70,
+								"r": 0
+							},
+							"operations": {
+								"rotation": 0,
+								"mirror_z": false,
+								"mirror_y": false,
+								"translation": [
+									0,
+									0
+								]
+							}
+						}
+					},
+					"default_design_data": {
+						"designable": true,
+						"default_code": "BS 5950-1:2000",
+						"manufacture_process": "hot_rolled",
+						"shape": "Angle"
+					},
+					"database_properties": {
+						"A": "1070",
+						"J": "21778",
+						"Iyp": "197000",
+						"Izp": "750000",
+						"Alpha": "45",
+						"Cy": "20",
+						"Cz": "20",
+						"Iw": "0",
+						"Syp": "12471.4775390625",
+						"Szp": "24671.427734375"
+					},
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							-20,
+							-20,
+							"regular"
+						],
+						[
+							50,
+							-20,
+							"regular"
+						],
+						[
+							50,
+							-12,
+							"regular"
+						],
+						[
+							-12,
+							-12,
+							"regular"
+						],
+						[
+							-12,
+							50,
+							"regular"
+						],
+						[
+							-20,
+							50,
+							"regular"
+						]
+					]
+				}
+			],
+			"warping_constant": 7970050,
+			"shear_area_z": 463.2249404519075,
+			"shear_area_y": 467.13055325774906,
+			"torsion_radius": 10.4199,
+			"shear_center": [
+				16.16071681748624,
+				16.160709886482138
+			],
+			"non_prismatic": null
+		},
+		"J": 21778
+	},
+	"20": {
+		"version": 6,
+		"name": "50x8_Flat",
+		"area": 400,
+		"Iz": 83333.33333333,
+		"Iy": 2133.33333333,
+		"material_id": 1,
+		"aux": {
+			"composite": false,
+			"Qz": 2500,
+			"Qy": 400,
+			"centroid_point": [
+				4,
+				25
+			],
+			"centroid_length": [
+				4,
+				25
+			],
+			"depth": 50,
+			"width": 8,
+			"alpha": 0,
+			"Zy": 800,
+			"Zz": 5000,
+			"beta_yp": 0.007973663761275254,
+			"beta_zp": -0.0013064862373827631,
+			"polygons": [
+				{
+					"name": "Rectangular",
+					"group_id": 0,
+					"points_calc": [
+						[
+							0,
+							0,
+							"regular"
+						],
+						[
+							8,
+							0,
+							"regular"
+						],
+						[
+							8,
+							50,
+							"regular"
+						],
+						[
+							0,
+							50,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "rectangle",
+					"dimensions_show": true,
+					"dimensions": {
+						"h": {
+							"value": 50,
+							"locat": [
+								[
+									13,
+									0
+								],
+								[
+									13,
+									50
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 50
+								}
+							]
+						},
+						"b": {
+							"value": 8,
+							"locat": [
+								[
+									0,
+									-5
+								],
+								[
+									8,
+									-5
+								],
+								{
+									"placeholder": "Width",
+									"dimension_id": "b",
+									"dimension": 8
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							0,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "standard",
+					"saved_name": "50x8_Flat",
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							-4,
+							-25,
+							"regular"
+						],
+						[
+							4,
+							-25,
+							"regular"
+						],
+						[
+							4,
+							25,
+							"regular"
+						],
+						[
+							-4,
+							25,
+							"regular"
+						]
+					]
+				}
+			],
+			"warping_constant": 398179,
+			"shear_area_z": 333.3805622463182,
+			"shear_area_y": 333.33333333333337,
+			"torsion_radius": 7.99928,
+			"shear_center": [
+				1.97918e-7,
+				-0.00000844011
+			],
+			"non_prismatic": null
+		},
+		"J": 7672.4
+	},
+	"21": {
+		"version": 6,
+		"name": "90x70x8_ Angle",
+		"area": 1231.01652066,
+		"Iz": 1234525.31618337,
+		"Iy": 276433.39930969,
+		"material_id": 1,
+		"aux": {
+			"composite": false,
+			"Qz": 15350.2349408,
+			"Qy": 10743.75692897,
+			"centroid_point": [
+				18.17395218,
+				28.05196746
+			],
+			"centroid_length": [
+				18.173952183852165,
+				28.051967463052065
+			],
+			"depth": 90,
+			"width": 70,
+			"alpha": -30.52322039,
+			"Zy": 15675.1236,
+			"Zz": 33772.1036,
+			"beta_yp": -100.10789095703888,
+			"beta_zp": -32.44455560467518,
+			"polygons": [
+				{
+					"name": "L-Beam",
+					"group_id": 0,
+					"points_calc": [
+						[
+							0,
+							0,
+							"regular"
+						],
+						[
+							70,
+							0,
+							"regular"
+						],
+						[
+							70,
+							8,
+							"regular"
+						],
+						[
+							15.999999999999998,
+							8,
+							"filletStartEnd"
+						],
+						[
+							12.938532541079278,
+							8.608963739909708,
+							"dontShow"
+						],
+						[
+							10.343145750507619,
+							10.34314575050762,
+							"dontShow"
+						],
+						[
+							8.608963739909704,
+							12.938532541079283,
+							"dontShow"
+						],
+						[
+							8,
+							16,
+							"filletStartEnd"
+						],
+						[
+							8,
+							90,
+							"regular"
+						],
+						[
+							0,
+							90,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "lbeam",
+					"dimensions_show": true,
+					"dimensions": {
+						"BFw": {
+							"value": 70,
+							"locat": [
+								[
+									0,
+									-9
+								],
+								[
+									70,
+									-9
+								],
+								{
+									"placeholder": "Bottom Width",
+									"dimension_id": "BFw",
+									"dimension": 70
+								}
+							]
+						},
+						"BFt": {
+							"value": 8,
+							"locat": [
+								[
+									79,
+									8
+								],
+								[
+									79,
+									0
+								],
+								{
+									"placeholder": "Bottom Thickness",
+									"dimension_id": "BFt",
+									"dimension": 8
+								}
+							]
+						},
+						"h": {
+							"value": 90,
+							"locat": [
+								[
+									-9,
+									90
+								],
+								[
+									-9,
+									0
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 90
+								}
+							]
+						},
+						"LFt": {
+							"value": 8,
+							"locat": [
+								[
+									0,
+									99
+								],
+								[
+									8,
+									99
+								],
+								{
+									"placeholder": "Left Thickness",
+									"dimension_id": "LFt",
+									"dimension": 8
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							0,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false,
+						"fillet_radius": 8
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "standard",
+					"saved_name": "90x70x8_ Angle",
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							-18.173952183852165,
+							-28.051967463052065,
+							"regular"
+						],
+						[
+							51.826047816147835,
+							-28.051967463052065,
+							"regular"
+						],
+						[
+							51.826047816147835,
+							-20.051967463052065,
+							"regular"
+						],
+						[
+							-2.173952183852167,
+							-20.051967463052065,
+							"filletStartEnd"
+						],
+						[
+							-10.173952183852165,
+							-12.051967463052065,
+							"filletStartEnd"
+						],
+						[
+							-10.173952183852165,
+							61.948032536947935,
+							"regular"
+						],
+						[
+							-18.173952183852165,
+							61.948032536947935,
+							"regular"
+						]
+					]
+				}
+			],
+			"warping_constant": 12786700,
+			"shear_area_z": 483.1963448811851,
+			"shear_area_y": 591.3617432157835,
+			"torsion_radius": 11.6215,
+			"shear_center": [
+				13.866205530273461,
+				23.117974604238448
+			],
+			"non_prismatic": null
+		},
+		"J": 27466.3
+	},
+	"22": {
+		"version": 6,
+		"name": "70x8_Flat",
+		"area": 560,
+		"Iz": 228666.66666667,
+		"Iy": 2986.66666667,
+		"material_id": 1,
+		"aux": {
+			"composite": false,
+			"Qz": 4900,
+			"Qy": 560,
+			"centroid_point": [
+				4,
+				35
+			],
+			"centroid_length": [
+				4,
+				35
+			],
+			"depth": 70,
+			"width": 8,
+			"alpha": 0,
+			"Zy": 1120,
+			"Zz": 9800,
+			"beta_yp": -0.008390368026053856,
+			"beta_zp": 0.00020038124805457042,
+			"polygons": [
+				{
+					"name": "Rectangular",
+					"group_id": 0,
+					"points_calc": [
+						[
+							0,
+							0,
+							"regular"
+						],
+						[
+							8,
+							0,
+							"regular"
+						],
+						[
+							8,
+							70,
+							"regular"
+						],
+						[
+							0,
+							70,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "rectangle",
+					"dimensions_show": true,
+					"dimensions": {
+						"h": {
+							"value": 70,
+							"locat": [
+								[
+									15,
+									0
+								],
+								[
+									15,
+									70
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 70
+								}
+							]
+						},
+						"b": {
+							"value": 8,
+							"locat": [
+								[
+									0,
+									-7
+								],
+								[
+									8,
+									-7
+								],
+								{
+									"placeholder": "Width",
+									"dimension_id": "b",
+									"dimension": 8
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							0,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "standard",
+					"saved_name": "70x8_Flat",
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							-4,
+							-35,
+							"regular"
+						],
+						[
+							4,
+							-35,
+							"regular"
+						],
+						[
+							4,
+							35,
+							"regular"
+						],
+						[
+							-4,
+							35,
+							"regular"
+						]
+					]
+				}
+			],
+			"warping_constant": 1151500,
+			"shear_area_z": 466.9585157390036,
+			"shear_area_y": 466.6666666666667,
+			"torsion_radius": 7.99999,
+			"shear_center": [
+				-3.07348e-9,
+				0.00000733308
+			],
+			"non_prismatic": null
+		},
+		"J": 11084.9
+	},
+	"23": {
+		"version": 6,
+		"name": "32x150_ClampingBar",
+		"area": 9600,
+		"Iz": 18000000,
+		"Iy": 37128800,
+		"material_id": 1,
+		"aux": {
+			"composite": false,
+			"Qz": 180000,
+			"Qy": 0,
+			"centroid_point": [
+				77.5,
+				75
+			],
+			"centroid_length": [
+				77.5,
+				75
+			],
+			"depth": 150,
+			"width": 155,
+			"alpha": 0,
+			"Zy": 590400,
+			"Zz": 360000,
+			"beta_yp": null,
+			"beta_zp": null,
+			"polygons": [
+				{
+					"name": "Rectangular",
+					"group_id": 0,
+					"points_calc": [
+						[
+							0,
+							0,
+							"regular"
+						],
+						[
+							32,
+							0,
+							"regular"
+						],
+						[
+							32,
+							150,
+							"regular"
+						],
+						[
+							0,
+							150,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "rectangle",
+					"dimensions_show": true,
+					"dimensions": {
+						"h": {
+							"value": 150,
+							"locat": [
+								[
+									47,
+									0
+								],
+								[
+									47,
+									150
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 150
+								}
+							]
+						},
+						"b": {
+							"value": 32,
+							"locat": [
+								[
+									0,
+									-15
+								],
+								[
+									32,
+									-15
+								],
+								{
+									"placeholder": "Width",
+									"dimension_id": "b",
+									"dimension": 32
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							0,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "standard",
+					"saved_name": "32x150_ClampingBar",
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							-77.5,
+							-75,
+							"regular"
+						],
+						[
+							-45.5,
+							-75,
+							"regular"
+						],
+						[
+							-45.5,
+							75,
+							"regular"
+						],
+						[
+							-77.5,
+							75,
+							"regular"
+						]
+					]
+				},
+				{
+					"name": "Rectangular",
+					"group_id": 1,
+					"points_calc": [
+						[
+							123,
+							0,
+							"regular"
+						],
+						[
+							155,
+							0,
+							"regular"
+						],
+						[
+							155,
+							150,
+							"regular"
+						],
+						[
+							123,
+							150,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "rectangle",
+					"dimensions_show": true,
+					"dimensions": {
+						"h": {
+							"value": 150,
+							"locat": [
+								[
+									170,
+									0,
+									null
+								],
+								[
+									170,
+									150,
+									null
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 150
+								}
+							]
+						},
+						"b": {
+							"value": 32,
+							"locat": [
+								[
+									123,
+									-15,
+									null
+								],
+								[
+									155,
+									-15,
+									null
+								],
+								{
+									"placeholder": "Width",
+									"dimension_id": "b",
+									"dimension": 32
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							123,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "standard",
+					"saved_name": "32x150_ClampingBar",
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							45.5,
+							-75,
+							"regular"
+						],
+						[
+							77.5,
+							-75,
+							"regular"
+						],
+						[
+							77.5,
+							75,
+							"regular"
+						],
+						[
+							45.5,
+							75,
+							"regular"
+						]
+					]
+				}
+			],
+			"warping_constant": 69975400000,
+			"shear_area_z": 8000,
+			"shear_area_y": 1825.466397156836,
+			"torsion_radius": 31.9675,
+			"shear_center": null,
+			"non_prismatic": null
+		},
+		"J": 2835870
+	},
+	"24": {
+		"version": 6,
+		"name": "Double_220x10_Batten",
+		"area": 4400,
+		"Iz": 17746666.66666667,
+		"Iy": 82620266.66666669,
+		"material_id": 1,
+		"aux": {
+			"composite": false,
+			"Qz": 121000,
+			"Qy": 0,
+			"centroid_point": [
+				142,
+				110
+			],
+			"centroid_length": [
+				142,
+				110
+			],
+			"depth": 220,
+			"width": 284,
+			"alpha": 0,
+			"Zy": 602800,
+			"Zz": 242000,
+			"beta_yp": null,
+			"beta_zp": null,
+			"polygons": [
+				{
+					"name": "Rectangular",
+					"group_id": 0,
+					"points_calc": [
+						[
+							0,
+							0,
+							"regular"
+						],
+						[
+							10,
+							0,
+							"regular"
+						],
+						[
+							10,
+							220,
+							"regular"
+						],
+						[
+							0,
+							220,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "rectangle",
+					"dimensions_show": true,
+					"dimensions": {
+						"h": {
+							"value": 220,
+							"locat": [
+								[
+									32,
+									0
+								],
+								[
+									32,
+									220
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 220
+								}
+							]
+						},
+						"b": {
+							"value": 10,
+							"locat": [
+								[
+									0,
+									-22
+								],
+								[
+									10,
+									-22
+								],
+								{
+									"placeholder": "Width",
+									"dimension_id": "b",
+									"dimension": 10
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							0,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "standard",
+					"saved_name": "Double_220x10_Batten",
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							-142,
+							-110,
+							"regular"
+						],
+						[
+							-132,
+							-110,
+							"regular"
+						],
+						[
+							-132,
+							110,
+							"regular"
+						],
+						[
+							-142,
+							110,
+							"regular"
+						]
+					]
+				},
+				{
+					"name": "Rectangular",
+					"group_id": 1,
+					"points_calc": [
+						[
+							274,
+							0,
+							"regular"
+						],
+						[
+							284,
+							0,
+							"regular"
+						],
+						[
+							284,
+							220,
+							"regular"
+						],
+						[
+							274,
+							220,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "rectangle",
+					"dimensions_show": true,
+					"dimensions": {
+						"h": {
+							"value": 220,
+							"locat": [
+								[
+									306,
+									0,
+									null
+								],
+								[
+									306,
+									220,
+									null
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 220
+								}
+							]
+						},
+						"b": {
+							"value": 10,
+							"locat": [
+								[
+									274,
+									-22,
+									null
+								],
+								[
+									284,
+									-22,
+									null
+								],
+								{
+									"placeholder": "Width",
+									"dimension_id": "b",
+									"dimension": 10
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							274,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "standard",
+					"saved_name": "Double_220x10_Batten",
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							132,
+							-110,
+							"regular"
+						],
+						[
+							142,
+							-110,
+							"regular"
+						],
+						[
+							142,
+							110,
+							"regular"
+						],
+						[
+							132,
+							110,
+							"regular"
+						]
+					]
+				}
+			],
+			"warping_constant": 1377560000000,
+			"shear_area_z": 3666.666666666667,
+			"shear_area_y": 1087.270777373895,
+			"torsion_radius": 10,
+			"shear_center": null,
+			"non_prismatic": null
+		},
+		"J": 140800
+	},
+	"25": {
+		"version": 6,
+		"name": "L 80x80x10",
+		"area": 1510,
+		"Iz": 1388000,
+		"Iy": 362300,
+		"material_id": 1,
+		"aux": {
+			"composite": false,
+			"Qz": 15965.50596859,
+			"Qy": 15965.50596859,
+			"centroid_point": [
+				23.39999962,
+				23.39999962
+			],
+			"centroid_length": [
+				23.399999618530273,
+				23.399999618530273
+			],
+			"depth": 80,
+			"width": 80,
+			"alpha": -45,
+			"Zy": 20555.2171,
+			"Zz": 39881.5538,
+			"beta_yp": -100.05595487808563,
+			"beta_zp": -0.003939665675574147,
+			"polygons": [
+				{
+					"name": "L 80x80x10",
+					"group_id": 0,
+					"points_calc": [
+						[
+							0,
+							0,
+							"regular"
+						],
+						[
+							80,
+							0,
+							"regular"
+						],
+						[
+							80,
+							10,
+							"regular"
+						],
+						[
+							19.999999999999996,
+							10,
+							"filletStartEnd"
+						],
+						[
+							16.173165676349097,
+							10.761204674887136,
+							"dontShow"
+						],
+						[
+							12.928932188134523,
+							12.928932188134524,
+							"dontShow"
+						],
+						[
+							10.761204674887132,
+							16.173165676349104,
+							"dontShow"
+						],
+						[
+							10,
+							20,
+							"filletStartEnd"
+						],
+						[
+							10,
+							80,
+							"regular"
+						],
+						[
+							0,
+							80,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "lbeam",
+					"dimensions_show": true,
+					"dimensions": {
+						"BFw": {
+							"value": 80,
+							"locat": [
+								[
+									0,
+									-8
+								],
+								[
+									80,
+									-8
+								],
+								{
+									"placeholder": "Bottom Width",
+									"dimension_id": "BFw",
+									"dimension": 80
+								}
+							]
+						},
+						"BFt": {
+							"value": 10,
+							"locat": [
+								[
+									88,
+									10
+								],
+								[
+									88,
+									0
+								],
+								{
+									"placeholder": "Bottom Thickness",
+									"dimension_id": "BFt",
+									"dimension": 10
+								}
+							]
+						},
+						"h": {
+							"value": 80,
+							"locat": [
+								[
+									-8,
+									80
+								],
+								[
+									-8,
+									0
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 80
+								}
+							]
+						},
+						"LFt": {
+							"value": 10,
+							"locat": [
+								[
+									0,
+									88
+								],
+								[
+									10,
+									88
+								],
+								{
+									"placeholder": "Left Thickness",
+									"dimension_id": "LFt",
+									"dimension": 10
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							0,
+							0
+						],
+						"mirror_z": false,
+						"mirror_y": false,
+						"fillet_radius": 10
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "library",
+					"library_selections": [
+						"European",
+						"Steel",
+						"Equal angles",
+						"L 80x80x10"
+					],
+					"results": {
+						"A": 1510,
+						"J": 49600,
+						"Iyp": 362300,
+						"Izp": 1388000,
+						"Iy": 0,
+						"Iz": 0,
+						"Alpha": -45,
+						"Cy": 23.399999618530273,
+						"Cz": 23.399999618530273,
+						"ry": 0,
+						"rz": 0,
+						"ryp": 0,
+						"rzp": 0,
+						"Iw": 0,
+						"Syp": 20174,
+						"Szp": 40348,
+						"basis": {
+							"shape": "lbeam",
+							"dimensions": {
+								"h": 80,
+								"LFt": 10,
+								"BFt": 10,
+								"BFw": 80,
+								"r": 10
+							},
+							"operations": {
+								"rotation": 0,
+								"mirror_z": false,
+								"mirror_y": false,
+								"translation": [
+									0,
+									0
+								]
+							}
+						}
+					},
+					"default_design_data": {
+						"designable": true,
+						"default_code": "EN1993-1-1:2005",
+						"manufacture_process": "hot_rolled",
+						"shape": "Angle"
+					},
+					"database_properties": {
+						"A": "1510",
+						"J": "49600",
+						"Iyp": "362300",
+						"Izp": "1388000",
+						"Alpha": "45",
+						"Cy": "23.399999618530273",
+						"Cz": "23.399999618530273",
+						"Iw": "0",
+						"Syp": "20174",
+						"Szp": "40348"
+					},
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							-23.399999618530273,
+							-23.399999618530273,
+							"regular"
+						],
+						[
+							56.60000038146973,
+							-23.399999618530273,
+							"regular"
+						],
+						[
+							56.60000038146973,
+							-13.399999618530273,
+							"regular"
+						],
+						[
+							-3.399999618530277,
+							-13.399999618530273,
+							"filletStartEnd"
+						],
+						[
+							-13.399999618530273,
+							-3.3999996185302734,
+							"filletStartEnd"
+						],
+						[
+							-13.399999618530273,
+							56.60000038146973,
+							"regular"
+						],
+						[
+							-23.399999618530273,
+							56.60000038146973,
+							"regular"
+						]
+					]
+				}
+			],
+			"warping_constant": 22517500,
+			"shear_area_z": 660.4414040654954,
+			"shear_area_y": 717.2801491567558,
+			"torsion_radius": 15.0962,
+			"shear_center": [
+				17.602234181468482,
+				17.602208290753683
+			],
+			"non_prismatic": null
+		},
+		"J": 49600
+	},
+	"26": {
+		"version": 6,
+		"name": "Double_50x8_Angle_ 345",
+		"area": 1472,
+		"Iz": 331311.53623188,
+		"Iy": 44132511.5362317,
+		"material_id": 1,
+		"aux": {
+			"composite": false,
+			"Qz": 9570.06049149,
+			"Qy": 0,
+			"centroid_point": [
+				187.91304348,
+				15.41304348
+			],
+			"centroid_length": [
+				187.91304347826062,
+				34.5869565217393
+			],
+			"depth": 50.000000000000355,
+			"width": 375.8260869565212,
+			"alpha": 0,
+			"Zy": 253920,
+			"Zz": 17271.04,
+			"beta_yp": null,
+			"beta_zp": null,
+			"polygons": [
+				{
+					"name": "50x8+ EA",
+					"group_id": 0,
+					"points_calc": [
+						[
+							0,
+							30.826086956521728,
+							"regular"
+						],
+						[
+							50,
+							30.826086956521728,
+							"regular"
+						],
+						[
+							50,
+							22.826086956521728,
+							"regular"
+						],
+						[
+							8,
+							22.826086956521728,
+							"regular"
+						],
+						[
+							8,
+							-19.173913043478272,
+							"regular"
+						],
+						[
+							0,
+							-19.173913043478272,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "lbeam",
+					"dimensions_show": true,
+					"dimensions": {
+						"BFw": {
+							"value": 50,
+							"locat": [
+								[
+									0,
+									35.82608695652173,
+									null
+								],
+								[
+									50,
+									35.82608695652173,
+									null
+								],
+								{
+									"placeholder": "Bottom Width",
+									"dimension_id": "BFw",
+									"dimension": 50
+								}
+							]
+						},
+						"BFt": {
+							"value": 8,
+							"locat": [
+								[
+									55,
+									22.826086956521728,
+									null
+								],
+								[
+									55,
+									30.826086956521728,
+									null
+								],
+								{
+									"placeholder": "Bottom Thickness",
+									"dimension_id": "BFt",
+									"dimension": 8
+								}
+							]
+						},
+						"h": {
+							"value": 50,
+							"locat": [
+								[
+									-5,
+									-19.173913043478272,
+									null
+								],
+								[
+									-5,
+									30.826086956521728,
+									null
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 50
+								}
+							]
+						},
+						"LFt": {
+							"value": 8,
+							"locat": [
+								[
+									0,
+									-24.173913043478272,
+									null
+								],
+								[
+									8,
+									-24.173913043478272,
+									null
+								],
+								{
+									"placeholder": "Left Thickness",
+									"dimension_id": "LFt",
+									"dimension": 8
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							0,
+							0
+						],
+						"mirror_z": true,
+						"mirror_y": false,
+						"fillet_radius": 0
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "library",
+					"saved_name": "Double_50x8_Angle_ 345",
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							-187.91304347826062,
+							-34.58695652173895,
+							"regular"
+						],
+						[
+							-179.91304347826062,
+							-34.58695652173895,
+							"regular"
+						],
+						[
+							-179.91304347826062,
+							7.413043478261054,
+							"regular"
+						],
+						[
+							-137.91304347826062,
+							7.413043478261054,
+							"regular"
+						],
+						[
+							-137.91304347826062,
+							15.413043478261054,
+							"regular"
+						],
+						[
+							-187.91304347826062,
+							15.413043478261054,
+							"regular"
+						]
+					]
+				},
+				{
+					"name": "50x8+ EA",
+					"group_id": 1,
+					"points_calc": [
+						[
+							375.8260869565212,
+							30.82608695652137,
+							"regular"
+						],
+						[
+							325.8260869565212,
+							30.82608695652137,
+							"regular"
+						],
+						[
+							325.8260869565212,
+							22.82608695652137,
+							"regular"
+						],
+						[
+							367.8260869565212,
+							22.82608695652137,
+							"regular"
+						],
+						[
+							367.8260869565212,
+							-19.17391304347863,
+							"regular"
+						],
+						[
+							375.8260869565212,
+							-19.17391304347863,
+							"regular"
+						]
+					],
+					"points_custom_orig": [],
+					"shape": "lbeam",
+					"dimensions_show": true,
+					"dimensions": {
+						"BFw": {
+							"value": 50,
+							"locat": [
+								[
+									375.8260869565212,
+									35.826086956521365,
+									null
+								],
+								[
+									325.8260869565212,
+									35.826086956521365,
+									null
+								],
+								{
+									"placeholder": "Bottom Width",
+									"dimension_id": "BFw",
+									"dimension": 50
+								}
+							]
+						},
+						"BFt": {
+							"value": 8,
+							"locat": [
+								[
+									320.8260869565212,
+									22.82608695652137,
+									null
+								],
+								[
+									320.8260869565212,
+									30.82608695652137,
+									null
+								],
+								{
+									"placeholder": "Bottom Thickness",
+									"dimension_id": "BFt",
+									"dimension": 8
+								}
+							]
+						},
+						"h": {
+							"value": 50,
+							"locat": [
+								[
+									380.8260869565212,
+									-19.17391304347863,
+									null
+								],
+								[
+									380.8260869565212,
+									30.82608695652137,
+									null
+								],
+								{
+									"placeholder": "Height",
+									"dimension_id": "h",
+									"dimension": 50
+								}
+							]
+						},
+						"LFt": {
+							"value": 8,
+							"locat": [
+								[
+									375.8260869565212,
+									-24.17391304347863,
+									null
+								],
+								[
+									367.8260869565212,
+									-24.17391304347863,
+									null
+								],
+								{
+									"placeholder": "Left Thickness",
+									"dimension_id": "LFt",
+									"dimension": 8
+								}
+							]
+						}
+					},
+					"operations": {
+						"rotation": 0,
+						"translation": [
+							345,
+							0
+						],
+						"mirror_z": true,
+						"mirror_y": true,
+						"fillet_radius": 0
+					},
+					"cutout": false,
+					"material": {
+						"name": "Structural Steel",
+						"density": 7850,
+						"elasticity_modulus": 200000,
+						"poissons_ratio": 0.3,
+						"yield_strength": 275,
+						"ultimate_strength": 410,
+						"class": "steel",
+						"id": 1
+					},
+					"type": "library",
+					"saved_name": "Double_50x8_Angle_ 345",
+					"parent": null,
+					"points_centroid_shifted": [
+						[
+							187.91304347826056,
+							15.413043478260695,
+							"regular"
+						],
+						[
+							137.91304347826056,
+							15.413043478260695,
+							"regular"
+						],
+						[
+							137.91304347826056,
+							7.413043478260695,
+							"regular"
+						],
+						[
+							179.91304347826056,
+							7.413043478260695,
+							"regular"
+						],
+						[
+							179.91304347826056,
+							-34.5869565217393,
+							"regular"
+						],
+						[
+							187.91304347826056,
+							-34.5869565217393,
+							"regular"
+						]
+					]
+				}
+			],
+			"warping_constant": 5875190000000,
+			"shear_area_z": 507.55295342718927,
+			"shear_area_y": 13502.72898225015,
+			"torsion_radius": 8,
+			"shear_center": null,
+			"non_prismatic": null
+		},
+		"J": 28825.7
+	}
+}

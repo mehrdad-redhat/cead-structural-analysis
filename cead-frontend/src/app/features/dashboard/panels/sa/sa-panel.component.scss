@@ -1,0 +1,28 @@
+@import "src/assets/styles/colors";
+@import "src/assets/styles/fonts";
+@import "src/assets/styles/variables";
+
+#new-bar {
+	height: 180px;
+}
+
+#project-list {
+	//height: calc(100% - 212px);
+	height: 100%;
+}
+
+#saPanel{
+	position:relative;
+	>button{
+		position:absolute;
+		bottom: 4rem;
+		right: 4rem;
+		width: 100px;
+		height: 100px;
+		::ng-deep {
+			.pi{
+				font-size: 2rem;
+			}
+		}
+	}
+}

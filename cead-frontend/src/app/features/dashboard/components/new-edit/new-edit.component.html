@@ -1,0 +1,80 @@
+<div class="wi-100 flex-col al-center" id="content">
+	<!--	<h2 class="f11bold mb-l">New Structure</h2>-->
+	<p>Please enter structure information</p>
+	<form (submit)="create($event)"
+	      class="wi-100 flex-col mt-xxl al-center p-input-filled">
+		<div class="input-group">
+			<label for="structure-name">Name</label>
+			<input #firstFocus
+			       id="structure-name"
+			       name="structure-name"
+			       pInputText
+			       placeholder="Structure Name"
+			       type="text"
+			       [(ngModel)]="newStructureInfo.structure_name">
+		</div>
+		<div class="input-group">
+			<label for="structure-location">Location</label>
+			<input
+				id="structure-location"
+				name="structure-location"
+				[(ngModel)]="newStructureInfo.structure_location"
+				pInputText
+				placeholder="e.g. Liverpool"
+				type="text">
+		</div>
+		<div class="input-group">
+			<label for="structure-type">Type</label>
+			<p-dropdown
+				[options]="structureTypes"
+				id="structure-type"
+				name="'type"
+				[(ngModel)]="newStructureInfo.structure_type"
+			></p-dropdown>
+		</div>
+		<!--		<div class="input-group">-->
+		<!--			<label for="alf">ALF (%)</label>-->
+		<!--			<input-->
+		<!--				id="alf"-->
+		<!--				max="100"-->
+		<!--				min="0"-->
+		<!--				name="alf"-->
+		<!--				pInputText-->
+		<!--				placeholder="Additional Load Factor"-->
+		<!--				type="number"-->
+		<!--				cOnlyNumbersAllowed-->
+		<!--			>-->
+		<!--		</div>-->
+		<div class="input-group">
+			<label for="saveTo">Save to</label>
+			<p-selectButton [(ngModel)]="newProject"
+			                name="saveTo"
+			                id="saveTo"
+			                [options]="saveToOptions"
+			                optionLabel="label"
+			                optionValue="value"></p-selectButton>
+		</div>
+		<div *ngIf="!newProject" class="input-group">
+			<label for="ext-project-name">Project Name</label>
+			<p-dropdown [options]="existingProjects"
+			            id="ext-project-name"
+			            appendTo="body" optionLabel="label"
+			            optionValue="value"
+			name="project_id" [(ngModel)]="project_id"></p-dropdown>
+		</div>
+		<div *ngIf="newProject" class="input-group">
+			<label for="new-project-name">Project Name</label>
+			<input
+				id="new-project-name"
+				name="new-project-name"
+				[(ngModel)]="project_name"
+				pInputText
+				placeholder="New project's name"
+				type="text">
+		</div>
+		<button label="Create"
+		        pButton
+		        icon="pi pi-plus-circle"
+		        type="submit"></button>
+	</form>
+</div>

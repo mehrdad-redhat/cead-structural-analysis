@@ -1,0 +1,31 @@
+<div class="wrapper">
+	<h4 class="f5semi mb-xl">New Structure</h4>
+	<ul #newBtns class="flex-row al-center" id="new-btns">
+		<li>
+			<button (click)="newStructModalToggle=true;"></button>
+			<span>Blank</span>
+		</li>
+		<li>
+			<button [routerLink]="['/dashboard','structural-analysis','1']"></button>
+			<span>Cantilever</span>
+		</li>
+		<li>
+			<button></button>
+			<span>TTC</span>
+		</li>
+		<li>
+			<button></button>
+			<span>Portal</span>
+		</li>
+	</ul>
+
+</div>
+<p-dialog [(visible)]="newStructModalToggle"
+          [draggable]="false"
+          [modal]="true"
+          [dismissableMask]="true"
+          [resizable]="false"
+          [style]="{width: '25vw'}"
+          header="New Structure">
+	<c-new-edit (submitted)="submit($event)"></c-new-edit>
+</p-dialog>

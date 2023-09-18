@@ -1,0 +1,67 @@
+@import "colors";
+@import "fonts";
+
+:host {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	::ng-deep {
+		.p-progress-spinner {
+			height: 20px !important;
+			width: 20px !important;
+			display: flex !important;
+			align-items: center;
+			justify-content: center;
+		}
+		
+		.stop-spinner .p-progress-spinner-circle {
+			animation: none !important;
+		}
+		
+		.custom-spinner .p-progress-spinner-circle {
+			animation: custom-progress-spinner-dash 1.5s ease-in-out infinite, custom-progress-spinner-color 6s ease-in-out infinite;
+			
+		}
+	}
+}
+
+#status-msg {
+	letter-spacing: .4px;
+}
+
+.error{
+	color:$danger;
+}
+
+@keyframes custom-progress-spinner-color {
+	100%,
+	0% {
+		stroke: $success;
+	}
+	40% {
+		stroke: $info;
+	}
+	66% {
+		stroke: $warning;
+	}
+	80%,
+	90% {
+		stroke: $help;
+	}
+}
+
+@keyframes custom-progress-spinner-dash {
+	0% {
+		stroke-dasharray: 1, 200;
+		stroke-dashoffset: 0;
+	}
+	50% {
+		stroke-dasharray: 89, 200;
+		stroke-dashoffset: -35px;
+	}
+	100% {
+		stroke-dasharray: 89, 200;
+		stroke-dashoffset: -124px;
+	}
+}

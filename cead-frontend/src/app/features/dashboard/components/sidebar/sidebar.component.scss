@@ -1,0 +1,53 @@
+@import "src/assets/styles/colors";
+@import "src/assets/styles/fonts";
+@import "src/assets/styles/variables";
+
+#sidebar {
+	nav {
+		ul {
+			margin-top: 1.125rem;
+			
+			li {
+				display: flex;
+				margin-bottom: $spc-m;
+				
+				&:hover {
+					a {
+						background-color: $surface-f;
+					}
+				}
+				
+				a {
+					display: flex;
+					align-items: center;
+					width: 100%;
+					height: 100%;
+					padding: $spc-m $spc-xl;
+					transition: all .4s ease;
+					white-space: nowrap;
+					color: $text;
+					@include f2med;
+					border-radius: $border-radius-l 0 0 $border-radius-l;
+					
+					&.active {
+						background-color: $surface-e;
+					}
+					
+					i {
+						margin-right: $spc-m;
+					}
+				}
+			}
+		}
+	}
+	
+	#meter-holder {
+		position: relative;
+		
+		> div {
+			position: absolute;
+			top: 60px;
+			left: -17px;
+		}
+	}
+}

@@ -1,0 +1,70 @@
+@import "src/assets/styles/colors";
+@import "src/assets/styles/fonts";
+@import "src/assets/styles/variables";
+
+:host {
+	width: 100%;
+	
+	::ng-deep {
+		.p-tooltip {
+			transform: translateX(-15px);
+			.p-tooltip-text {
+				white-space: nowrap;
+			}
+		}
+	}
+}
+
+#wrapper {
+	padding: 4rem 0 10% 16px;
+	background-color: $surface-a;
+	
+	ul {
+		li {
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-bottom: 0.75rem;
+			padding: 1rem 32px 1rem 16px;
+			border-radius: $border-radius 0 0 $border-radius;
+			cursor: pointer;
+			transition: all .3s ease-in-out;
+			
+			&:hover {
+				background-color: $surface-f;
+			}
+			
+			&.active {
+				background-color: $surface-d;
+			}
+			
+			i {
+				font-size: 1.5rem;
+				color: $text;
+			}
+			
+			span.count {
+				font-size: 11px;
+				font-weight: 500;
+				position: absolute;
+				top: 8px;
+				right: 22px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 18px;
+				height: 18px;
+				text-align: center;
+				color: $text-on-colors;
+				border-radius: 100%;
+				background-color: $info;
+				
+				&.zero {
+					background-color: #AAADB0;
+				}
+			}
+		}
+	}
+}
+

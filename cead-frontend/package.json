@@ -1,0 +1,53 @@
+{
+	"name": "cead-frontend",
+	"version": "0.0.1",
+	"scripts": {
+		"ng": "ng",
+		"start": "export NODE_OPTIONS=--openssl-legacy-provider; ng serve",
+		"start-dev": "set NODE_OPTIONS=--openssl-legacy-provider && ng serve ",
+		"build": "export NODE_OPTIONS=--openssl-legacy-provider; ng build",
+		"watch": "ng build --watch --configuration development",
+		"test": "ng test"
+	},
+	"private": true,
+	"dependencies": {
+		"@angular/animations": "~13.2.6",
+		"@angular/cdk": "^13.2.6",
+		"@angular/common": "~13.2.6",
+		"@angular/compiler": "~13.2.6",
+		"@angular/core": "~13.2.6",
+		"@angular/forms": "~13.2.6",
+		"@angular/platform-browser": "~13.2.6",
+		"@angular/platform-browser-dynamic": "~13.2.6",
+		"@angular/router": "~13.2.6",
+		"@angular/service-worker": "~13.2.6",
+		"@datorama/akita": "^7.1.1",
+		"@datorama/akita-ngdevtools": "^7.0.0",
+		"@ngneat/effects-ng": "^2.0.0",
+		"luxon": "^2.4.0",
+		"primeicons": "^5.0.0",
+		"primeng": "^13.4.1",
+		"read-excel-file": "^5.3.3",
+		"rxjs": "~7.4.0",
+		"tslib": "^2.3.0",
+		"xlsx": "^0.15.1",
+		"xlsx-js-style": "^1.2.0",
+		"zone.js": "~0.11.4"
+	},
+	"devDependencies": {
+		"@angular-devkit/build-angular": "~13.2.6",
+		"@angular/cli": "~13.2.6",
+		"@angular/compiler-cli": "~13.2.6",
+		"@types/jasmine": "~3.10.0",
+		"@types/luxon": "^2.3.2",
+		"@types/node": "^12.11.1",
+		"jasmine-core": "~4.1.1",
+		"karma": "~6.3.0",
+		"karma-chrome-launcher": "~3.1.0",
+		"karma-coverage": "~2.0.3",
+		"karma-jasmine": "~4.0.0",
+		"karma-jasmine-html-reporter": "^1.7.0",
+		"prettier": "2.6.2",
+		"typescript": "~4.4.3"
+	}
+}

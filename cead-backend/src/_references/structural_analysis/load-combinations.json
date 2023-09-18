@@ -1,0 +1,903 @@
+{
+	"factors": [
+		"SW1",
+		"Steel_Other",
+		"SW2",
+		"ICE_Other",
+		"Dead_18_Wiring",
+		"Dead_10_Wiring",
+		"Dead_5_Wiring",
+		"Wind_Left",
+		"Wind_Right",
+		"Wind_High",
+		"Wind_Low",
+		"Wind_Left_Ice",
+		"Wind_Right_Ice",
+		"Wind_High_Ice",
+		"Wind_Low_Ice",
+		"Construction",
+		"Accidental"
+	],
+	"regular": [
+		{
+			"id": 1,
+			"name": "ULS_A0",
+			"affected": [
+				{
+					"factor": "SW1",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "Steel_Other",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "SW2",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "ICE_Other",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Dead_18_Wiring",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Construction",
+					"alfCoefficient": 1.5
+				}
+			]
+		},
+		{
+			"id": 11,
+			"name": "ULS_B1",
+			"affected": [
+				{
+					"factor": "SW1",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "Steel_Other",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "Dead_10_Wiring",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Wind_Left",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Construction",
+					"alfCoefficient": 1.5
+				}
+			]
+		},
+		{
+			"id": 12,
+			"name": "ULS_B2",
+			"affected": [
+				{
+					"factor": "SW1",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "Steel_Other",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "Dead_10_Wiring",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Wind_Right",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Construction",
+					"alfCoefficient": 1.5
+				}
+			]
+		},
+		{
+			"id": 13,
+			"name": "ULS_B3",
+			"affected": [
+				{
+					"factor": "SW1",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "Steel_Other",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "Dead_10_Wiring",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Wind_High",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Construction",
+					"alfCoefficient": 1.5
+				}
+			]
+		},
+		{
+			"id": 14,
+			"name": "ULS_B4",
+			"affected": [
+				{
+					"factor": "SW1",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "Steel_Other",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "Dead_10_Wiring",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Wind_Low",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Construction",
+					"alfCoefficient": 1.5
+				}
+			]
+		},
+		{
+			"id": 15,
+			"name": "ULS_B5",
+			"affected": [
+				{
+					"factor": "SW1",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "Steel_Other",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "Dead_10_Wiring",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Wind_Left",
+					"alfCoefficient": 1.3,
+					"windFactors": "leftHighLeft"
+				},
+				{
+					"factor": "Wind_High",
+					"alfCoefficient": 1.3,
+					"windFactors": "leftHighHigh"
+				},
+				{
+					"factor": "Construction",
+					"alfCoefficient": 1.5
+				}
+			]
+		},
+		{
+			"id": 16,
+			"name": "ULS_B6",
+			"affected": [
+				{
+					"factor": "SW1",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "Steel_Other",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "Dead_10_Wiring",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Wind_Left",
+					"alfCoefficient": 1.3,
+					"windFactors": "leftLowLeft"
+				},
+				{
+					"factor": "Wind_Low",
+					"alfCoefficient": 1.3,
+					"windFactors": "LeftLowLow"
+				},
+				{
+					"factor": "Construction",
+					"alfCoefficient": 1.5
+				}
+			]
+		},
+		{
+			"id": 17,
+			"name": "ULS_B7",
+			"affected": [
+				{
+					"factor": "SW1",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "Steel_Other",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "Dead_10_Wiring",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Wind_Right",
+					"alfCoefficient": 1.3,
+					"windFactors": "rightHighRight"
+				},
+				{
+					"factor": "Wind_High",
+					"alfCoefficient": 1.3,
+					"windFactors": "rightHighHigh"
+				},
+				{
+					"factor": "Construction",
+					"alfCoefficient": 1.5
+				}
+			]
+		},
+		{
+			"id": 18,
+			"name": "ULS_B8",
+			"affected": [
+				{
+					"factor": "SW1",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "Steel_Other",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "Dead_10_Wiring",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Wind_Right",
+					"alfCoefficient": 1.3,
+					"windFactors": "rightLowRight"
+				},
+				{
+					"factor": "Wind_Low",
+					"alfCoefficient": 1.3,
+					"windFactors": "rightLowLow"
+				},
+				{
+					"factor": "Construction",
+					"alfCoefficient": 1.5
+				}
+			]
+		},
+		{
+			"id": 21,
+			"name": "ULS_D1",
+			"affected": [
+				{
+					"factor": "SW1",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "Steel_Other",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "SW2",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "ICE_Other",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Dead_5_Wiring",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Wind_Left_Ice",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Construction",
+					"alfCoefficient": 1.5
+				}
+			]
+		},
+		{
+			"id": 22,
+			"name": "ULS_D2",
+			"affected": [
+				{
+					"factor": "SW1",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "Steel_Other",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "SW2",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "ICE_Other",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Dead_5_Wiring",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Wind_Right_Ice",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Construction",
+					"alfCoefficient": 1.5
+				}
+			]
+		},
+		{
+			"id": 23,
+			"name": "ULS_D3",
+			"affected": [
+				{
+					"factor": "SW1",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "Steel_Other",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "SW2",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "ICE_Other",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Dead_5_Wiring",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Wind_High_Ice",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Construction",
+					"alfCoefficient": 1.5
+				}
+			]
+		},
+		{
+			"id": 24,
+			"name": "ULS_D4",
+			"affected": [
+				{
+					"factor": "SW1",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "Steel_Other",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "SW2",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "ICE_Other",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Dead_5_Wiring",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Wind_Low_Ice",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Construction",
+					"alfCoefficient": 1.5
+				}
+			]
+		},
+		{
+			"id": 25,
+			"name": "ULS_D5",
+			"affected": [
+				{
+					"factor": "SW1",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "Steel_Other",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "SW2",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "ICE_Other",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Dead_5_Wiring",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Wind_Left_Ice",
+					"alfCoefficient": 1.3,
+					"windFactors": "leftHighLeft"
+				},
+				{
+					"factor": "Wind_High_Ice",
+					"alfCoefficient": 1.3,
+					"windFactors": "leftHighHigh"
+				},
+				{
+					"factor": "Construction",
+					"alfCoefficient": 1.5
+				}
+			]
+		},
+		{
+			"id": 26,
+			"name": "ULS_D6",
+			"affected": [
+				{
+					"factor": "SW1",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "Steel_Other",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "SW2",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "ICE_Other",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Dead_5_Wiring",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Wind_Left_Ice",
+					"alfCoefficient": 1.3,
+					"windFactors": "leftLowLeft"
+				},
+				{
+					"factor": "Wind_Low_Ice",
+					"alfCoefficient": 1.3,
+					"windFactors": "leftLowLow"
+				},
+				{
+					"factor": "Construction",
+					"alfCoefficient": 1.5
+				}
+			]
+		},
+		{
+			"id": 27,
+			"name": "ULS_D7",
+			"affected": [
+				{
+					"factor": "SW1",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "Steel_Other",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "SW2",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "ICE_Other",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Dead_5_Wiring",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Wind_Right_Ice",
+					"alfCoefficient": 1.3,
+					"windFactors": "rightHighRight"
+				},
+				{
+					"factor": "Wind_High_Ice",
+					"alfCoefficient": 1.3,
+					"windFactors": "rightHighHigh"
+				},
+				{
+					"factor": "Construction",
+					"alfCoefficient": 1.5
+				}
+			]
+		},
+		{
+			"id": 28,
+			"name": "ULS_D8",
+			"affected": [
+				{
+					"factor": "SW1",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "Steel_Other",
+					"alfCoefficient": 1.2
+				},
+				{
+					"factor": "SW2",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "ICE_Other",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Dead_5_Wiring",
+					"alfCoefficient": 1.3
+				},
+				{
+					"factor": "Wind_Right_Ice",
+					"alfCoefficient": 1.3,
+					"windFactors": "rightLowRight"
+				},
+				{
+					"factor": "Wind_Low_Ice",
+					"alfCoefficient": 1.3,
+					"windFactors": "rightLowLow"
+				},
+				{
+					"factor": "Construction",
+					"alfCoefficient": 1.5
+				}
+			]
+		},
+		{
+			"id": 101,
+			"name": "SLS_A0",
+			"affected": [
+				{
+					"factor": "Dead_18_Wiring",
+					"alfCoefficient": 0.01
+				}
+			]
+		},
+		{
+			"id": 111,
+			"name": "SLS_B1",
+			"affected": [
+				{
+					"factor": "Dead_10_Wiring",
+					"alfCoefficient": 0.01
+				},
+				{
+					"factor": "Wind_Left",
+					"alfCoefficient": 0.66
+				}
+			]
+		},
+		{
+			"id": 112,
+			"name": "SLS_B2",
+			"affected": [
+				{
+					"factor": "Dead_10_Wiring",
+					"alfCoefficient": 0.01
+				},
+				{
+					"factor": "Wind_Right",
+					"alfCoefficient": 0.66
+				}
+			]
+		},
+		{
+			"id": 113,
+			"name": "SLS_B3",
+			"affected": [
+				{
+					"factor": "Dead_10_Wiring",
+					"alfCoefficient": 0.01
+				},
+				{
+					"factor": "Wind_High",
+					"alfCoefficient": 0.66
+				}
+			]
+		},
+		{
+			"id": 114,
+			"name": "SLS_B4",
+			"affected": [
+				{
+					"factor": "Dead_10_Wiring",
+					"alfCoefficient": 0.01
+				},
+				{
+					"factor": "Wind_Low",
+					"alfCoefficient": 0.66
+				}
+			]
+		}
+	],
+	"accidental": [
+		{
+			"id": 30,
+			"name": "ULS_F0",
+			"affected": [
+				{
+					"factor": "SW1",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Steel_Other",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Dead_5_Wiring",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Accidental",
+					"alfCoefficient": 1
+				}
+			]
+		},
+		{
+			"id": 31,
+			"name": "ULS_F1",
+			"affected": [
+				{
+					"factor": "SW1",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Steel_Other",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Dead_5_Wiring",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Wind_Left",
+					"alfCoefficient": 0.5
+				},
+				{
+					"factor": "Accidental",
+					"alfCoefficient": 1
+				}
+			]
+		},
+		{
+			"id": 32,
+			"name": "ULS_F2",
+			"affected": [
+				{
+					"factor": "SW1",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Steel_Other",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Dead_5_Wiring",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Wind_Right",
+					"alfCoefficient": 0.5
+				},
+				{
+					"factor": "Accidental",
+					"alfCoefficient": 1
+				}
+			]
+		},
+		{
+			"id": 33,
+			"name": "ULS_F3",
+			"affected": [
+				{
+					"factor": "SW1",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Steel_Other",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Dead_5_Wiring",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Wind_High",
+					"alfCoefficient": 0.5
+				},
+				{
+					"factor": "Accidental",
+					"alfCoefficient": 1
+				}
+			]
+		},
+		{
+			"id": 34,
+			"name": "ULS_F4",
+			"affected": [
+				{
+					"factor": "SW1",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Steel_Other",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Dead_5_Wiring",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Wind_Low",
+					"alfCoefficient": 0.5
+				},
+				{
+					"factor": "Accidental",
+					"alfCoefficient": 1
+				}
+			]
+		},
+		{
+			"id": 35,
+			"name": "ULS_F5",
+			"affected": [
+				{
+					"factor": "SW1",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Steel_Other",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Dead_5_Wiring",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Wind_Left",
+					"alfCoefficient": 0.5,
+					"windFactors": "leftHighLeft"
+				},
+				{
+					"factor": "Wind_High",
+					"alfCoefficient": 0.5,
+					"windFactors": "leftHighHigh"
+				},
+				{
+					"factor": "Accidental",
+					"alfCoefficient": 1
+				}
+			]
+		},
+		{
+			"id": 36,
+			"name": "ULS_F6",
+			"affected": [
+				{
+					"factor": "SW1",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Steel_Other",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Dead_5_Wiring",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Wind_Left",
+					"alfCoefficient": 0.5,
+					"windFactors": "leftLowLeft"
+				},
+				{
+					"factor": "Wind_Low",
+					"alfCoefficient": 0.5,
+					"windFactors": "leftLowLow"
+				},
+				{
+					"factor": "Accidental",
+					"alfCoefficient": 1
+				}
+			]
+		},
+		{
+			"id": 37,
+			"name": "ULS_F7",
+			"affected": [
+				{
+					"factor": "SW1",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Steel_Other",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Dead_5_Wiring",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Wind_Right",
+					"alfCoefficient": 0.5,
+					"windFactors": "rightHighRight"
+				},
+				{
+					"factor": "Wind_High",
+					"alfCoefficient": 0.5,
+					"windFactors": "rightHighHigh"
+				},
+				{
+					"factor": "Accidental",
+					"alfCoefficient": 1
+				}
+			]
+		},
+		{
+			"id": 38,
+			"name": "ULS_F8",
+			"affected": [
+				{
+					"factor": "SW1",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Steel_Other",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Dead_5_Wiring",
+					"alfCoefficient": 1
+				},
+				{
+					"factor": "Wind_Right",
+					"alfCoefficient": 0.5,
+					"windFactors": "rightLowRight"
+				},
+				{
+					"factor": "Wind_Low",
+					"alfCoefficient": 0.5,
+					"windFactors": "rightLowLow"
+				},
+				{
+					"factor": "Accidental",
+					"alfCoefficient": 1
+				}
+			]
+		}
+	]
+}

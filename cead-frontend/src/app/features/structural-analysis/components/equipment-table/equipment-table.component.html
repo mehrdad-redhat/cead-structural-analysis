@@ -1,0 +1,144 @@
+<div class="wi-100 flex-col">
+	
+	<p-table
+		*ngIf="schema!==undefined&&structureData!==undefined"
+		dataKey="id"
+		editMode="row"
+		responsiveLayout="scroll"
+		styleClass="p-datatable-striped p-datatable-sm p-datatable-gridlines"
+		[columns]="schema"
+		[editingRowKeys]="editingRowObject"
+		[responsive]="false"
+		[value]="structureData[subject]"
+		(onEditComplete)="cellEdited()"
+	>
+		<ng-template let-columns pTemplate="header">
+			<tr>
+				<th rowspan="2">id</th>
+				<ng-container *ngFor="let col of columns">
+					<th *ngIf="col['displayType']===displayType.INPUT"
+					    rowspan="2"
+					    style="text-align: center">{{ col.label }}</th>
+					<th *ngIf="col['displayType']===displayType.GROUP"
+					    style="text-align: center"
+					    [attr.colspan]="col.children.length">
+						{{ col.label }}
+					</th>
+				</ng-container>
+				<th rowspan="2" style="width:8rem;text-align: center"><i class="pi pi-ellipsis-h"></i></th>
+			</tr>
+			<tr>
+				<th *ngFor="let child of childCols" style="text-align: center">{{ child.label }}</th>
+			</tr>
+		</ng-template>
+		<ng-template
+			let-columns="columns"
+			let-editing="editing"
+			let-eq
+			let-ri="rowIndex"
+			pTemplate="body">
+			<tr [pEditableRow]="eq">
+				<td>{{ eq.id }}</td>
+				<ng-container *ngFor="let col of columns">
+					<ng-container *ngIf="col['displayType']===displayType.INPUT">
+						<td [pEditableColumnField]="col.name"
+						    [pEditableColumnRowIndex]="ri"
+						    [pEditableColumn]="eq[col.name]">
+							<p-cellEditor>
+								<ng-template pTemplate="input">
+									<input pInputText type="text" [(ngModel)]="eq[col.name]"/>
+								</ng-template>
+								<ng-template pTemplate="output">{{ eq[col.name] }}</ng-template>
+							</p-cellEditor>
+						</td>
+					</ng-container>
+					<ng-container *ngIf="col['displayType']===displayType.GROUP">
+						<td *ngFor="let child of col.children"
+						    [pEditableColumnField]="{group:col.name,name:child.name}"
+						    [pEditableColumnRowIndex]="ri"
+						    [pEditableColumn]="eq[col.name][child.name]">
+							<p-cellEditor>
+								<ng-template pTemplate="input">
+									<input pInputText type="text" [(ngModel)]="eq[col.name][child.name]"/>
+								</ng-template>
+								<ng-template pTemplate="output">{{ eq[col.name][child.name] }}</ng-template>
+							</p-cellEditor>
+						</td>
+					</ng-container>
+				
+				
+				</ng-container>
+				<td class="flex-row jus-between">
+					<button
+						*ngIf="!editing"
+						class="p-button-rounded p-button-text"
+						icon="pi pi-copy"
+						pButton
+						pRipple
+						type="button"
+						(click)="addEquipment($event,eq)"
+					></button>
+					<button
+						*ngIf="!editing"
+						class="p-button-rounded p-button-text"
+						icon="pi pi-trash"
+						pButton
+						pRipple
+						type="button"
+						(click)="removeEquipment(ri)"
+					></button>
+					<button
+						*ngIf="editing"
+						class="p-button-rounded p-button-text p-button-success p-mr-2"
+						icon="pi pi-check"
+						pButton
+						pRipple
+						pSaveEditableRow
+						type="button"
+						(click)="newRowEditSave()"
+					></button>
+					<button
+						*ngIf="editing"
+						class="p-button-rounded p-button-text p-button-danger"
+						icon="pi pi-times"
+						pButton
+						pCancelEditableRow
+						pRipple
+						type="button"
+						(click)="newRowEditCancel()"
+					></button>
+				</td>
+			</tr>
+		</ng-template>
+	</p-table>
+	<div class="wi-100 flex-row al-center jus-center ph-xl mv-xl">
+		<button
+			class="p-button-rounded p-button-outlined mt-xl"
+			icon="pi pi-plus"
+			label="add"
+			pButton
+			pRipple
+			style="align-self: center"
+			type="button"
+			(click)="addEquipment($event)"
+		></button>
+		<button class="mt-xl mr-xl ml-xl"
+		        icon="pi pi-save"
+		        label="Save"
+		        pButton
+		        pRipple
+		        type="button"
+		        (click)="actionDispatch('save')"></button>
+		<button class="p-button-outlined p-button-secondary mt-xl"
+		        label="Discard"
+		        pButton
+		        pRipple
+		        type="button"
+		        (click)="actionDispatch('discard')"></button>
+	</div>
+	
+</div>
+
+<p-confirmPopup styleClass="confirm-dialog"></p-confirmPopup>
+
+<!--TODO: Refine cell editing styles-->

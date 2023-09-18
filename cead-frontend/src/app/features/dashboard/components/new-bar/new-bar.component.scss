@@ -1,0 +1,76 @@
+@import "src/assets/styles/colors";
+@import "src/assets/styles/fonts";
+@import "src/assets/styles/variables";
+
+.wrapper {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+ul#new-btns {
+	flex-grow: 1;
+	
+	li {
+		height: 100%;
+		margin-right: $spc-l;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		
+		&:hover {
+			button {
+				background-size: 34%;
+				filter: brightness(113%);
+			}
+		}
+		
+		button {
+			width: 116px;
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: $border-radius;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 40%;
+			transition: background-size .2s ease-in-out, opacity .2s ease-in-out;
+		}
+		
+		span {
+			margin-top: $spc-s;
+			@include f3med();
+		}
+		
+		&:nth-child(1) {
+			button {
+				background-color: $primary;
+				background-image: url("/assets/images/custum-plus.svg");
+			}
+		}
+		
+		&:nth-child(2) {
+			button {
+				background-color: $cantilever;
+				background-image: url("/assets/images/custum-plus-c.svg");
+			}
+		}
+		
+		&:nth-child(3) {
+			button {
+				background-color: $ttc;
+				background-image: url("/assets/images/custum-plus-t.svg");
+			}
+		}
+		
+		&:nth-child(4) {
+			button {
+				background-color: $portal;
+				background-image: url("/assets/images/custum-plus-p.svg");
+			}
+		}
+		
+	}
+}

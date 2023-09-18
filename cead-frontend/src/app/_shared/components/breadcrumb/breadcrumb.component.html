@@ -1,0 +1,19 @@
+<nav id="breadcrumb" class="center-child">
+	<ul>
+		<li><a [routerLink]="['dashboard']">Dashboard</a></li>
+		<li><a [routerLink]="['dashboard',routeData!.route]">{{routeData!.title}}</a></li>
+		<li *ngIf="routeData!.route==='structural-analysis-inner'"><a><strong>{{structureIdentity?._id}}</strong> - <strong>{{structureIdentity?.name}}</strong></a></li>
+		<li *ngIf="routeData!.route==='structural-analysis-inner'">
+			<span style="margin-right: 5px;">Revision :</span>
+			<span *ngIf="!revisionEditToggle" (click)="revisionToggleController('enable')" id="revision-tag">{{revisionTemp}}<i class="pi pi-pencil"></i></span>
+<!--			<span *ngIf="!revisionEditToggle" (click)="revisionToggleController('enable')" style="margin-left: 5px;" id="hint">(Click to edit)</span>-->
+			<form *ngIf="revisionEditToggle"  (submit)="$event.preventDefault();revisionToggleController('submit')">
+				<div class="p-inputgroup">
+					<input #firstfocus autofocus  name="revision" [(ngModel)]="revisionTemp" pInputText>
+					<button type="submit" pButton icon="pi pi-check" class="p-button-success"></button>
+					<button type="button" (click)="revisionToggleController('cancel')" pButton icon="pi pi-times" class="p-button-danger"></button>
+				</div>
+			</form>
+		</li>
+	</ul>
+</nav>

@@ -1,0 +1,16 @@
+<div id="content" class="wi-100 flex-col al-center">
+	<h2 class="f11bold mb-l">Welcome Back</h2>
+	<p>Don't have an account? <a class="ml-1" routerLink="/user/signup">Signup</a></p>
+	<form class="flex-col mt-xxl al-center" (submit)="login($event)">
+		<input #firstfocus class="mb-m" autocomplete="username" name="email" id="email" type="email" pInputText
+		       placeholder="Email" [(ngModel)]="email">
+		<input class="mb-m" autocomplete="current-password" name="password" pPassword [feedback]="false" type="password"
+		       placeholder="Password" [(ngModel)]="pass">
+		<button pButton
+		        type="submit"
+		        routerLink="/dashboard"
+		        class="wi-100"
+		        label="LOGIN"></button>
+		<a style="align-self: flex-end" class="f3reg mt-s" routerLink="/user/forgot-pass">Forgot password?</a>
+	</form>
+</div>
